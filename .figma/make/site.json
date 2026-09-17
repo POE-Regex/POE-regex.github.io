@@ -1,10 +1,13 @@
 {
   "description": "Automates crafting regex patterns for Path of Exile players, simplifying item crafting and enhancing gameplay efficiency with intuitive tools.",
   "robots": {
-    "index": false
+    "index": true
   },
   "accessibility": {
     "addBypassLinks": false,
     "ignoreReducedMotion": false
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-61XJFM7DGW"
   }
 }
