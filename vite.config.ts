@@ -11,7 +11,9 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === 'development'
   const figmaPublicUrl = process.env.FIGMA_PUBLIC_URL?.replace(/\/+$/, '')
   const githubRepository = process.env.GITHUB_REPOSITORY?.split('/')[1]
-  const githubPagesBase = process.env.GITHUB_ACTIONS === 'true' && githubRepository ? `/${githubRepository}/` : '/'
+  const isGitHubUserSite = githubRepository?.endsWith('.github.io') ?? false
+  const githubPagesBase =
+    process.env.GITHUB_ACTIONS === 'true' && githubRepository && !isGitHubUserSite ? `/${githubRepository}/` : '/'
 
   return {
     base: figmaPublicUrl ? `${figmaPublicUrl}/` : githubPagesBase,
