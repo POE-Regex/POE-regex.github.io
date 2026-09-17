@@ -1,0 +1,619 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantES",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Shining",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(4-5) to Maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Glimmering",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(6-9) to Maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Glowing",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(10-12) to Maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Radiating",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(13-16) to Maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Pulsing",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(17-20) to Maximum Energy Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantMana",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Beryl",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-5) to Maximum Mana"
+                        },
+                        {
+                            "modifier": "Cobalt",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(6-8) to Maximum Mana"
+                        },
+                        {
+                            "modifier": "Azure",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(9-10) to Maximum Mana"
+                        },
+                        {
+                            "modifier": "Sapphire",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(11-13) to Maximum Mana"
+                        },
+                        {
+                            "modifier": "Cerulean",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(14-16) to Maximum Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantEvasion",
+                    "type": "Prefixes",
+                    "tags": [
+                        "defences",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Agile",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(11-20) to Evasion"
+                        },
+                        {
+                            "modifier": "Dancer's",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(21-30) to Evasion"
+                        },
+                        {
+                            "modifier": "Acrobat's",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(31-40) to Evasion"
+                        },
+                        {
+                            "modifier": "Fleet",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(41-53) to Evasion"
+                        },
+                        {
+                            "modifier": "Blurred",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(54-66) to Evasion"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hale",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3) to Maximum Life"
+                        },
+                        {
+                            "modifier": "Healthy",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-7) to Maximum Life"
+                        },
+                        {
+                            "modifier": "Sanguine",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(8-10) to Maximum Life"
+                        },
+                        {
+                            "modifier": "Stalwart",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(11-13) to Maximum Life"
+                        },
+                        {
+                            "modifier": "Stout",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(14-16) to Maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesHaveIncreasedEffect",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Potent",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills have 25% increased Effect"
+                        },
+                        {
+                            "modifier": "Powerful",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills have 35% increased Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Harmful",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: 2% increased Damage"
+                        },
+                        {
+                            "modifier": "Hazardous",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: 3% increased Damage"
+                        },
+                        {
+                            "modifier": "Dangerous",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: 4% increased Damage"
+                        },
+                        {
+                            "modifier": "Destructive",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: 5% increased Damage"
+                        },
+                        {
+                            "modifier": "Deadly",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: 6% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantArmour",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Lacquered",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(11-20) to Armour"
+                        },
+                        {
+                            "modifier": "Studded",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(21-30) to Armour"
+                        },
+                        {
+                            "modifier": "Ribbed",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(31-40) to Armour"
+                        },
+                        {
+                            "modifier": "Fortified",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(41-53) to Armour"
+                        },
+                        {
+                            "modifier": "Plated",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(54-66) to Armour"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantLightningRes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Cloud",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Squall",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-5)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Storm",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(6-7)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Thunderhead",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(8-9)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Tempest",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(10-11)% to Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantDex",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Mongoose",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Lynx",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-5) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Fox",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(6-8) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Falcon",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(9-11) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Panther",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(12-14) to Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantInt",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Pupil",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3) to Intelligence"
+                        },
+                        {
+                            "modifier": "of the Student",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-5) to Intelligence"
+                        },
+                        {
+                            "modifier": "of the Prodigy",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(6-8) to Intelligence"
+                        },
+                        {
+                            "modifier": "of the Augur",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(9-11) to Intelligence"
+                        },
+                        {
+                            "modifier": "of the Philosopher",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(12-14) to Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantColdRes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Inuit",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Seal",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-5)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Penguin",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(6-7)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Yeti",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(8-9)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Walrus",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(10-11)% to Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantLifeRegen",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Newt",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: Regenerate 0.1% of Life per Second"
+                        },
+                        {
+                            "modifier": "of the Lizard",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: Regenerate 0.15% of Life per Second"
+                        },
+                        {
+                            "modifier": "of the Flatworm",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: Regenerate 0.2% of Life per Second"
+                        },
+                        {
+                            "modifier": "of the Starfish",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: Regenerate 0.25% of Life per Second"
+                        },
+                        {
+                            "modifier": "of the Hydra",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: Regenerate 0.3% of Life per Second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantStr",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Brute",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3) to Strength"
+                        },
+                        {
+                            "modifier": "of the Wrestler",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-5) to Strength"
+                        },
+                        {
+                            "modifier": "of the Bear",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(6-8) to Strength"
+                        },
+                        {
+                            "modifier": "of the Lion",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(9-11) to Strength"
+                        },
+                        {
+                            "modifier": "of the Gorilla",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(12-14) to Strength"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantChaosRes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Lost",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +3% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Banishment",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +4% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Eviction",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +5% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Expulsion",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +6% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Exile",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(7-8)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantFireRes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Whelpling",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +(2-3)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Salamander",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +(4-5)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Drake",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +(6-7)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Kiln",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +(8-9)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Furnace",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +(10-11)% to Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantElementalRes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crystal",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +2% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Prism",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +3% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Kaleidoscope",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +4% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of Variegation",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +5% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Rainbow",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +6% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantManaRegen",
+                    "type": "Suffixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Excitement",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: 4% increased Mana Regeneration Rate"
+                        },
+                        {
+                            "modifier": "of Joy",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: 5% increased Mana Regeneration Rate"
+                        },
+                        {
+                            "modifier": "of Elation",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: 6% increased Mana Regeneration Rate"
+                        },
+                        {
+                            "modifier": "of Bliss",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: (7-8)% increased Mana Regeneration Rate"
+                        },
+                        {
+                            "modifier": "of Euphoria",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: (9-10)% increased Mana Regeneration Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AfflictionJewelSmallPassivesGrantAttributes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Cloud",
+                            "ilvl": 1,
+                            "stats": "Added Small Passive Skills also grant: +2 to All Attributes"
+                        },
+                        {
+                            "modifier": "of the Sky",
+                            "ilvl": 68,
+                            "stats": "Added Small Passive Skills also grant: +3 to All Attributes"
+                        },
+                        {
+                            "modifier": "of the Meteor",
+                            "ilvl": 73,
+                            "stats": "Added Small Passive Skills also grant: +4 to All Attributes"
+                        },
+                        {
+                            "modifier": "of the Comet",
+                            "ilvl": 78,
+                            "stats": "Added Small Passive Skills also grant: +5 to All Attributes"
+                        },
+                        {
+                            "modifier": "of the Heavens",
+                            "ilvl": 84,
+                            "stats": "Added Small Passive Skills also grant: +6 to All Attributes"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3729 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Squire's",
+                            "ilvl": 1,
+                            "stats": "(15-19)% increased Physical Damage+(16-20) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Journeyman's",
+                            "ilvl": 11,
+                            "stats": "(20-24)% increased Physical Damage+(21-46) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Reaver's",
+                            "ilvl": 23,
+                            "stats": "(25-34)% increased Physical Damage+(47-72) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Mercenary's",
+                            "ilvl": 35,
+                            "stats": "(35-44)% increased Physical Damage+(73-97) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Champion's",
+                            "ilvl": 46,
+                            "stats": "(45-54)% increased Physical Damage+(98-123) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Conqueror's",
+                            "ilvl": 60,
+                            "stats": "(55-64)% increased Physical Damage+(124-149) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Emperor's",
+                            "ilvl": 73,
+                            "stats": "(65-74)% increased Physical Damage+(150-174) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "Dictator's",
+                            "ilvl": 83,
+                            "stats": "(75-79)% increased Physical Damage+(175-200) to Accuracy Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedWeaponElementalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catalysing",
+                            "ilvl": 4,
+                            "stats": "(19-34)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Infusing",
+                            "ilvl": 15,
+                            "stats": "(36-51)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Empowering",
+                            "ilvl": 30,
+                            "stats": "(53-61)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Unleashed",
+                            "ilvl": 60,
+                            "stats": "(63-71)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Overpowering",
+                            "ilvl": 81,
+                            "stats": "(73-85)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Devastating",
+                            "ilvl": 86,
+                            "stats": "(87-100)% increased Elemental Damage with Attack Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSpecificSocketedGemLevel",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Fletcher's",
+                            "ilvl": 9,
+                            "stats": "+1 to Level of Socketed Bow Gems"
+                        },
+                        {
+                            "modifier": "Sharpshooter's",
+                            "ilvl": 64,
+                            "stats": "+2 to Level of Socketed Bow Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Heated",
+                            "ilvl": 1,
+                            "stats": "Adds (3-5) to (6-7) Fire Damage"
+                        },
+                        {
+                            "modifier": "Smouldering",
+                            "ilvl": 11,
+                            "stats": "Adds (14-20) to (29-33) Fire Damage"
+                        },
+                        {
+                            "modifier": "Smoking",
+                            "ilvl": 18,
+                            "stats": "Adds (23-31) to (47-54) Fire Damage"
+                        },
+                        {
+                            "modifier": "Burning",
+                            "ilvl": 26,
+                            "stats": "Adds (32-44) to (65-76) Fire Damage"
+                        },
+                        {
+                            "modifier": "Flaming",
+                            "ilvl": 33,
+                            "stats": "Adds (45-61) to (91-106) Fire Damage"
+                        },
+                        {
+                            "modifier": "Scorching",
+                            "ilvl": 42,
+                            "stats": "Adds (63-85) to (128-148) Fire Damage"
+                        },
+                        {
+                            "modifier": "Incinerating",
+                            "ilvl": 51,
+                            "stats": "Adds (85-115) to (172-200) Fire Damage"
+                        },
+                        {
+                            "modifier": "Blasting",
+                            "ilvl": 62,
+                            "stats": "Adds (110-150) to (223-260) Fire Damage"
+                        },
+                        {
+                            "modifier": "Cremating",
+                            "ilvl": 74,
+                            "stats": "Adds (137-188) to (279-325) Fire Damage"
+                        },
+                        {
+                            "modifier": "Carbonising",
+                            "ilvl": 82,
+                            "stats": "Adds (165-225) to (335-390) Fire Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Humming",
+                            "ilvl": 3,
+                            "stats": "Adds 2 to (10-11) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Buzzing",
+                            "ilvl": 13,
+                            "stats": "Adds 3 to (46-53) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Snapping",
+                            "ilvl": 19,
+                            "stats": "Adds (4-5) to (76-88) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Crackling",
+                            "ilvl": 31,
+                            "stats": "Adds (5-8) to (106-123) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Sparking",
+                            "ilvl": 34,
+                            "stats": "Adds (8-10) to (148-173) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Arcing",
+                            "ilvl": 42,
+                            "stats": "Adds (11-14) to (208-242) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Shocking",
+                            "ilvl": 51,
+                            "stats": "Adds (14-20) to (281-327) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Discharging",
+                            "ilvl": 63,
+                            "stats": "Adds (19-25) to (366-425) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Electrocuting",
+                            "ilvl": 74,
+                            "stats": "Adds (23-32) to (458-531) Lightning Damage"
+                        },
+                        {
+                            "modifier": "Vapourising",
+                            "ilvl": 82,
+                            "stats": "Adds (28-38) to (549-638) Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalPhysicalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Heavy",
+                            "ilvl": 1,
+                            "stats": "(40-49)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Serrated",
+                            "ilvl": 11,
+                            "stats": "(50-64)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Wicked",
+                            "ilvl": 23,
+                            "stats": "(65-84)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Vicious",
+                            "ilvl": 35,
+                            "stats": "(85-109)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Bloodthirsty",
+                            "ilvl": 46,
+                            "stats": "(110-134)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Cruel",
+                            "ilvl": 60,
+                            "stats": "(135-154)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Tyrannical",
+                            "ilvl": 73,
+                            "stats": "(155-169)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "Merciless",
+                            "ilvl": 83,
+                            "stats": "(170-179)% increased Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Glinting",
+                            "ilvl": 2,
+                            "stats": "Adds 2 to (4-5) Physical Damage"
+                        },
+                        {
+                            "modifier": "Burnished",
+                            "ilvl": 13,
+                            "stats": "Adds (6-8) to (12-15) Physical Damage"
+                        },
+                        {
+                            "modifier": "Polished",
+                            "ilvl": 21,
+                            "stats": "Adds (10-13) to (21-25) Physical Damage"
+                        },
+                        {
+                            "modifier": "Honed",
+                            "ilvl": 29,
+                            "stats": "Adds (13-17) to (28-32) Physical Damage"
+                        },
+                        {
+                            "modifier": "Gleaming",
+                            "ilvl": 36,
+                            "stats": "Adds (16-22) to (35-40) Physical Damage"
+                        },
+                        {
+                            "modifier": "Annealed",
+                            "ilvl": 46,
+                            "stats": "Adds (20-28) to (43-51) Physical Damage"
+                        },
+                        {
+                            "modifier": "Razor-sharp",
+                            "ilvl": 54,
+                            "stats": "Adds (25-33) to (52-61) Physical Damage"
+                        },
+                        {
+                            "modifier": "Tempered",
+                            "ilvl": 65,
+                            "stats": "Adds (30-40) to (63-73) Physical Damage"
+                        },
+                        {
+                            "modifier": "Flaring",
+                            "ilvl": 77,
+                            "stats": "Adds (34-47) to (72-84) Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSocketedGemLevel",
+                    "type": "Prefixes",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Paragon's",
+                            "ilvl": 50,
+                            "stats": "+1 to Level of Socketed Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Frosted",
+                            "ilvl": 2,
+                            "stats": "Adds (2-3) to (6-7) Cold Damage"
+                        },
+                        {
+                            "modifier": "Chilled",
+                            "ilvl": 12,
+                            "stats": "Adds (12-17) to (26-30) Cold Damage"
+                        },
+                        {
+                            "modifier": "Icy",
+                            "ilvl": 19,
+                            "stats": "Adds (21-28) to (42-48) Cold Damage"
+                        },
+                        {
+                            "modifier": "Frigid",
+                            "ilvl": 27,
+                            "stats": "Adds (29-40) to (58-68) Cold Damage"
+                        },
+                        {
+                            "modifier": "Freezing",
+                            "ilvl": 34,
+                            "stats": "Adds (41-55) to (81-95) Cold Damage"
+                        },
+                        {
+                            "modifier": "Frozen",
+                            "ilvl": 43,
+                            "stats": "Adds (57-77) to (114-132) Cold Damage"
+                        },
+                        {
+                            "modifier": "Glaciated",
+                            "ilvl": 52,
+                            "stats": "Adds (77-104) to (154-178) Cold Damage"
+                        },
+                        {
+                            "modifier": "Polar",
+                            "ilvl": 63,
+                            "stats": "Adds (99-136) to (200-232) Cold Damage"
+                        },
+                        {
+                            "modifier": "Entombing",
+                            "ilvl": 75,
+                            "stats": "Adds (124-170) to (250-290) Cold Damage"
+                        },
+                        {
+                            "modifier": "Crystalising",
+                            "ilvl": 82,
+                            "stats": "Adds (149-204) to (300-348) Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalChaosDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Malicious",
+                            "ilvl": 83,
+                            "stats": "Adds (98-149) to (183-280) Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaGainedFromEnemyDeath",
+                    "type": "Suffixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Absorption",
+                            "ilvl": 1,
+                            "stats": "Gain (4-6) Mana per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Osmosis",
+                            "ilvl": 24,
+                            "stats": "Gain (7-10) Mana per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Consumption",
+                            "ilvl": 40,
+                            "stats": "Gain (11-15) Mana per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Diffusion",
+                            "ilvl": 52,
+                            "stats": "Gain (16-25) Mana per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Permeation",
+                            "ilvl": 66,
+                            "stats": "Gain (26-37) Mana per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Retention",
+                            "ilvl": 81,
+                            "stats": "Gain (38-50) Mana per Enemy Killed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightRadiusAndAccuracy",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shining",
+                            "ilvl": 8,
+                            "stats": "5% increased Light Radius(9-11)% increased Global Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of Light",
+                            "ilvl": 15,
+                            "stats": "10% increased Light Radius(12-15)% increased Global Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of Radiance",
+                            "ilvl": 30,
+                            "stats": "15% increased Light Radius(16-20)% increased Global Accuracy Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StunDurationIncreasePercent",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Impact",
+                            "ilvl": 5,
+                            "stats": "(11-15)% increased Stun Duration on Enemies"
+                        },
+                        {
+                            "modifier": "of Dazing",
+                            "ilvl": 18,
+                            "stats": "(16-20)% increased Stun Duration on Enemies"
+                        },
+                        {
+                            "modifier": "of Stunning",
+                            "ilvl": 30,
+                            "stats": "(21-25)% increased Stun Duration on Enemies"
+                        },
+                        {
+                            "modifier": "of Slamming",
+                            "ilvl": 44,
+                            "stats": "(26-30)% increased Stun Duration on Enemies"
+                        },
+                        {
+                            "modifier": "of Staggering",
+                            "ilvl": 58,
+                            "stats": "(31-35)% increased Stun Duration on Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Skill",
+                            "ilvl": 1,
+                            "stats": "(5-7)% increased Attack Speed"
+                        },
+                        {
+                            "modifier": "of Ease",
+                            "ilvl": 11,
+                            "stats": "(8-10)% increased Attack Speed"
+                        },
+                        {
+                            "modifier": "of Mastery",
+                            "ilvl": 22,
+                            "stats": "(11-13)% increased Attack Speed"
+                        },
+                        {
+                            "modifier": "of Renown",
+                            "ilvl": 30,
+                            "stats": "(14-16)% increased Attack Speed"
+                        },
+                        {
+                            "modifier": "of Acclaim",
+                            "ilvl": 37,
+                            "stats": "(17-19)% increased Attack Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Needling",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Critical Strike Chance"
+                        },
+                        {
+                            "modifier": "of Stinging",
+                            "ilvl": 20,
+                            "stats": "(15-19)% increased Critical Strike Chance"
+                        },
+                        {
+                            "modifier": "of Piercing",
+                            "ilvl": 30,
+                            "stats": "(20-24)% increased Critical Strike Chance"
+                        },
+                        {
+                            "modifier": "of Puncturing",
+                            "ilvl": 44,
+                            "stats": "(25-29)% increased Critical Strike Chance"
+                        },
+                        {
+                            "modifier": "of Penetrating",
+                            "ilvl": 59,
+                            "stats": "(30-34)% increased Critical Strike Chance"
+                        },
+                        {
+                            "modifier": "of Incision",
+                            "ilvl": 73,
+                            "stats": "(35-38)% increased Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaLeech",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "mana",
+                        "resource",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Thirst",
+                            "ilvl": 50,
+                            "stats": "(2.6-3.2)% of Physical Attack Damage Leeched as Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Ire",
+                            "ilvl": 8,
+                            "stats": "+(10-14)% to Global Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Anger",
+                            "ilvl": 21,
+                            "stats": "+(15-19)% to Global Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Rage",
+                            "ilvl": 30,
+                            "stats": "+(20-24)% to Global Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Fury",
+                            "ilvl": 44,
+                            "stats": "+(25-29)% to Global Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Ferocity",
+                            "ilvl": 59,
+                            "stats": "+(30-34)% to Global Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Destruction",
+                            "ilvl": 73,
+                            "stats": "+(35-38)% to Global Critical Strike Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalAttributeRequirements",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of the Worthy",
+                            "ilvl": 36,
+                            "stats": "18% reduced Attribute Requirements"
+                        },
+                        {
+                            "modifier": "of the Apt",
+                            "ilvl": 60,
+                            "stats": "32% reduced Attribute Requirements"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Mongoose",
+                            "ilvl": 1,
+                            "stats": "+(8-12) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Lynx",
+                            "ilvl": 11,
+                            "stats": "+(13-17) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Fox",
+                            "ilvl": 22,
+                            "stats": "+(18-22) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Falcon",
+                            "ilvl": 33,
+                            "stats": "+(23-27) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Panther",
+                            "ilvl": 44,
+                            "stats": "+(28-32) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Leopard",
+                            "ilvl": 55,
+                            "stats": "+(33-37) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Jaguar",
+                            "ilvl": 66,
+                            "stats": "+(38-42) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Phantom",
+                            "ilvl": 74,
+                            "stats": "+(43-50) to Dexterity"
+                        },
+                        {
+                            "modifier": "of the Wind",
+                            "ilvl": 82,
+                            "stats": "+(51-55) to Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ProjectileSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Darting",
+                            "ilvl": 14,
+                            "stats": "(10-17)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "of Flight",
+                            "ilvl": 27,
+                            "stats": "(18-25)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "of Propulsion",
+                            "ilvl": 41,
+                            "stats": "(26-33)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "of the Zephyr",
+                            "ilvl": 55,
+                            "stats": "(34-41)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "of the Gale",
+                            "ilvl": 82,
+                            "stats": "(42-46)% increased Projectile Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "GlobalDamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "dot_multi",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Acrimony",
+                            "ilvl": 44,
+                            "stats": "+(7-11)% to Damage over Time Multiplier"
+                        },
+                        {
+                            "modifier": "of Dispersion",
+                            "ilvl": 55,
+                            "stats": "+(12-15)% to Damage over Time Multiplier"
+                        },
+                        {
+                            "modifier": "of Liquefaction",
+                            "ilvl": 68,
+                            "stats": "+(16-19)% to Damage over Time Multiplier"
+                        },
+                        {
+                            "modifier": "of Melting",
+                            "ilvl": 76,
+                            "stats": "+(20-23)% to Damage over Time Multiplier"
+                        },
+                        {
+                            "modifier": "of Dissolution",
+                            "ilvl": 82,
+                            "stats": "+(24-26)% to Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeGainPerTarget",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Rejuvenation",
+                            "ilvl": 8,
+                            "stats": "Grants (2-3) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Restoration",
+                            "ilvl": 20,
+                            "stats": "Grants (4-6) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Regrowth",
+                            "ilvl": 30,
+                            "stats": "Grants (7-10) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Nourishment",
+                            "ilvl": 40,
+                            "stats": "Grants (11-14) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Regenesis",
+                            "ilvl": 50,
+                            "stats": "Grants (15-18) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Renewal",
+                            "ilvl": 60,
+                            "stats": "Grants (19-22) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Recuperation",
+                            "ilvl": 70,
+                            "stats": "Grants (23-26) Life per Enemy Hit"
+                        },
+                        {
+                            "modifier": "of Revitalization",
+                            "ilvl": 80,
+                            "stats": "Grants (27-30) Life per Enemy Hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalArrows",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Splintering",
+                            "ilvl": 70,
+                            "stats": "Bow Attacks fire an additional Arrow"
+                        },
+                        {
+                            "modifier": "of Many",
+                            "ilvl": 86,
+                            "stats": "Bow Attacks fire 2 additional Arrows"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAccuracy",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Steadiness",
+                            "ilvl": 1,
+                            "stats": "+(80-130) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of Precision",
+                            "ilvl": 20,
+                            "stats": "+(131-215) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of the Sniper",
+                            "ilvl": 40,
+                            "stats": "+(216-325) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of the Marksman",
+                            "ilvl": 60,
+                            "stats": "+(326-455) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of the Ranger",
+                            "ilvl": 75,
+                            "stats": "+(456-624) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of Lioneye",
+                            "ilvl": 85,
+                            "stats": "+(625-780) to Accuracy Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeLeech",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "resource",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Remora",
+                            "ilvl": 20,
+                            "stats": "(2-2.4)% of Physical Attack Damage Leeched as Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeGainedFromEnemyDeath",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Success",
+                            "ilvl": 1,
+                            "stats": "Gain (7-10) Life per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Victory",
+                            "ilvl": 23,
+                            "stats": "Gain (12-18) Life per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Triumph",
+                            "ilvl": 40,
+                            "stats": "Gain (24-32) Life per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Conquest",
+                            "ilvl": 52,
+                            "stats": "Gain (35-44) Life per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Feat",
+                            "ilvl": 66,
+                            "stats": "Gain (56-72) Life per Enemy Killed"
+                        },
+                        {
+                            "modifier": "of Masterstroke",
+                            "ilvl": 81,
+                            "stats": "Gain (84-110) Life per Enemy Killed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Shaper-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "AddedColdDamagePerDexterity",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 68,
+                            "stats": "Adds (1-2) to (3-4) Cold Damage to Attacks with this Weapon per 10 Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponSupportUber",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 68,
+                            "stats": "Socketed Gems are supported by Level 18 Cast On Critical Strike"
+                        },
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 75,
+                            "stats": "Socketed Gems are supported by Level 20 Cast On Critical Strike"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SocketedAttacksDamageFinal",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack",
+                        "gem",
+                        "damage",
+                        "skill"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 83,
+                            "stats": "Socketed Skills deal 20% more Attack Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalPenetration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 68,
+                            "stats": "Damage Penetrates (7-8)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 75,
+                            "stats": "Damage Penetrates (9-10)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 83,
+                            "stats": "Damage Penetrates (11-12)% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FrenzyChargeOnKillChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "frenzy_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 68,
+                            "stats": "(4-6)% chance to gain a Frenzy Charge on Kill"
+                        },
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 84,
+                            "stats": "(7-10)% chance to gain a Frenzy Charge on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalAddedAsCold",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "influence_mod",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 68,
+                            "stats": "Gain (7-12)% of Physical Damage as Extra Cold Damage"
+                        },
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 75,
+                            "stats": "Gain (13-17)% of Physical Damage as Extra Cold Damage"
+                        },
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 80,
+                            "stats": "Gain (18-20)% of Physical Damage as Extra Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "(8-10)% increased Attack Speed(4-6)% chance to deal Double Damage"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "(11-12)% increased Attack Speed(4-6)% chance to deal Double Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumFrenzyCharges",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "frenzy_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 84,
+                            "stats": "+1 to Maximum Frenzy Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "critical",
+                        "power_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "+(22-25)% to Global Critical Strike Multiplier(5-8)% chance to gain a Power Charge on Critical Strike"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "+(26-29)% to Global Critical Strike Multiplier(9-10)% chance to gain a Power Charge on Critical Strike"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MovementVelocity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "(3-6)% increased Movement Speed"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 84,
+                            "stats": "(7-10)% increased Movement Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ProjectileDamagePerEnemyPierced",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Projectiles deal (20-30)% increased Damage with Hits and Ailments for each Enemy Pierced"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Pierce",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Projectiles Pierce an additional Target"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "Projectiles Pierce 2 additional Targets"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DisplaySocketedSkillsChain",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "skill"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 85,
+                            "stats": "Socketed Gems Chain 1 additional times"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "OnslaugtOnKillPercentChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "(5-6)% chance to gain Onslaught for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "(7-8)% chance to gain Onslaught for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 83,
+                            "stats": "(9-10)% chance to gain Onslaught for 4 seconds on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "influence_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "(22-25)% increased Critical Strike Chance50% increased Critical Strike Chance if you have Killed Recently"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "(26-29)% increased Critical Strike Chance50% increased Critical Strike Chance if you have Killed Recently"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Elder-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "BleedingDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "bleed",
+                        "influence_mod",
+                        "attack",
+                        "physical",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "+(37-42)% to Damage over Time Multiplier for Bleeding from Hits with this Weapon"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 75,
+                            "stats": "+(43-50)% to Damage over Time Multiplier for Bleeding from Hits with this Weapon"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 83,
+                            "stats": "+(51-59)% to Damage over Time Multiplier for Bleeding from Hits with this Weapon"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PoisonDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "poison",
+                        "influence_mod",
+                        "attack",
+                        "chaos",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "+(37-42)% to Damage over Time Multiplier for Poison inflicted with this Weapon"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 75,
+                            "stats": "+(43-50)% to Damage over Time Multiplier for Poison inflicted with this Weapon"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 83,
+                            "stats": "+(51-59)% to Damage over Time Multiplier for Poison inflicted with this Weapon"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponSupportUber",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "Socketed Gems are Supported by Level 10 Momentum"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "(5-10)% increased Area of Effect"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 75,
+                            "stats": "(11-15)% increased Area of Effect"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 82,
+                            "stats": "(16-20)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamageConvertedToChaos",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "influence_mod",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "(10-15)% of Physical Damage Converted to Chaos Damage"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 75,
+                            "stats": "(16-20)% of Physical Damage Converted to Chaos Damage"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 85,
+                            "stats": "(21-25)% of Physical Damage Converted to Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BlindOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "(5-6)% chance to Blind Enemies on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 75,
+                            "stats": "(7-8)% chance to Blind Enemies on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 81,
+                            "stats": "(9-10)% chance to Blind Enemies on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack",
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "(8-10)% increased Attack Speed20% increased Attack Speed if you've Killed Recently"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 75,
+                            "stats": "(11-12)% increased Attack Speed20% increased Attack Speed if you've Killed Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "influence_mod",
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "(22-25)% increased Critical Strike Chance+50% to Critical Strike Multiplier if you haven't dealt a Critical Strike Recently"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 75,
+                            "stats": "(26-29)% increased Critical Strike Chance+50% to Critical Strike Multiplier if you haven't dealt a Critical Strike Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalProjectiles",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 82,
+                            "stats": "Skills fire an additional Projectile"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseProjectileAttackDamagePerAccuracy",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "1% increased Projectile Attack Damage per 200 Accuracy Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CullingStrike",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "Culling Strike"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Crusader-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "influence_mod",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 68,
+                            "stats": "(25-34)% increased Physical Damage(20-25)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 71,
+                            "stats": "(35-44)% increased Physical Damage(20-25)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 74,
+                            "stats": "(45-54)% increased Physical Damage(20-25)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 77,
+                            "stats": "(55-64)% increased Physical Damage(20-25)% increased Projectile Speed"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 80,
+                            "stats": "(65-69)% increased Physical Damage(20-25)% increased Projectile Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningDamageHybrid",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 68,
+                            "stats": "Adds 2 to (25-29) Lightning DamageAttacks with this Weapon Penetrate (5-7)% Lightning Resistance"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 71,
+                            "stats": "Adds (1-4) to (40-45) Lightning DamageAttacks with this Weapon Penetrate (5-7)% Lightning Resistance"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 74,
+                            "stats": "Adds (2-5) to (55-63) Lightning DamageAttacks with this Weapon Penetrate (5-7)% Lightning Resistance"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 77,
+                            "stats": "Adds (2-6) to (70-79) Lightning DamageAttacks with this Weapon Penetrate (5-7)% Lightning Resistance"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 80,
+                            "stats": "Adds (3-8) to (89-99) Lightning DamageAttacks with this Weapon Penetrate (5-7)% Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistancePenetration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 68,
+                            "stats": "Attacks with this Weapon Penetrate (9-10)% Lightning Resistance"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 73,
+                            "stats": "Attacks with this Weapon Penetrate (11-12)% Lightning Resistance"
+                        },
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 78,
+                            "stats": "Attacks with this Weapon Penetrate (13-15)% Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ImpaleEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "(25-29)% increased Impale Effect"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 71,
+                            "stats": "(30-34)% increased Impale Effect"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 75,
+                            "stats": "(35-38)% increased Impale Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DisplaySocketedSkillsChain",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "skill"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 85,
+                            "stats": "Socketed Gems Chain 1 additional times"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DisplaySocketedSkillsFork",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "skill"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 85,
+                            "stats": "Projectiles from Socketed Gems Fork"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamageAddedAsRandomElement",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "influence_mod",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "Gain (7-8)% of Physical Damage as Extra Damage of a random Element"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 73,
+                            "stats": "Gain (9-11)% of Physical Damage as Extra Damage of a random Element"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 78,
+                            "stats": "Gain (12-15)% of Physical Damage as Extra Damage of a random Element"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ProjectileDamagePerEnemyPierced",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "Projectiles deal (15-20)% increased Damage with Hits and Ailments for each Enemy Pierced"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 70,
+                            "stats": "Projectiles deal (21-25)% increased Damage with Hits and Ailments for each Enemy Pierced"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 73,
+                            "stats": "Projectiles deal (26-30)% increased Damage with Hits and Ailments for each Enemy Pierced"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Redeemer-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "PhysicalAddedAsCold",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "influence_mod",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 68,
+                            "stats": "Gain (7-12)% of Physical Damage as Extra Cold Damage"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 73,
+                            "stats": "Gain (13-17)% of Physical Damage as Extra Cold Damage"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 78,
+                            "stats": "Gain (18-20)% of Physical Damage as Extra Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdDamageHybrid",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 68,
+                            "stats": "Adds (7-9) to (14-16) Cold DamageAttacks with this Weapon Penetrate (5-7)% Cold Resistance"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 71,
+                            "stats": "Adds (11-14) to (22-25) Cold DamageAttacks with this Weapon Penetrate (5-7)% Cold Resistance"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 74,
+                            "stats": "Adds (15-20) to (30-35) Cold DamageAttacks with this Weapon Penetrate (5-7)% Cold Resistance"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 77,
+                            "stats": "Adds (19-25) to (38-44) Cold DamageAttacks with this Weapon Penetrate (5-7)% Cold Resistance"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 80,
+                            "stats": "Adds (23-32) to (48-55) Cold DamageAttacks with this Weapon Penetrate (5-7)% Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FrenzyChargeOnKillChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "frenzy_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 68,
+                            "stats": "(4-6)% chance to gain a Frenzy Charge on Kill"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 80,
+                            "stats": "(7-10)% chance to gain a Frenzy Charge on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistancePenetration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 68,
+                            "stats": "Attacks with this Weapon Penetrate (9-10)% Cold Resistance"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 73,
+                            "stats": "Attacks with this Weapon Penetrate (11-12)% Cold Resistance"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 78,
+                            "stats": "Attacks with this Weapon Penetrate (13-15)% Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedDamageFromAuras",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "aura",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 82,
+                            "stats": "Auras from your Skills grant 4% increased Damage to you and Allies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "OnslaugtOnKillPercentChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "(15-18)% chance to gain Onslaught for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 70,
+                            "stats": "(19-22)% chance to gain Onslaught for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 73,
+                            "stats": "(23-25)% chance to gain Onslaught for 4 seconds on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BlindOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "(15-18)% chance to Blind Enemies on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 70,
+                            "stats": "(19-22)% chance to Blind Enemies on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 73,
+                            "stats": "(23-25)% chance to Blind Enemies on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MovementVelocity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "(3-6)% increased Movement Speed"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 73,
+                            "stats": "(7-10)% increased Movement Speed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Hunter-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "ElementalPenetration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "Attacks with this Weapon Penetrate (6-7)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 73,
+                            "stats": "Attacks with this Weapon Penetrate (8-9)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 78,
+                            "stats": "Attacks with this Weapon Penetrate (10-12)% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosPenetrationWithAttacks",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "Attacks with this Weapon Penetrate (6-7)% Chaos Resistance"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 73,
+                            "stats": "Attacks with this Weapon Penetrate (8-9)% Chaos Resistance"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 78,
+                            "stats": "Attacks with this Weapon Penetrate (10-12)% Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponCasterDamagePrefix",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos_damage",
+                        "poison",
+                        "damage",
+                        "chaos",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "(60-69)% increased Chaos Damage over Time"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 71,
+                            "stats": "(70-79)% increased Chaos Damage over Time"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 75,
+                            "stats": "(80-89)% increased Chaos Damage over Time"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 78,
+                            "stats": "(90-94)% increased Chaos Damage over Time"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "(25-34)% increased Physical DamageProjectiles Pierce an additional Target"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 71,
+                            "stats": "(35-44)% increased Physical DamageProjectiles Pierce an additional Target"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 74,
+                            "stats": "(45-54)% increased Physical DamageProjectiles Pierce an additional Target"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 77,
+                            "stats": "(55-64)% increased Physical DamageProjectiles Pierce an additional Target"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 80,
+                            "stats": "(65-69)% increased Physical DamageProjectiles Pierce an additional Target"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedColdDamagePerDexterity",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "Adds (1-2) to (3-4) Cold Damage to Attacks with this Weapon per 10 Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosDamageHybrid",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "Adds (5-7) to (11-13) Chaos DamageAttacks with this Weapon Penetrate (4-6)% Chaos Resistance"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 71,
+                            "stats": "Adds (9-11) to (17-20) Chaos DamageAttacks with this Weapon Penetrate (4-6)% Chaos Resistance"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 74,
+                            "stats": "Adds (12-16) to (24-28) Chaos DamageAttacks with this Weapon Penetrate (4-6)% Chaos Resistance"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 77,
+                            "stats": "Adds (15-20) to (30-35) Chaos DamageAttacks with this Weapon Penetrate (4-6)% Chaos Resistance"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 80,
+                            "stats": "Adds (18-25) to (38-44) Chaos DamageAttacks with this Weapon Penetrate (4-6)% Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamageConvertedToChaos",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "(16-20)% of Physical Damage Converted to Chaos Damage"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 71,
+                            "stats": "(21-25)% of Physical Damage Converted to Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ArmourPenetration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "Hits with this Weapon have (50-65)% chance to ignore Enemy Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 71,
+                            "stats": "Hits with this Weapon have (66-80)% chance to ignore Enemy Physical Damage Reduction"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FasterDamageAilments",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "poison",
+                        "damage",
+                        "chaos",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "Poisons you inflict deal Damage (18-21)% faster"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 73,
+                            "stats": "Poisons you inflict deal Damage (22-25)% faster"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FasterDamageAilments",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "Bleeding you inflict deals Damage (18-21)% faster"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 73,
+                            "stats": "Bleeding you inflict deals Damage (22-25)% faster"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToIntimidateOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 78,
+                            "stats": "(7-11)% chance to Intimidate Enemies for 4 seconds on Hit"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 81,
+                            "stats": "(12-15)% chance to Intimidate Enemies for 4 seconds on Hit"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Warlord-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "WeaponCasterDamagePrefix",
+                    "type": "Prefixes",
+                    "tags": [
+                        "bleed",
+                        "influence_mod",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 68,
+                            "stats": "(60-69)% increased Physical Damage over Time"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 71,
+                            "stats": "(70-79)% increased Physical Damage over Time"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 75,
+                            "stats": "(80-89)% increased Physical Damage over Time"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 78,
+                            "stats": "(90-94)% increased Physical Damage over Time"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireDamageHybrid",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 68,
+                            "stats": "Adds (8-10) to (15-18) Fire DamageAttacks with this Weapon Penetrate (5-7)% Fire Resistance"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 71,
+                            "stats": "Adds (12-16) to (24-28) Fire DamageAttacks with this Weapon Penetrate (5-7)% Fire Resistance"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 74,
+                            "stats": "Adds (17-22) to (33-39) Fire DamageAttacks with this Weapon Penetrate (5-7)% Fire Resistance"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 77,
+                            "stats": "Adds (21-28) to (42-49) Fire DamageAttacks with this Weapon Penetrate (5-7)% Fire Resistance"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 80,
+                            "stats": "Adds (26-35) to (53-61) Fire DamageAttacks with this Weapon Penetrate (5-7)% Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistancePenetration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 68,
+                            "stats": "Attacks with this Weapon Penetrate (9-10)% Fire Resistance"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 73,
+                            "stats": "Attacks with this Weapon Penetrate (11-12)% Fire Resistance"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 78,
+                            "stats": "Attacks with this Weapon Penetrate (13-15)% Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalMaimOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "10% chance to Maim on Hit(10-13)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 70,
+                            "stats": "15% chance to Maim on Hit(14-16)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 73,
+                            "stats": "20% chance to Maim on Hit(17-20)% increased Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalProjectiles",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 82,
+                            "stats": "Skills fire an additional Projectile"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CullingStrike",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 73,
+                            "stats": "Culling Strike"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChancetoGainPhasingOnKill",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "(15-18)% chance to gain Phasing for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 70,
+                            "stats": "(19-22)% chance to gain Phasing for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 73,
+                            "stats": "(23-25)% chance to gain Phasing for 4 seconds on Kill"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Veiled modifiers",
+            "groups": [
+                {
+                    "group_name": "DamageWhileLeeching",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Vorici's",
+                            "ilvl": 60,
+                            "stats": "(54-60)% increased Damage while Leeching"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos_damage",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (18-20)% of Physical Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "chaos_damage",
+                        "damage",
+                        "chaos",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (18-20)% of Fire Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "chaos_damage",
+                        "damage",
+                        "chaos",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (18-20)% of Lightning Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "chaos_damage",
+                        "damage",
+                        "chaos",
+                        "elemental_damage",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (18-20)% of Cold Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BannerEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "aura"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Gravicius'",
+                            "ilvl": 60,
+                            "stats": "Banner Skills have (26-35)% increased Aura Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "unveiled_mod",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Tora's",
+                            "ilvl": 60,
+                            "stats": "Adds (12-14) to (18-20) Physical Damage40% chance to cause Bleeding on Hit"
+                        },
+                        {
+                            "modifier": "Tora's",
+                            "ilvl": 60,
+                            "stats": "Adds (17-20) to (26-28) Physical Damage40% chance to cause Bleeding on Hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageDuringFlaskEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Brinerot",
+                            "ilvl": 60,
+                            "stats": "(36-40)% increased Damage during any Flask Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalAttackReduceEnemyElementalResistance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "Attacks with this Weapon Penetrate (14-16)% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ExplodeOnKillChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Enemies you Kill have a (15-25)% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidFreeze",
+                    "type": "Prefixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "unveiled_mod",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Rin's",
+                            "ilvl": 60,
+                            "stats": "100% chance to Avoid being Frozen(20-30)% chance to Avoid being Chilled"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSpecificSocketedGemLevel",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "+2 to Level of Socketed Support Gems+(5-8)% to Quality of Socketed Support Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Leo's",
+                            "ilvl": 60,
+                            "stats": "(20-23)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AlwaysHits",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Vagan's",
+                            "ilvl": 60,
+                            "stats": "Hits can't be Evaded"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponCasterDamagePrefix",
+                    "type": "Prefixes",
+                    "tags": [
+                        "support_gem",
+                        "damage",
+                        "caster_damage",
+                        "unveiled_mod",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Socketed Gems are Supported by Level 1 Arcane Surge(80-89)% increased Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponCasterDamagePrefix",
+                    "type": "Prefixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "damage",
+                        "resource",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "Minions deal (50-59)% increased DamageMinions have (50-59)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponCasterDamagePrefix",
+                    "type": "Prefixes",
+                    "tags": [
+                        "support_gem",
+                        "damage",
+                        "caster_damage",
+                        "unveiled_mod",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Socketed Gems are Supported by Level 1 Cast While Channelling(80-89)% increased Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponCasterDamagePrefix",
+                    "type": "Prefixes",
+                    "tags": [
+                        "support_gem",
+                        "damage",
+                        "caster_damage",
+                        "unveiled_mod",
+                        "caster",
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Socketed Gems are supported by Level 1 Cast On Critical Strike(80-89)% increased Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosPenetrationWithAttacks",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos_damage",
+                        "attack",
+                        "damage",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "Attacks with this Weapon Penetrate (14-16)% Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseFlatManaCost",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Elreon's",
+                            "ilvl": 60,
+                            "stats": "Non-Channelling Skills have -(10-9) to Total Mana Cost"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseFlatManaCost",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Elreon's",
+                            "ilvl": 60,
+                            "stats": "Channelling Skills have -4 to Total Mana Cost"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WarcryBuffEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Korell's",
+                            "ilvl": 60,
+                            "stats": "(20-25)% increased Warcry Buff Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SocketedGemQuality",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Haku's",
+                            "ilvl": 60,
+                            "stats": "+(9-10)% to Quality of Socketed Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalPhysicalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "unveiled_mod",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "(120-139)% increased Physical Damage(21-25)% chance to cause Bleeding on Hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalPhysicalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "(120-139)% increased Physical Damage(21-25)% chance to Impale Enemies on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalPhysicalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos_damage",
+                        "poison",
+                        "bleed",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos",
+                        "unveiled_mod",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "(120-139)% increased Physical Damage(21-25)% chance to Poison on Hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalPhysicalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "(120-139)% increased Physical Damage(21-25)% chance to Blind Enemies on hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "unveiled_mod",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(26-31)% increased Cast Speed15% chance to gain Arcane Surge when you Kill an Enemy"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SummonWolfOnKill",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Jorgin's",
+                            "ilvl": 60,
+                            "stats": "Trigger Level 10 Summon Spectral Wolf on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(28-32)% increased Critical Strike Chance+(25-28) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Cameria",
+                            "ilvl": 60,
+                            "stats": "+(27-30)% to Critical Strike Multiplier if you've Shattered an Enemy Recently(20-22)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(28-32)% increased Critical Strike Chance+(25-28) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(12-15)% increased Attack Speed+(25-28) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplierIfRareOrUniqueEnemyNearby",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(54-60)% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AttackSpeedPercentIfRareOrUniqueEnemyNearby",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "unveiled_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(27-30)% increased Attack Speed while a Rare or Unique Enemy is Nearby"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(12-15)% increased Attack Speed+(25-28) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "unveiled_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(12-15)% increased Attack Speed15% chance to Trigger Level 1 Blood Rage when you Kill an Enemy"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "dot_multi",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(24-28)% to Physical Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "dot_multi",
+                        "damage",
+                        "unveiled_mod",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(24-28)% to Fire Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "dot_multi",
+                        "damage",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(24-28)% to Chaos Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedChaosAndPhysicalDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Aisling",
+                            "ilvl": 60,
+                            "stats": "(18-20)% increased Chaos Damage(20-22)% increased Global Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(28-32)% increased Critical Strike Chance+(25-28) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(311-350) to Accuracy Rating+(25-28) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PercentageAllAttributes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Hillock",
+                            "ilvl": 60,
+                            "stats": "(7-8)% increased Attributes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(311-350) to Accuracy Rating+(25-28) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(12-15)% increased Attack Speed+(25-28) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DoubleDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(12-14)% chance to deal Double Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAttackSpeedAndCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "minion",
+                        "attack",
+                        "unveiled_mod",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "Minions have (34-38)% increased Attack SpeedMinions have (34-38)% increased Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedFireAndLightningDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Riker",
+                            "ilvl": 60,
+                            "stats": "(18-20)% increased Fire Damage(20-22)% increased Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RareOrUniqueMonsterDroppedItemRarity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Janus",
+                            "ilvl": 60,
+                            "stats": "(55-60)% increased Rarity of Items Dropped by Slain Rare or Unique Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAccuracy",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(311-350) to Accuracy Rating+(25-28) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(7-8)% increased Damage per Frenzy Charge"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(7-8)% increased Damage per Power Charge"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(7-8)% increased Damage per Endurance Charge"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToDealDoubleDamageWhileFocused",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(36-40)% chance to deal Double Damage while Focused"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Corruption implicit modifiers",
+            "groups": [
+                {
+                    "group_name": "SupportedByOnslaught",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SupportedByOnslaught",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are Supported by Level 10 Momentum"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Modifiers",
+                    "tags": [
+                        "critical",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalCriticalStrikeChance",
+                            "ilvl": 1,
+                            "stats": "(14-18)% increased Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DisplaySocketedGemsGetAddedChaosDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "DisplaySocketedGemsGetAddedChaosDamage",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are Supported by Level 17 Added Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalFireDamage",
+                            "ilvl": 1,
+                            "stats": "Adds (12-17) to (23-27) Fire Damage"
+                        },
+                        {
+                            "modifier": "LocalFireDamage",
+                            "ilvl": 31,
+                            "stats": "Adds (27-31) to (39-50) Fire Damage"
+                        },
+                        {
+                            "modifier": "LocalFireDamage",
+                            "ilvl": 84,
+                            "stats": "Adds (31-39) to (52-61) Fire Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SupportedByMultipleProjectiles",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SupportedByMultipleProjectiles",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are Supported by Level 10 Multiple Projectiles"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalPhysicalDamage",
+                            "ilvl": 1,
+                            "stats": "Adds 1 to (2-3) Physical Damage"
+                        },
+                        {
+                            "modifier": "LocalPhysicalDamage",
+                            "ilvl": 31,
+                            "stats": "Adds (4-5) to (6-8) Physical Damage"
+                        },
+                        {
+                            "modifier": "LocalPhysicalDamage",
+                            "ilvl": 82,
+                            "stats": "Adds (8-9) to (11-13) Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SupportedByProjectileSpeed",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SupportedByProjectileSpeed",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are supported by Level 10 Faster Projectiles"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Chain",
+                    "type": "Modifiers",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AdditionalArrowChain",
+                            "ilvl": 80,
+                            "stats": "Arrows Chain +1 times"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SupportedByFork",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SupportedByFork",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are supported by Level 10 Fork"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Modifiers",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreasedAttackSpeed",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Attack Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalLightningDamage",
+                            "ilvl": 1,
+                            "stats": "Adds (2-3) to (35-39) Lightning Damage"
+                        },
+                        {
+                            "modifier": "LocalLightningDamage",
+                            "ilvl": 31,
+                            "stats": "Adds (3-7) to (73-84) Lightning Damage"
+                        },
+                        {
+                            "modifier": "LocalLightningDamage",
+                            "ilvl": 84,
+                            "stats": "Adds (5-9) to (103-107) Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FrenzyChargeOnKillChance",
+                    "type": "Modifiers",
+                    "tags": [
+                        "frenzy_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "FrenzyChargeOnKillChance",
+                            "ilvl": 1,
+                            "stats": "(9-11)% chance to gain a Frenzy Charge on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SupportedByChain",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SupportedByChain",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are Supported by Level 10 Chain"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalPhysicalDamagePercent",
+                    "type": "Modifiers",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalPhysicalDamagePercent",
+                            "ilvl": 1,
+                            "stats": "(10-15)% increased Physical Damage"
+                        },
+                        {
+                            "modifier": "LocalPhysicalDamagePercent",
+                            "ilvl": 85,
+                            "stats": "(16-20)% increased Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalArrows",
+                    "type": "Modifiers",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AdditionalArrows",
+                            "ilvl": 75,
+                            "stats": "Bow Attacks fire an additional Arrow"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalColdDamage",
+                            "ilvl": 1,
+                            "stats": "Adds (9-13) to (20-23) Cold Damage"
+                        },
+                        {
+                            "modifier": "LocalColdDamage",
+                            "ilvl": 31,
+                            "stats": "Adds (22-27) to (36-44) Cold Damage"
+                        },
+                        {
+                            "modifier": "LocalColdDamage",
+                            "ilvl": 84,
+                            "stats": "Adds (26-32) to (45-55) Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SocketedGemQuality",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SocketedGemQuality",
+                            "ilvl": 1,
+                            "stats": "+(5-10)% to Quality of Socketed Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SupportedByBlind",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SupportedByBlind",
+                            "ilvl": 1,
+                            "stats": "Socketed Gems are supported by Level 10 Blind"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

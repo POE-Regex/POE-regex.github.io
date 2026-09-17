@@ -1,0 +1,718 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "FlaskChargesUsed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Apprentice's",
+                            "ilvl": 14,
+                            "stats": "(16-14)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Scholar's",
+                            "ilvl": 31,
+                            "stats": "(19-17)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Practitioner's",
+                            "ilvl": 48,
+                            "stats": "(22-20)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Brewer's",
+                            "ilvl": 65,
+                            "stats": "(25-23)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Chemist's",
+                            "ilvl": 82,
+                            "stats": "(28-26)% reduced Charges per use"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Seething",
+                            "ilvl": 7,
+                            "stats": "Instant Recovery66% reduced Amount Recovered"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoverySpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Simmering",
+                            "ilvl": 3,
+                            "stats": "50% of Recovery applied Instantly(55-52)% reduced Amount Recovered135% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Ebullient",
+                            "ilvl": 22,
+                            "stats": "50% of Recovery applied Instantly(51-48)% reduced Amount Recovered135% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Effusive",
+                            "ilvl": 41,
+                            "stats": "50% of Recovery applied Instantly(47-44)% reduced Amount Recovered135% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Effervescent",
+                            "ilvl": 60,
+                            "stats": "50% of Recovery applied Instantly(43-40)% reduced Amount Recovered135% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Bubbling",
+                            "ilvl": 79,
+                            "stats": "50% of Recovery applied Instantly(39-36)% reduced Amount Recovered135% increased Recovery rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoverySpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Startled",
+                            "ilvl": 9,
+                            "stats": "Instant Recovery when on Low Life(30-27)% reduced Amount Recovered"
+                        },
+                        {
+                            "modifier": "Frightened",
+                            "ilvl": 27,
+                            "stats": "Instant Recovery when on Low Life(26-23)% reduced Amount Recovered"
+                        },
+                        {
+                            "modifier": "Alarmed",
+                            "ilvl": 45,
+                            "stats": "Instant Recovery when on Low Life(22-19)% reduced Amount Recovered"
+                        },
+                        {
+                            "modifier": "Terrified",
+                            "ilvl": 63,
+                            "stats": "Instant Recovery when on Low Life(18-15)% reduced Amount Recovered"
+                        },
+                        {
+                            "modifier": "Panicked",
+                            "ilvl": 81,
+                            "stats": "Instant Recovery when on Low Life(14-11)% reduced Amount Recovered"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoverySpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Undiluted",
+                            "ilvl": 1,
+                            "stats": "(41-46)% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Thickened",
+                            "ilvl": 21,
+                            "stats": "(47-52)% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Viscous",
+                            "ilvl": 41,
+                            "stats": "(53-58)% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Condensed",
+                            "ilvl": 61,
+                            "stats": "(59-64)% increased Recovery rate"
+                        },
+                        {
+                            "modifier": "Catalysed",
+                            "ilvl": 81,
+                            "stats": "(65-70)% increased Recovery rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoveryAmount",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Substantial",
+                            "ilvl": 1,
+                            "stats": "(41-46)% increased Amount Recovered33% reduced Recovery rate"
+                        },
+                        {
+                            "modifier": "Opaque",
+                            "ilvl": 21,
+                            "stats": "(47-52)% increased Amount Recovered33% reduced Recovery rate"
+                        },
+                        {
+                            "modifier": "Full-bodied",
+                            "ilvl": 41,
+                            "stats": "(53-58)% increased Amount Recovered33% reduced Recovery rate"
+                        },
+                        {
+                            "modifier": "Concentrated",
+                            "ilvl": 61,
+                            "stats": "(59-64)% increased Amount Recovered33% reduced Recovery rate"
+                        },
+                        {
+                            "modifier": "Saturated",
+                            "ilvl": 81,
+                            "stats": "(65-70)% increased Amount Recovered33% reduced Recovery rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoveryAmount",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Prudent",
+                            "ilvl": 6,
+                            "stats": "(101-106)% more Recovery if used while on Low Life"
+                        },
+                        {
+                            "modifier": "Prepared",
+                            "ilvl": 25,
+                            "stats": "(107-112)% more Recovery if used while on Low Life"
+                        },
+                        {
+                            "modifier": "Wary",
+                            "ilvl": 44,
+                            "stats": "(113-118)% more Recovery if used while on Low Life"
+                        },
+                        {
+                            "modifier": "Careful",
+                            "ilvl": 63,
+                            "stats": "(119-124)% more Recovery if used while on Low Life"
+                        },
+                        {
+                            "modifier": "Cautious",
+                            "ilvl": 82,
+                            "stats": "(125-130)% more Recovery if used while on Low Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoveryAmount",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "life",
+                        "flask",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Impairing",
+                            "ilvl": 13,
+                            "stats": "(35-39)% increased Life RecoveredRemoves 10% of Life Recovered from Mana when used"
+                        },
+                        {
+                            "modifier": "Dizzying",
+                            "ilvl": 30,
+                            "stats": "(40-44)% increased Life RecoveredRemoves 10% of Life Recovered from Mana when used"
+                        },
+                        {
+                            "modifier": "Depleting",
+                            "ilvl": 47,
+                            "stats": "(46-50)% increased Life RecoveredRemoves 10% of Life Recovered from Mana when used"
+                        },
+                        {
+                            "modifier": "Vitiating",
+                            "ilvl": 64,
+                            "stats": "(51-55)% increased Life RecoveredRemoves 10% of Life Recovered from Mana when used"
+                        },
+                        {
+                            "modifier": "Sapping",
+                            "ilvl": 81,
+                            "stats": "(56-60)% increased Life RecoveredRemoves 10% of Life Recovered from Mana when used"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskNumCharges",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Wide",
+                            "ilvl": 2,
+                            "stats": "+(16-19) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Plentiful",
+                            "ilvl": 22,
+                            "stats": "+(20-23) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Bountiful",
+                            "ilvl": 42,
+                            "stats": "+(24-27) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Abundant",
+                            "ilvl": 62,
+                            "stats": "+(28-31) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Ample",
+                            "ilvl": 82,
+                            "stats": "+(32-35) to Maximum Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Constant",
+                            "ilvl": 3,
+                            "stats": "(16-20)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Continuous",
+                            "ilvl": 23,
+                            "stats": "(21-25)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Endless",
+                            "ilvl": 43,
+                            "stats": "(26-30)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Bottomless",
+                            "ilvl": 63,
+                            "stats": "(31-45)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Perpetual",
+                            "ilvl": 83,
+                            "stats": "(46-50)% increased Charge Recovery"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "critical",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Medic's",
+                            "ilvl": 8,
+                            "stats": "(11-15)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Physician's",
+                            "ilvl": 26,
+                            "stats": "(16-20)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Doctor's",
+                            "ilvl": 44,
+                            "stats": "(21-25)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Specialist's",
+                            "ilvl": 62,
+                            "stats": "(26-30)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Surgeon's",
+                            "ilvl": 80,
+                            "stats": "(31-35)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Transgressor's",
+                            "ilvl": 29,
+                            "stats": "Gain 1 Charge when you are Hit by an Enemy"
+                        },
+                        {
+                            "modifier": "Masochist's",
+                            "ilvl": 63,
+                            "stats": "Gain 2 Charges when you are Hit by an Enemy"
+                        },
+                        {
+                            "modifier": "Flagellant's",
+                            "ilvl": 80,
+                            "stats": "Gain 3 Charges when you are Hit by an Enemy"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskIncreasedHealingCharges",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Nitrate",
+                            "ilvl": 10,
+                            "stats": "(21-26)% increased Amount Recovered(20-25)% increased Charges per use"
+                        },
+                        {
+                            "modifier": "Dolomite",
+                            "ilvl": 28,
+                            "stats": "(27-32)% increased Amount Recovered(20-25)% increased Charges per use"
+                        },
+                        {
+                            "modifier": "Kieserite",
+                            "ilvl": 46,
+                            "stats": "(33-38)% increased Amount Recovered(20-25)% increased Charges per use"
+                        },
+                        {
+                            "modifier": "Kainite",
+                            "ilvl": 64,
+                            "stats": "(39-44)% increased Amount Recovered(20-25)% increased Charges per use"
+                        },
+                        {
+                            "modifier": "Gypsum",
+                            "ilvl": 82,
+                            "stats": "(45-50)% increased Amount Recovered(20-25)% increased Charges per use"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskDispellPoison",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Antitoxin",
+                            "ilvl": 16,
+                            "stats": "Grants Immunity to Poison for (6-8) seconds if used while Poisoned"
+                        },
+                        {
+                            "modifier": "of the Remedy",
+                            "ilvl": 38,
+                            "stats": "Grants Immunity to Poison for (9-11) seconds if used while Poisoned"
+                        },
+                        {
+                            "modifier": "of the Cure",
+                            "ilvl": 60,
+                            "stats": "Grants Immunity to Poison for (12-14) seconds if used while Poisoned"
+                        },
+                        {
+                            "modifier": "of the Antidote",
+                            "ilvl": 82,
+                            "stats": "Grants Immunity to Poison for (15-17) seconds if used while Poisoned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskCurseImmunity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "curse",
+                        "flask",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Warding",
+                            "ilvl": 18,
+                            "stats": "Removes Curses on use"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalFlaskImmuneToHinder",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "flask",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Movement",
+                            "ilvl": 16,
+                            "stats": "Grants Immunity to Hinder for (6-8) seconds if used while HinderedGrants Immunity to Maim for (6-8) seconds if used while Maimed"
+                        },
+                        {
+                            "modifier": "of Motion",
+                            "ilvl": 38,
+                            "stats": "Grants Immunity to Hinder for (9-11) seconds if used while HinderedGrants Immunity to Maim for (9-11) seconds if used while Maimed"
+                        },
+                        {
+                            "modifier": "of Freedom",
+                            "ilvl": 60,
+                            "stats": "Grants Immunity to Hinder for (12-14) seconds if used while HinderedGrants Immunity to Maim for (12-14) seconds if used while Maimed"
+                        },
+                        {
+                            "modifier": "of Liberation",
+                            "ilvl": 82,
+                            "stats": "Grants Immunity to Hinder for (15-17) seconds if used while HinderedGrants Immunity to Maim for (15-17) seconds if used while Maimed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskHealsOthers",
+                    "type": "Suffixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "flask",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Novice",
+                            "ilvl": 10,
+                            "stats": "Grants (100-119)% of Life Recovery to Minions"
+                        },
+                        {
+                            "modifier": "of the Acolyte",
+                            "ilvl": 28,
+                            "stats": "Grants (120-139)% of Life Recovery to Minions"
+                        },
+                        {
+                            "modifier": "of the Summoner",
+                            "ilvl": 46,
+                            "stats": "Grants (140-159)% of Life Recovery to Minions"
+                        },
+                        {
+                            "modifier": "of the Conjurer",
+                            "ilvl": 64,
+                            "stats": "Grants (160-179)% of Life Recovery to Minions"
+                        },
+                        {
+                            "modifier": "of the Necromancer",
+                            "ilvl": 82,
+                            "stats": "Grants (180-200)% of Life Recovery to Minions"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalManaFlaskHinderNearbyEnemies",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Interference",
+                            "ilvl": 30,
+                            "stats": "Hinders nearby Enemies with (17-22)% reduced Movement Speed if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Obstruction",
+                            "ilvl": 48,
+                            "stats": "Hinders nearby Enemies with (23-28)% reduced Movement Speed if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Occlusion",
+                            "ilvl": 66,
+                            "stats": "Hinders nearby Enemies with (29-34)% reduced Movement Speed if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Restraint",
+                            "ilvl": 84,
+                            "stats": "Hinders nearby Enemies with (35-40)% reduced Movement Speed if used while not on Full Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskDispellChill",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Convection",
+                            "ilvl": 4,
+                            "stats": "Grants Immunity to Chill for (6-8) seconds if used while ChilledGrants Immunity to Freeze for (6-8) seconds if used while Frozen"
+                        },
+                        {
+                            "modifier": "of Thermodynamics",
+                            "ilvl": 28,
+                            "stats": "Grants Immunity to Chill for (9-11) seconds if used while ChilledGrants Immunity to Freeze for (9-11) seconds if used while Frozen"
+                        },
+                        {
+                            "modifier": "of Entropy",
+                            "ilvl": 52,
+                            "stats": "Grants Immunity to Chill for (12-14) seconds if used while ChilledGrants Immunity to Freeze for (12-14) seconds if used while Frozen"
+                        },
+                        {
+                            "modifier": "of Thawing",
+                            "ilvl": 76,
+                            "stats": "Grants Immunity to Chill for (15-17) seconds if used while ChilledGrants Immunity to Freeze for (15-17) seconds if used while Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRemovesShock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Earthing",
+                            "ilvl": 6,
+                            "stats": "Grants Immunity to Shock for (6-8) seconds if used while Shocked"
+                        },
+                        {
+                            "modifier": "of Grounding",
+                            "ilvl": 30,
+                            "stats": "Grants Immunity to Shock for (9-11) seconds if used while Shocked"
+                        },
+                        {
+                            "modifier": "of Insulation",
+                            "ilvl": 54,
+                            "stats": "Grants Immunity to Shock for (12-14) seconds if used while Shocked"
+                        },
+                        {
+                            "modifier": "of the Dielectric",
+                            "ilvl": 78,
+                            "stats": "Grants Immunity to Shock for (15-17) seconds if used while Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskDispellBurning",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Damping",
+                            "ilvl": 6,
+                            "stats": "Grants Immunity to Ignite for (6-8) seconds if used while IgnitedRemoves all Burning when used"
+                        },
+                        {
+                            "modifier": "of Quashing",
+                            "ilvl": 30,
+                            "stats": "Grants Immunity to Ignite for (9-11) seconds if used while IgnitedRemoves all Burning when used"
+                        },
+                        {
+                            "modifier": "of Quelling",
+                            "ilvl": 54,
+                            "stats": "Grants Immunity to Ignite for (12-14) seconds if used while IgnitedRemoves all Burning when used"
+                        },
+                        {
+                            "modifier": "of Quenching",
+                            "ilvl": 78,
+                            "stats": "Grants Immunity to Ignite for (15-17) seconds if used while IgnitedRemoves all Burning when used"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRemovesBleeding",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Sealing",
+                            "ilvl": 8,
+                            "stats": "Grants Immunity to Bleeding for (6-8) seconds if used while BleedingGrants Immunity to Corrupted Blood for (6-8) seconds if used while affected by Corrupted Blood"
+                        },
+                        {
+                            "modifier": "of Alleviation",
+                            "ilvl": 32,
+                            "stats": "Grants Immunity to Bleeding for (9-11) seconds if used while BleedingGrants Immunity to Corrupted Blood for (9-11) seconds if used while affected by Corrupted Blood"
+                        },
+                        {
+                            "modifier": "of Allaying",
+                            "ilvl": 56,
+                            "stats": "Grants Immunity to Bleeding for (12-14) seconds if used while BleedingGrants Immunity to Corrupted Blood for (12-14) seconds if used while affected by Corrupted Blood"
+                        },
+                        {
+                            "modifier": "of Assuaging",
+                            "ilvl": 80,
+                            "stats": "Grants Immunity to Bleeding for (15-17) seconds if used while BleedingGrants Immunity to Corrupted Blood for (15-17) seconds if used while affected by Corrupted Blood"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalLifeFlaskAdditionalLifeRecovery",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Abundance",
+                            "ilvl": 25,
+                            "stats": "Recover an additional (11-16)% of Flask's Life Recovery Amount over 10 seconds if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Plenty",
+                            "ilvl": 39,
+                            "stats": "Recover an additional (17-22)% of Flask's Life Recovery Amount over 10 seconds if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Bounty",
+                            "ilvl": 53,
+                            "stats": "Recover an additional (23-28)% of Flask's Life Recovery Amount over 10 seconds if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Incessance",
+                            "ilvl": 67,
+                            "stats": "Recover an additional (29-34)% of Flask's Life Recovery Amount over 10 seconds if used while not on Full Life"
+                        },
+                        {
+                            "modifier": "of Perenniality",
+                            "ilvl": 81,
+                            "stats": "Recover an additional (35-40)% of Flask's Life Recovery Amount over 10 seconds if used while not on Full Life"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

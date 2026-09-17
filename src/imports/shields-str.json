@@ -1,0 +1,3012 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "BaseLocalDefences",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Lacquered",
+                            "ilvl": 1,
+                            "stats": "+(6-12) to Armour"
+                        },
+                        {
+                            "modifier": "Studded",
+                            "ilvl": 11,
+                            "stats": "+(13-35) to Armour"
+                        },
+                        {
+                            "modifier": "Ribbed",
+                            "ilvl": 17,
+                            "stats": "+(36-63) to Armour"
+                        },
+                        {
+                            "modifier": "Fortified",
+                            "ilvl": 23,
+                            "stats": "+(64-82) to Armour"
+                        },
+                        {
+                            "modifier": "Plated",
+                            "ilvl": 29,
+                            "stats": "+(83-101) to Armour"
+                        },
+                        {
+                            "modifier": "Carapaced",
+                            "ilvl": 35,
+                            "stats": "+(102-120) to Armour"
+                        },
+                        {
+                            "modifier": "Encased",
+                            "ilvl": 43,
+                            "stats": "+(121-150) to Armour"
+                        },
+                        {
+                            "modifier": "Enveloped",
+                            "ilvl": 51,
+                            "stats": "+(151-200) to Armour"
+                        },
+                        {
+                            "modifier": "Abating",
+                            "ilvl": 60,
+                            "stats": "+(201-300) to Armour"
+                        },
+                        {
+                            "modifier": "Unmoving",
+                            "ilvl": 69,
+                            "stats": "+(301-400) to Armour"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BaseLocalDefencesAndLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "life",
+                        "defences",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Oyster's",
+                            "ilvl": 30,
+                            "stats": "+(20-32) to Armour+(18-23) to maximum Life"
+                        },
+                        {
+                            "modifier": "Urchin's",
+                            "ilvl": 46,
+                            "stats": "+(33-48) to Armour+(24-28) to maximum Life"
+                        },
+                        {
+                            "modifier": "Nautilus's",
+                            "ilvl": 62,
+                            "stats": "+(49-96) to Armour+(29-33) to maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AttackerTakesDamageNoRange",
+                    "type": "Prefixes",
+                    "tags": [
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Thorny",
+                            "ilvl": 1,
+                            "stats": "Reflects (1-4) Physical Damage to Melee Attackers"
+                        },
+                        {
+                            "modifier": "Spiny",
+                            "ilvl": 10,
+                            "stats": "Reflects (5-10) Physical Damage to Melee Attackers"
+                        },
+                        {
+                            "modifier": "Barbed",
+                            "ilvl": 20,
+                            "stats": "Reflects (11-24) Physical Damage to Melee Attackers"
+                        },
+                        {
+                            "modifier": "Jagged",
+                            "ilvl": 35,
+                            "stats": "Reflects (25-50) Physical Damage to Melee Attackers"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedShieldBlockPercentage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Steadfast",
+                            "ilvl": 2,
+                            "stats": "(40-45)% increased Chance to Block"
+                        },
+                        {
+                            "modifier": "Unrelenting",
+                            "ilvl": 15,
+                            "stats": "(46-51)% increased Chance to Block"
+                        },
+                        {
+                            "modifier": "Adamant",
+                            "ilvl": 35,
+                            "stats": "(52-57)% increased Chance to Block"
+                        },
+                        {
+                            "modifier": "Warded",
+                            "ilvl": 48,
+                            "stats": "(58-63)% increased Chance to Block"
+                        },
+                        {
+                            "modifier": "Unwavering",
+                            "ilvl": 61,
+                            "stats": "(64-69)% increased Chance to Block"
+                        },
+                        {
+                            "modifier": "Enduring",
+                            "ilvl": 77,
+                            "stats": "(70-75)% increased Chance to Block"
+                        },
+                        {
+                            "modifier": "Unyielding",
+                            "ilvl": 86,
+                            "stats": "(76-81)% increased Chance to Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellBlockPercentage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Mystic",
+                            "ilvl": 16,
+                            "stats": "(4-5)% Chance to Block Spell Damage"
+                        },
+                        {
+                            "modifier": "Clairvoyant",
+                            "ilvl": 28,
+                            "stats": "(6-7)% Chance to Block Spell Damage"
+                        },
+                        {
+                            "modifier": "Enigmatic",
+                            "ilvl": 40,
+                            "stats": "(8-9)% Chance to Block Spell Damage"
+                        },
+                        {
+                            "modifier": "Enlightened",
+                            "ilvl": 55,
+                            "stats": "(10-11)% Chance to Block Spell Damage"
+                        },
+                        {
+                            "modifier": "Seer's",
+                            "ilvl": 66,
+                            "stats": "(12-13)% Chance to Block Spell Damage"
+                        },
+                        {
+                            "modifier": "Oracle's",
+                            "ilvl": 77,
+                            "stats": "(14-15)% Chance to Block Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSpecificSocketedGemLevel",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Combatant's",
+                            "ilvl": 8,
+                            "stats": "+1 to Level of Socketed Melee Gems"
+                        },
+                        {
+                            "modifier": "Weaponmaster's",
+                            "ilvl": 63,
+                            "stats": "+2 to Level of Socketed Melee Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DefencesPercentAndStunRecovery",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Beetle's",
+                            "ilvl": 1,
+                            "stats": "(6-13)% increased Armour(6-7)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "Crab's",
+                            "ilvl": 17,
+                            "stats": "(14-20)% increased Armour(8-9)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "Armadillo's",
+                            "ilvl": 29,
+                            "stats": "(21-26)% increased Armour(10-11)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "Rhino's",
+                            "ilvl": 42,
+                            "stats": "(27-32)% increased Armour(12-13)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "Elephant's",
+                            "ilvl": 60,
+                            "stats": "(33-38)% increased Armour(14-15)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "Mammoth's",
+                            "ilvl": 78,
+                            "stats": "(39-42)% increased Armour(16-17)% increased Stun and Block Recovery"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hale",
+                            "ilvl": 1,
+                            "stats": "+(3-9) to maximum Life"
+                        },
+                        {
+                            "modifier": "Healthy",
+                            "ilvl": 5,
+                            "stats": "+(10-24) to maximum Life"
+                        },
+                        {
+                            "modifier": "Sanguine",
+                            "ilvl": 11,
+                            "stats": "+(25-39) to maximum Life"
+                        },
+                        {
+                            "modifier": "Stalwart",
+                            "ilvl": 18,
+                            "stats": "+(40-54) to maximum Life"
+                        },
+                        {
+                            "modifier": "Stout",
+                            "ilvl": 24,
+                            "stats": "+(55-69) to maximum Life"
+                        },
+                        {
+                            "modifier": "Robust",
+                            "ilvl": 30,
+                            "stats": "+(70-84) to maximum Life"
+                        },
+                        {
+                            "modifier": "Rotund",
+                            "ilvl": 36,
+                            "stats": "+(85-99) to maximum Life"
+                        },
+                        {
+                            "modifier": "Virile",
+                            "ilvl": 44,
+                            "stats": "+(100-114) to maximum Life"
+                        },
+                        {
+                            "modifier": "Athlete's",
+                            "ilvl": 54,
+                            "stats": "+(115-129) to maximum Life"
+                        },
+                        {
+                            "modifier": "Fecund",
+                            "ilvl": 64,
+                            "stats": "+(130-144) to maximum Life"
+                        },
+                        {
+                            "modifier": "Vigorous",
+                            "ilvl": 73,
+                            "stats": "+(145-159) to maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DefencesPercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Reinforced",
+                            "ilvl": 3,
+                            "stats": "(15-26)% increased Armour"
+                        },
+                        {
+                            "modifier": "Layered",
+                            "ilvl": 17,
+                            "stats": "(27-42)% increased Armour"
+                        },
+                        {
+                            "modifier": "Lobstered",
+                            "ilvl": 29,
+                            "stats": "(43-55)% increased Armour"
+                        },
+                        {
+                            "modifier": "Buttressed",
+                            "ilvl": 42,
+                            "stats": "(56-67)% increased Armour"
+                        },
+                        {
+                            "modifier": "Thickened",
+                            "ilvl": 60,
+                            "stats": "(68-79)% increased Armour"
+                        },
+                        {
+                            "modifier": "Girded",
+                            "ilvl": 72,
+                            "stats": "(80-91)% increased Armour"
+                        },
+                        {
+                            "modifier": "Impregnable",
+                            "ilvl": 84,
+                            "stats": "(92-100)% increased Armour"
+                        },
+                        {
+                            "modifier": "Impenetrable",
+                            "ilvl": 86,
+                            "stats": "(101-110)% increased Armour"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Lost",
+                            "ilvl": 16,
+                            "stats": "+(5-10)% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Banishment",
+                            "ilvl": 30,
+                            "stats": "+(11-15)% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Eviction",
+                            "ilvl": 44,
+                            "stats": "+(16-20)% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Expulsion",
+                            "ilvl": 56,
+                            "stats": "+(21-25)% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Exile",
+                            "ilvl": 65,
+                            "stats": "+(26-30)% to Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Bameth",
+                            "ilvl": 81,
+                            "stats": "+(31-35)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StunRecovery",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Thick Skin",
+                            "ilvl": 1,
+                            "stats": "(11-13)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "of Stone Skin",
+                            "ilvl": 17,
+                            "stats": "(14-16)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "of Iron Skin",
+                            "ilvl": 28,
+                            "stats": "(17-19)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "of Steel Skin",
+                            "ilvl": 42,
+                            "stats": "(20-22)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "of Adamantite Skin",
+                            "ilvl": 56,
+                            "stats": "(23-25)% increased Stun and Block Recovery"
+                        },
+                        {
+                            "modifier": "of Corundum Skin",
+                            "ilvl": 79,
+                            "stats": "(26-28)% increased Stun and Block Recovery"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Inuit",
+                            "ilvl": 1,
+                            "stats": "+(6-11)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Seal",
+                            "ilvl": 14,
+                            "stats": "+(12-17)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Penguin",
+                            "ilvl": 26,
+                            "stats": "+(18-23)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Yeti",
+                            "ilvl": 38,
+                            "stats": "+(24-29)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Walrus",
+                            "ilvl": 50,
+                            "stats": "+(30-35)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Polar Bear",
+                            "ilvl": 60,
+                            "stats": "+(36-41)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Ice",
+                            "ilvl": 72,
+                            "stats": "+(42-45)% to Cold Resistance"
+                        },
+                        {
+                            "modifier": "of Haast",
+                            "ilvl": 84,
+                            "stats": "+(46-48)% to Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalAttributeRequirements",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of the Worthy",
+                            "ilvl": 36,
+                            "stats": "18% reduced Attribute Requirements"
+                        },
+                        {
+                            "modifier": "of the Apt",
+                            "ilvl": 60,
+                            "stats": "32% reduced Attribute Requirements"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedExtraDamageFromCrits",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Dulling",
+                            "ilvl": 33,
+                            "stats": "You take (21-30)% reduced Extra Damage from Critical Strikes"
+                        },
+                        {
+                            "modifier": "of Deadening",
+                            "ilvl": 45,
+                            "stats": "You take (31-40)% reduced Extra Damage from Critical Strikes"
+                        },
+                        {
+                            "modifier": "of Interference",
+                            "ilvl": 67,
+                            "stats": "You take (41-50)% reduced Extra Damage from Critical Strikes"
+                        },
+                        {
+                            "modifier": "of Obstruction",
+                            "ilvl": 78,
+                            "stats": "You take (51-60)% reduced Extra Damage from Critical Strikes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Impedance",
+                            "ilvl": 68,
+                            "stats": "+1% to maximum Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of Shockproofing",
+                            "ilvl": 75,
+                            "stats": "+2% to maximum Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Lightning Rod",
+                            "ilvl": 81,
+                            "stats": "+3% to maximum Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidElementalStatusAilments",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "ailment",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stoicism",
+                            "ilvl": 23,
+                            "stats": "(16-20)% chance to Avoid Elemental Ailments"
+                        },
+                        {
+                            "modifier": "of Resolve",
+                            "ilvl": 41,
+                            "stats": "(21-25)% chance to Avoid Elemental Ailments"
+                        },
+                        {
+                            "modifier": "of Fortitude",
+                            "ilvl": 57,
+                            "stats": "(26-30)% chance to Avoid Elemental Ailments"
+                        },
+                        {
+                            "modifier": "of Will",
+                            "ilvl": 73,
+                            "stats": "(31-35)% chance to Avoid Elemental Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumColdResist",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Furs",
+                            "ilvl": 68,
+                            "stats": "+1% to maximum Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Tundra",
+                            "ilvl": 75,
+                            "stats": "+2% to maximum Cold Resistance"
+                        },
+                        {
+                            "modifier": "of the Mammoth",
+                            "ilvl": 81,
+                            "stats": "+3% to maximum Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeRegeneration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flat_life_regen",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Newt",
+                            "ilvl": 1,
+                            "stats": "Regenerate (1-2) Life per second"
+                        },
+                        {
+                            "modifier": "of the Lizard",
+                            "ilvl": 7,
+                            "stats": "Regenerate (2.1-8) Life per second"
+                        },
+                        {
+                            "modifier": "of the Flatworm",
+                            "ilvl": 19,
+                            "stats": "Regenerate (8.1-16) Life per second"
+                        },
+                        {
+                            "modifier": "of the Starfish",
+                            "ilvl": 31,
+                            "stats": "Regenerate (16.1-24) Life per second"
+                        },
+                        {
+                            "modifier": "of the Hydra",
+                            "ilvl": 44,
+                            "stats": "Regenerate (24.1-32) Life per second"
+                        },
+                        {
+                            "modifier": "of the Troll",
+                            "ilvl": 55,
+                            "stats": "Regenerate (32.1-48) Life per second"
+                        },
+                        {
+                            "modifier": "of Ryslatha",
+                            "ilvl": 68,
+                            "stats": "Regenerate (48.1-64) Life per second"
+                        },
+                        {
+                            "modifier": "of the Phoenix",
+                            "ilvl": 74,
+                            "stats": "Regenerate (64.1-96) Life per second"
+                        },
+                        {
+                            "modifier": "of Recuperation",
+                            "ilvl": 78,
+                            "stats": "Regenerate (96.1-128) Life per second"
+                        },
+                        {
+                            "modifier": "of Life-giving",
+                            "ilvl": 83,
+                            "stats": "Regenerate (128.1-152) Life per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Whelpling",
+                            "ilvl": 1,
+                            "stats": "+(6-11)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Salamander",
+                            "ilvl": 12,
+                            "stats": "+(12-17)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Drake",
+                            "ilvl": 24,
+                            "stats": "+(18-23)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Kiln",
+                            "ilvl": 36,
+                            "stats": "+(24-29)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Furnace",
+                            "ilvl": 48,
+                            "stats": "+(30-35)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Volcano",
+                            "ilvl": 60,
+                            "stats": "+(36-41)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Magma",
+                            "ilvl": 72,
+                            "stats": "+(42-45)% to Fire Resistance"
+                        },
+                        {
+                            "modifier": "of Tzteosh",
+                            "ilvl": 84,
+                            "stats": "+(46-48)% to Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumFireResist",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Bushfire",
+                            "ilvl": 68,
+                            "stats": "+1% to maximum Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Molten Core",
+                            "ilvl": 75,
+                            "stats": "+2% to maximum Fire Resistance"
+                        },
+                        {
+                            "modifier": "of the Solar Storm",
+                            "ilvl": 81,
+                            "stats": "+3% to maximum Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Brute",
+                            "ilvl": 1,
+                            "stats": "+(8-12) to Strength"
+                        },
+                        {
+                            "modifier": "of the Wrestler",
+                            "ilvl": 11,
+                            "stats": "+(13-17) to Strength"
+                        },
+                        {
+                            "modifier": "of the Bear",
+                            "ilvl": 22,
+                            "stats": "+(18-22) to Strength"
+                        },
+                        {
+                            "modifier": "of the Lion",
+                            "ilvl": 33,
+                            "stats": "+(23-27) to Strength"
+                        },
+                        {
+                            "modifier": "of the Gorilla",
+                            "ilvl": 44,
+                            "stats": "+(28-32) to Strength"
+                        },
+                        {
+                            "modifier": "of the Goliath",
+                            "ilvl": 55,
+                            "stats": "+(33-37) to Strength"
+                        },
+                        {
+                            "modifier": "of the Leviathan",
+                            "ilvl": 66,
+                            "stats": "+(38-42) to Strength"
+                        },
+                        {
+                            "modifier": "of the Titan",
+                            "ilvl": 74,
+                            "stats": "+(43-50) to Strength"
+                        },
+                        {
+                            "modifier": "of the Gods",
+                            "ilvl": 82,
+                            "stats": "+(51-55) to Strength"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crystal",
+                            "ilvl": 12,
+                            "stats": "+(3-5)% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Prism",
+                            "ilvl": 24,
+                            "stats": "+(6-8)% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Kaleidoscope",
+                            "ilvl": 36,
+                            "stats": "+(9-11)% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of Variegation",
+                            "ilvl": 48,
+                            "stats": "+(12-14)% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Rainbow",
+                            "ilvl": 60,
+                            "stats": "+(15-16)% to all Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Span",
+                            "ilvl": 85,
+                            "stats": "+(17-18)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumChaosResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Regularity",
+                            "ilvl": 68,
+                            "stats": "+1% to maximum Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Concord",
+                            "ilvl": 75,
+                            "stats": "+2% to maximum Chaos Resistance"
+                        },
+                        {
+                            "modifier": "of Harmony",
+                            "ilvl": 81,
+                            "stats": "+3% to maximum Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Sempiternal",
+                            "ilvl": 75,
+                            "stats": "+1% to all maximum Resistances"
+                        },
+                        {
+                            "modifier": "of the Deathless",
+                            "ilvl": 81,
+                            "stats": "+2% to all maximum Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedPhysicalDamageTaken",
+                    "type": "Suffixes",
+                    "tags": [
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Watchman",
+                            "ilvl": 45,
+                            "stats": "4% additional Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of the Sentry",
+                            "ilvl": 58,
+                            "stats": "5% additional Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of the Keeper",
+                            "ilvl": 67,
+                            "stats": "6% additional Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of the Protector",
+                            "ilvl": 77,
+                            "stats": "7% additional Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of the Conservator",
+                            "ilvl": 86,
+                            "stats": "8% additional Physical Damage Reduction"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Cloud",
+                            "ilvl": 1,
+                            "stats": "+(6-11)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Squall",
+                            "ilvl": 13,
+                            "stats": "+(12-17)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Storm",
+                            "ilvl": 25,
+                            "stats": "+(18-23)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Thunderhead",
+                            "ilvl": 37,
+                            "stats": "+(24-29)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Tempest",
+                            "ilvl": 49,
+                            "stats": "+(30-35)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Maelstrom",
+                            "ilvl": 60,
+                            "stats": "+(36-41)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of the Lightning",
+                            "ilvl": 72,
+                            "stats": "+(42-45)% to Lightning Resistance"
+                        },
+                        {
+                            "modifier": "of Ephij",
+                            "ilvl": 84,
+                            "stats": "+(46-48)% to Lightning Resistance"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Shaper-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "AdditionalTotems",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Shaper's",
+                            "ilvl": 70,
+                            "stats": "+1 to maximum number of Summoned Totems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToShockAttackersOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "block",
+                        "elemental",
+                        "influence_mod",
+                        "ailment",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "(25-40)% chance to Shock Attackers for 4 seconds on Block"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "(41-50)% chance to Shock Attackers for 4 seconds on Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "GainRandomChargeOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "endurance_charge",
+                        "block",
+                        "influence_mod",
+                        "frenzy_charge",
+                        "power_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Gain an Endurance, Frenzy or Power charge when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RecoverLifePercentOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Recover (3-5)% of Life when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToChillAttackersOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "block",
+                        "elemental",
+                        "influence_mod",
+                        "red_herring",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "(25-40)% chance to Chill Attackers for 4 seconds on Block"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 75,
+                            "stats": "(41-50)% chance to Chill Attackers for 4 seconds on Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RecoverManaPercentOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Recover (3-5)% of your maximum Mana when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DisplaySocketedGemsGetReducedReservation",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "skill"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Socketed Gems have 20% increased Reservation Efficiency"
+                        },
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 80,
+                            "stats": "Socketed Gems have 30% increased Reservation Efficiency"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RecoverEnergyShieldPercentOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "energy_shield",
+                        "influence_mod",
+                        "block",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shaping",
+                            "ilvl": 68,
+                            "stats": "Recover (3-5)% of Energy Shield when you Block"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Elder-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "(7-9)% increased Area of Effect"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 75,
+                            "stats": "(10-12)% increased Area of Effect"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 82,
+                            "stats": "(13-15)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumLifeIncreasePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "(3-6)% increased maximum Life"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 84,
+                            "stats": "(7-10)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamagePerBlockChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "1% increased Damage per 1% Chance to Block Attack Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "GainArmourIfBlockedRecently",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 68,
+                            "stats": "+(500-650) Armour if you've Blocked Recently"
+                        },
+                        {
+                            "modifier": "The Elder's",
+                            "ilvl": 75,
+                            "stats": "+(651-800) Armour if you've Blocked Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalBlockWith5NearbyEnemies",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "+(2-3)% Chance to Block Attack Damage if there are at least 5 nearby Enemies"
+                        },
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 75,
+                            "stats": "+(4-5)% Chance to Block Attack Damage if there are at least 5 nearby Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SupportedByTrigger",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "gem",
+                        "support"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elder",
+                            "ilvl": 68,
+                            "stats": "Socketed Gems are Supported by Level 5 Cast when Damage Taken"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Crusader-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "DamagePerBlockChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Crusader's",
+                            "ilvl": 68,
+                            "stats": "1% increased Damage per 1% Chance to Block Attack Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RecoverEnergyShieldPercentOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "energy_shield",
+                        "influence_mod",
+                        "block",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "Recover (3-5)% of Energy Shield when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToChillAttackersOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "block",
+                        "elemental",
+                        "influence_mod",
+                        "red_herring",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "(25-40)% chance to Chill Attackers for 4 seconds on Block"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 75,
+                            "stats": "(41-50)% chance to Chill Attackers for 4 seconds on Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellBlockIfBlockedSpellRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "+(7-9)% Chance to Block Spell Damage if you have Blocked Spell Damage Recently"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 75,
+                            "stats": "+(10-12)% Chance to Block Spell Damage if you have Blocked Spell Damage Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinimumPowerCharges",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "power_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "+1 to Minimum Power Charges"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 80,
+                            "stats": "+2 to Minimum Power Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WarcryEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "(18-21)% increased Warcry Buff Effect"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 75,
+                            "stats": "(22-25)% increased Warcry Buff Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToShockAttackersOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "block",
+                        "elemental",
+                        "influence_mod",
+                        "ailment",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 68,
+                            "stats": "(25-40)% chance to Shock Attackers for 4 seconds on Block"
+                        },
+                        {
+                            "modifier": "of the Crusade",
+                            "ilvl": 75,
+                            "stats": "(41-50)% chance to Shock Attackers for 4 seconds on Block"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Redeemer-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "IncreasedWeaponElementalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "influence_mod",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 68,
+                            "stats": "(26-30)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 75,
+                            "stats": "(31-35)% increased Elemental Damage with Attack Skills"
+                        },
+                        {
+                            "modifier": "Redeemer's",
+                            "ilvl": 80,
+                            "stats": "(36-40)% increased Elemental Damage with Attack Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAilmentEffectOnEnemies",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "(15-20)% increased Effect of Non-Damaging Ailments"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 75,
+                            "stats": "(21-25)% increased Effect of Non-Damaging Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinimumFrenzyCharges",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "frenzy_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "+1 to Minimum Frenzy Charges"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 80,
+                            "stats": "+2 to Minimum Frenzy Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CurseEffectiveness",
+                    "type": "Suffixes",
+                    "tags": [
+                        "curse",
+                        "influence_mod",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 80,
+                            "stats": "(8-12)% increased Effect of your Curses"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RecoverManaPercentOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "Recover (3-5)% of your maximum Mana when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamageAvoidance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 68,
+                            "stats": "(5-7)% chance to Avoid Physical Damage from Hits"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 80,
+                            "stats": "(8-10)% chance to Avoid Physical Damage from Hits"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AuraEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "aura"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 73,
+                            "stats": "(5-7)% increased effect of Non-Curse Auras from your Skills"
+                        },
+                        {
+                            "modifier": "of Redemption",
+                            "ilvl": 80,
+                            "stats": "(8-10)% increased effect of Non-Curse Auras from your Skills"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Hunter-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "MaximumLifeIncreasePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 68,
+                            "stats": "(3-6)% increased maximum Life"
+                        },
+                        {
+                            "modifier": "Hunter's",
+                            "ilvl": 84,
+                            "stats": "(7-10)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WarcryCooldownSpeed",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "(35-40)% increased Warcry Cooldown Recovery Rate"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 73,
+                            "stats": "(41-45)% increased Warcry Cooldown Recovery Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "GainRandomChargeOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "endurance_charge",
+                        "block",
+                        "frenzy_charge",
+                        "power_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "Gain an Endurance, Frenzy or Power charge when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DisplaySocketedGemsGetReducedReservation",
+                    "type": "Suffixes",
+                    "tags": [
+                        "gem",
+                        "skill"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "Socketed Gems have 20% increased Reservation Efficiency"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 80,
+                            "stats": "Socketed Gems have 30% increased Reservation Efficiency"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DegenDamageTaken",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 68,
+                            "stats": "(6-4)% reduced Damage taken from Damage Over Time"
+                        },
+                        {
+                            "modifier": "of the Hunt",
+                            "ilvl": 80,
+                            "stats": "(10-7)% reduced Damage taken from Damage Over Time"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Warlord-influenced modifiers",
+            "groups": [
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "influence_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 68,
+                            "stats": "(7-9)% increased Area of Effect"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 75,
+                            "stats": "(10-12)% increased Area of Effect"
+                        },
+                        {
+                            "modifier": "Warlord's",
+                            "ilvl": 80,
+                            "stats": "(13-15)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AttackBlockIfBlockedAttackRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "+(5-6)% Chance to Block Attack Damage if you have Blocked Attack Damage Recently"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 75,
+                            "stats": "+(7-8)% Chance to Block Attack Damage if you have Blocked Attack Damage Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RecoverLifePercentOnBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "block",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "Recover (3-5)% of Life when you Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireDamageAvoidance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "elemental",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "(5-7)% chance to Avoid Fire Damage from Hits"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 80,
+                            "stats": "(8-10)% chance to Avoid Fire Damage from Hits"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinimumEnduranceCharges",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "endurance_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "+1 to Minimum Endurance Charges"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 80,
+                            "stats": "+2 to Minimum Endurance Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningDamageAvoidance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "influence_mod",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "(5-7)% chance to Avoid Lightning Damage from Hits"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 80,
+                            "stats": "(8-10)% chance to Avoid Lightning Damage from Hits"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdDamageAvoidance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "influence_mod",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 68,
+                            "stats": "(5-7)% chance to Avoid Cold Damage from Hits"
+                        },
+                        {
+                            "modifier": "of the Conquest",
+                            "ilvl": 80,
+                            "stats": "(8-10)% chance to Avoid Cold Damage from Hits"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Veiled modifiers",
+            "groups": [
+                {
+                    "group_name": "DamageWhileLeeching",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Vorici's",
+                            "ilvl": 60,
+                            "stats": "(54-60)% increased Damage while Leeching"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumSpectreCount",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "+1 to maximum number of Spectres"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionCriticalStrikeChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Raised Spectres have +(3-5)% to Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BaseLocalDefencesAndLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource",
+                        "armour",
+                        "unveiled_mod",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "(24-28)% increased Armour+(19-22) to maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BannerEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "aura"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Gravicius'",
+                            "ilvl": 60,
+                            "stats": "Banner Skills have (26-35)% increased Aura Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "unveiled_mod",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Tora's",
+                            "ilvl": 60,
+                            "stats": "Adds (12-14) to (18-20) Physical Damage40% chance to cause Bleeding on Hit"
+                        },
+                        {
+                            "modifier": "Tora's",
+                            "ilvl": 60,
+                            "stats": "Adds (17-20) to (26-28) Physical Damage40% chance to cause Bleeding on Hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageDuringFlaskEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Brinerot",
+                            "ilvl": 60,
+                            "stats": "(36-40)% increased Damage during any Flask Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedFireAndColdDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "Adds (14-16) to (20-22) Fire DamageAdds (14-16) to (20-22) Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionBaseMaximumAllResistance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Raised Spectres have +(5-10)% to all maximum Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedColdAndLightningDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "Adds (14-16) to (20-22) Cold DamageAdds (14-16) to (20-22) Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalProjectiles",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Raised Spectres fire 2 additional Projectiles"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Leo's",
+                            "ilvl": 60,
+                            "stats": "(20-23)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AlwaysHits",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Vagan's",
+                            "ilvl": 60,
+                            "stats": "Hits can't be Evaded"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Catarina's",
+                            "ilvl": 60,
+                            "stats": "Raised Spectres have (30-50)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WarcryBuffEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Korell's",
+                            "ilvl": 60,
+                            "stats": "(20-25)% increased Warcry Buff Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos_damage",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (9-10)% of Physical Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "chaos_damage",
+                        "damage",
+                        "chaos",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (9-10)% of Fire Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "chaos_damage",
+                        "damage",
+                        "chaos",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (9-10)% of Lightning Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "NonChaosAddedAsChaos",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "chaos_damage",
+                        "damage",
+                        "chaos",
+                        "elemental_damage",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "It's",
+                            "ilvl": 60,
+                            "stats": "Gain (9-10)% of Cold Damage as Extra Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseFlatManaCost",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Elreon's",
+                            "ilvl": 60,
+                            "stats": "Non-Channelling Skills have -(10-9) to Total Mana Cost"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseFlatManaCost",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Elreon's",
+                            "ilvl": 60,
+                            "stats": "Channelling Skills have -4 to Total Mana Cost"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamageReductionRatingDuringSoulGainPrevention",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "+(3201-4000) to Armour during Soul Gain Prevention"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedFireAndLightningDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chosen",
+                            "ilvl": 60,
+                            "stats": "Adds (14-16) to (20-22) Fire DamageAdds (14-16) to (20-22) Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SocketedGemQuality",
+                    "type": "Prefixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Haku's",
+                            "ilvl": 60,
+                            "stats": "+(9-10)% to Quality of Socketed Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidFreeze",
+                    "type": "Prefixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "unveiled_mod",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Rin's",
+                            "ilvl": 60,
+                            "stats": "100% chance to Avoid being Frozen(20-30)% chance to Avoid being Chilled"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SummonWolfOnKill",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Jorgin's",
+                            "ilvl": 60,
+                            "stats": "Trigger Level 10 Summon Spectral Wolf on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Cameria",
+                            "ilvl": 60,
+                            "stats": "+(27-30)% to Critical Strike Multiplier if you've Shattered an Enemy Recently(20-22)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Intelligence(21-25)% chance to Avoid being Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidIgnite",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Strength(21-25)% chance to Avoid being Ignited"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndChaosDamageResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "chaos",
+                        "unveiled_mod",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(16-20)% to Fire and Chaos Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningAndChaosDamageResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "chaos",
+                        "unveiled_mod",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(16-20)% to Lightning and Chaos Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidShock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Intelligence(21-25)% chance to Avoid being Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedChaosAndPhysicalDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Aisling",
+                            "ilvl": 60,
+                            "stats": "(18-20)% increased Chaos Damage(20-22)% increased Global Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedFireAndLightningDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "unveiled_mod",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Riker",
+                            "ilvl": 60,
+                            "stats": "(18-20)% increased Fire Damage(20-22)% increased Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Strength(21-25)% chance to Avoid being Ignited"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Dexterity(21-25)% chance to Avoid being Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DoubleDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(6-7)% chance to deal Double Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CurseEffectiveness",
+                    "type": "Suffixes",
+                    "tags": [
+                        "curse",
+                        "unveiled_mod",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(8-10)% increased Effect of your Curses"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdAndChaosDamageResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental",
+                        "chaos",
+                        "unveiled_mod"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(16-20)% to Cold and Chaos Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "RareOrUniqueMonsterDroppedItemRarity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Janus",
+                            "ilvl": 60,
+                            "stats": "(55-60)% increased Rarity of Items Dropped by Slain Rare or Unique Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidFreeze",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "+(31-35) to Dexterity(21-25)% chance to Avoid being Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PercentageAllAttributes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Hillock",
+                            "ilvl": 60,
+                            "stats": "(7-8)% increased Attributes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToDealDoubleDamageWhileFocused",
+                    "type": "Suffixes",
+                    "tags": [
+                        "unveiled_mod",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Order",
+                            "ilvl": 60,
+                            "stats": "(18-20)% chance to deal Double Damage while Focused"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Corruption implicit modifiers",
+            "groups": [
+                {
+                    "group_name": "IncreaseSocketedProjectileGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreaseSocketedProjectileLevelCorrupted",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Projectile Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Keystone",
+                    "type": "Modifiers",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "GlancingBlows",
+                            "ilvl": 40,
+                            "stats": "Glancing Blows"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Keystone",
+                    "type": "Modifiers",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "VersatileCombatant",
+                            "ilvl": 40,
+                            "stats": "Versatile Combatant"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosResistance",
+                    "type": "Modifiers",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChaosResistance",
+                            "ilvl": 1,
+                            "stats": "+(19-29)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumBlockChance",
+                    "type": "Modifiers",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumBlockChance",
+                            "ilvl": 60,
+                            "stats": "+1% to maximum Chance to Block Attack Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllResistancesCorrupted",
+                    "type": "Modifiers",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AllResistancesCorrupted",
+                            "ilvl": 1,
+                            "stats": "+(14-16)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSocketedDurationGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreaseSocketedDurationGemLevel",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Duration Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedShieldBlockPercentage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreasedBlockPercentage",
+                            "ilvl": 1,
+                            "stats": "(20-30)% increased Chance to Block"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSocketedCurseGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "curse",
+                        "gem",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreaseSocketedCurseLevelCorrupted",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Curse Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumLightningResistance",
+                    "type": "Modifiers",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumLightningResistance",
+                            "ilvl": 55,
+                            "stats": "+2% to maximum Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedSocketedAoEGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedSocketedAoEGemLevel",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed AoE Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSocketedAuraGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "aura",
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreaseSocketedAuraLevelCorrupted",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Aura Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumEnergyShieldPercent",
+                    "type": "Modifiers",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumEnergyShieldPercent",
+                            "ilvl": 1,
+                            "stats": "(4-6)% increased maximum Energy Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumFireResist",
+                    "type": "Modifiers",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumFireResist",
+                            "ilvl": 55,
+                            "stats": "+2% to maximum Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellBlockPercentage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SpellBlockPercentage",
+                            "ilvl": 1,
+                            "stats": "(4-5)% Chance to Block Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSpecificSocketedGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreaseSocketedMinionGemLevel",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Minion Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SocketedGemQuality",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "SocketedGemQuality",
+                            "ilvl": 1,
+                            "stats": "+(5-10)% to Quality of Socketed Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedExtraDamageFromCrits",
+                    "type": "Modifiers",
+                    "tags": [
+                        "critical",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ReducedExtraDamageFromCrits",
+                            "ilvl": 20,
+                            "stats": "You take (20-30)% reduced Extra Damage from Critical Strikes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinimumFrenzyCharges",
+                    "type": "Modifiers",
+                    "tags": [
+                        "frenzy_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MinimumFrenzyCharges",
+                            "ilvl": 40,
+                            "stats": "+1 to Minimum Frenzy Charges"
+                        },
+                        {
+                            "modifier": "MinimumFrenzyCharges",
+                            "ilvl": 40,
+                            "stats": "+1 to Minimum Frenzy Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedSocketedTrapOrMineGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedSocketedTrapOrMineGemLevel",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Trap or Mine Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumResistances",
+                    "type": "Modifiers",
+                    "tags": [
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumResistances",
+                            "ilvl": 80,
+                            "stats": "+1% to all maximum Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LocalSocketedWarcryGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalSocketedWarcryGemLevel",
+                            "ilvl": 20,
+                            "stats": "+2 to Level of Socketed Warcry Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreaseSocketedGemLevel",
+                    "type": "Modifiers",
+                    "tags": [
+                        "gem"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LocalIncreaseSocketedGemLevel",
+                            "ilvl": 1,
+                            "stats": "+1 to Level of Socketed Gems"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumLifeIncreasePercent",
+                    "type": "Modifiers",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumLifeIncreasePercent",
+                            "ilvl": 1,
+                            "stats": "(4-6)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinimumEnduranceCharges",
+                    "type": "Modifiers",
+                    "tags": [
+                        "endurance_charge"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MinimumEnduranceCharges",
+                            "ilvl": 40,
+                            "stats": "+1 to Minimum Endurance Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumColdResist",
+                    "type": "Modifiers",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MaximumColdResist",
+                            "ilvl": 55,
+                            "stats": "+2% to maximum Cold Resistance"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

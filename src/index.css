@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@layer base {
+  html {
+    height: 100%;
+    background: #020617;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    color: #e2e8f0;
+    background: #020617;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(34 211 238 / 0.15) transparent;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: rgb(34 211 238 / 0.15);
+    border-radius: 9999px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: rgb(34 211 238 / 0.3);
+  }
+}

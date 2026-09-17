@@ -1,0 +1,497 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "TinctureEffect",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Potent",
+                            "ilvl": 1,
+                            "stats": "35% increased effect(47-51)% increased Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Concentrated",
+                            "ilvl": 49,
+                            "stats": "35% increased effect(42-46)% increased Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Enriched",
+                            "ilvl": 84,
+                            "stats": "35% increased effect(37-41)% increased Mana Burn rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TinctureEffect",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Thin",
+                            "ilvl": 1,
+                            "stats": "(35-31)% reduced effect50% reduced Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Diluted",
+                            "ilvl": 49,
+                            "stats": "(30-26)% reduced effect50% reduced Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Measured",
+                            "ilvl": 84,
+                            "stats": "(25-21)% reduced effect50% reduced Mana Burn rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TinctureEffect",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Herbal",
+                            "ilvl": 1,
+                            "stats": "(11-13)% increased effect"
+                        },
+                        {
+                            "modifier": "Natural",
+                            "ilvl": 35,
+                            "stats": "(14-16)% increased effect"
+                        },
+                        {
+                            "modifier": "Medicinal",
+                            "ilvl": 64,
+                            "stats": "(17-19)% increased effect"
+                        },
+                        {
+                            "modifier": "Horticultural",
+                            "ilvl": 85,
+                            "stats": "(20-22)% increased effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TinctureToxicityRate",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Sustained",
+                            "ilvl": 1,
+                            "stats": "(17-15)% reduced Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Tenacious",
+                            "ilvl": 30,
+                            "stats": "(20-18)% reduced Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Persistent",
+                            "ilvl": 58,
+                            "stats": "(23-21)% reduced Mana Burn rate"
+                        },
+                        {
+                            "modifier": "Persevering",
+                            "ilvl": 80,
+                            "stats": "(26-24)% reduced Mana Burn rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TinctureCooldownRecovery",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Lucid",
+                            "ilvl": 1,
+                            "stats": "(13-17)% increased Cooldown Recovery Rate"
+                        },
+                        {
+                            "modifier": "Perceptive",
+                            "ilvl": 30,
+                            "stats": "(18-22)% increased Cooldown Recovery Rate"
+                        },
+                        {
+                            "modifier": "Insightful",
+                            "ilvl": 58,
+                            "stats": "(23-27)% increased Cooldown Recovery Rate"
+                        },
+                        {
+                            "modifier": "Astute",
+                            "ilvl": 82,
+                            "stats": "(28-32)% increased Cooldown Recovery Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalPenetration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Catalysing",
+                            "ilvl": 1,
+                            "stats": "Melee Weapon Damage Penetrates (5-7)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of Infusing",
+                            "ilvl": 32,
+                            "stats": "Melee Weapon Damage Penetrates (8-10)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of Empowering",
+                            "ilvl": 60,
+                            "stats": "Melee Weapon Damage Penetrates (11-13)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of the Unleashed",
+                            "ilvl": 73,
+                            "stats": "Melee Weapon Damage Penetrates (14-16)% Elemental Resistances"
+                        },
+                        {
+                            "modifier": "of Overpowering",
+                            "ilvl": 85,
+                            "stats": "Melee Weapon Damage Penetrates (17-19)% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "WeaponDamageVsLowLifeEnemies",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Execution",
+                            "ilvl": 1,
+                            "stats": "(40-47)% increased Melee Weapon Damage against Enemies that are on Low Life"
+                        },
+                        {
+                            "modifier": "of Elimination",
+                            "ilvl": 28,
+                            "stats": "(48-55)% increased Melee Weapon Damage against Enemies that are on Low Life"
+                        },
+                        {
+                            "modifier": "of Termination",
+                            "ilvl": 47,
+                            "stats": "(56-63)% increased Melee Weapon Damage against Enemies that are on Low Life"
+                        },
+                        {
+                            "modifier": "of Extermination",
+                            "ilvl": 65,
+                            "stats": "(64-71)% increased Melee Weapon Damage against Enemies that are on Low Life"
+                        },
+                        {
+                            "modifier": "of Assassination",
+                            "ilvl": 80,
+                            "stats": "(72-79)% increased Melee Weapon Damage against Enemies that are on Low Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Skill",
+                            "ilvl": 1,
+                            "stats": "(15-19)% increased Melee Weapon Attack Speed"
+                        },
+                        {
+                            "modifier": "of Ease",
+                            "ilvl": 65,
+                            "stats": "(20-24)% increased Melee Weapon Attack Speed"
+                        },
+                        {
+                            "modifier": "of Mastery",
+                            "ilvl": 85,
+                            "stats": "(25-29)% increased Melee Weapon Attack Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Acrimony",
+                            "ilvl": 1,
+                            "stats": "+(9-13)% to Damage over Time Multiplier with Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of Dispersion",
+                            "ilvl": 34,
+                            "stats": "+(14-18)% to Damage over Time Multiplier with Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of Liquefaction",
+                            "ilvl": 58,
+                            "stats": "+(19-23)% to Damage over Time Multiplier with Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of Melting",
+                            "ilvl": 70,
+                            "stats": "+(24-28)% to Damage over Time Multiplier with Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of Dissolution",
+                            "ilvl": 84,
+                            "stats": "+(29-33)% to Damage over Time Multiplier with Melee Weapon Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Ire",
+                            "ilvl": 1,
+                            "stats": "+(9-13)% to Melee Weapon Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Anger",
+                            "ilvl": 32,
+                            "stats": "+(14-18)% to Melee Weapon Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Rage",
+                            "ilvl": 60,
+                            "stats": "+(19-23)% to Melee Weapon Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Fury",
+                            "ilvl": 73,
+                            "stats": "+(24-28)% to Melee Weapon Critical Strike Multiplier"
+                        },
+                        {
+                            "modifier": "of Ferocity",
+                            "ilvl": 85,
+                            "stats": "+(29-33)% to Melee Weapon Critical Strike Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAilmentDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Wild",
+                            "ilvl": 1,
+                            "stats": "(25-35)% increased Duration of Elemental Ailments from Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of the Untamed",
+                            "ilvl": 42,
+                            "stats": "(36-45)% increased Duration of Elemental Ailments from Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of the Savage",
+                            "ilvl": 60,
+                            "stats": "(46-55)% increased Duration of Elemental Ailments from Melee Weapon Attacks"
+                        },
+                        {
+                            "modifier": "of the Beast",
+                            "ilvl": 82,
+                            "stats": "(56-65)% increased Duration of Elemental Ailments from Melee Weapon Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ArmourPenetration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Battering",
+                            "ilvl": 40,
+                            "stats": "Melee Weapon Hits have (30-39)% chance to ignore Enemy Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of Crushing",
+                            "ilvl": 62,
+                            "stats": "Melee Weapon Hits have (40-49)% chance to ignore Enemy Physical Damage Reduction"
+                        },
+                        {
+                            "modifier": "of Overwhelming",
+                            "ilvl": 80,
+                            "stats": "Melee Weapon Hits have (50-60)% chance to ignore Enemy Physical Damage Reduction"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaGainPerTarget",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Enveloping",
+                            "ilvl": 45,
+                            "stats": "Gain 1 Mana per Enemy Hit with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Siphoning",
+                            "ilvl": 68,
+                            "stats": "Gain 2 Mana per Enemy Hit with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Devouring",
+                            "ilvl": 84,
+                            "stats": "Gain 3 Mana per Enemy Hit with Melee Weapons"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaGainedOnWeaponKill",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Absorption",
+                            "ilvl": 38,
+                            "stats": "Gain (2-3) Mana per Enemy Killed with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Osmosis",
+                            "ilvl": 50,
+                            "stats": "Gain (4-5) Mana per Enemy Killed with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Consumption",
+                            "ilvl": 68,
+                            "stats": "Gain (6-8) Mana per Enemy Killed with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Assimilation",
+                            "ilvl": 82,
+                            "stats": "Gain (9-11) Mana per Enemy Killed with Melee Weapons"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeGainPerTarget",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Rejuvenation",
+                            "ilvl": 1,
+                            "stats": "Gain (2-3) Life per Enemy Hit with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Restoration",
+                            "ilvl": 50,
+                            "stats": "Gain (3-4) Life per Enemy Hit with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Regrowth",
+                            "ilvl": 77,
+                            "stats": "Gain (5-7) Life per Enemy Hit with Melee Weapons"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskChargesFromWeaponKills",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Restocking",
+                            "ilvl": 1,
+                            "stats": "(11-15)% increased Flask Charges gained from Kills with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Replenishing",
+                            "ilvl": 40,
+                            "stats": "(16-20)% increased Flask Charges gained from Kills with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Pouring",
+                            "ilvl": 72,
+                            "stats": "(21-25)% increased Flask Charges gained from Kills with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Overflowing",
+                            "ilvl": 85,
+                            "stats": "(26-30)% increased Flask Charges gained from Kills with Melee Weapons"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeGainedFromEnemyDeath",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Success",
+                            "ilvl": 1,
+                            "stats": "Gain (11-15) Life per Enemy Killed with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Victory",
+                            "ilvl": 35,
+                            "stats": "Gain (16-20) Life per Enemy Killed with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Triumph",
+                            "ilvl": 62,
+                            "stats": "Gain (21-25) Life per Enemy Killed with Melee Weapons"
+                        },
+                        {
+                            "modifier": "of Conquest",
+                            "ilvl": 80,
+                            "stats": "Gain (26-30) Life per Enemy Killed with Melee Weapons"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

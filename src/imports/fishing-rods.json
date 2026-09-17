@@ -1,0 +1,177 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "FishingLineStrength",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Filigree",
+                            "ilvl": 1,
+                            "stats": "(20-40)% increased Fishing Line Strength"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingLureType",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Alluring",
+                            "ilvl": 1,
+                            "stats": "Totemic Wood Lure"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingPoolConsumption",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Calming",
+                            "ilvl": 1,
+                            "stats": "(30-15)% reduced Fishing Pool Consumption"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "red_herring",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Casting",
+                            "ilvl": 10,
+                            "stats": "(24-28)% increased Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingHookType",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Snaring",
+                            "ilvl": 1,
+                            "stats": "Eternal Iron Hook"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingCastDistance",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Flight",
+                            "ilvl": 1,
+                            "stats": "(30-50)% increased Fishing Range"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingRarity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Bounty",
+                            "ilvl": 1,
+                            "stats": "(25-40)% increased Rarity of Fish Caught"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingQuantity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Fascination",
+                            "ilvl": 1,
+                            "stats": "(15-20)% increased Quantity of Fish Caught"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Corruption implicit modifiers",
+            "groups": [
+                {
+                    "group_name": "IncreasedCastSpeed",
+                    "type": "Modifiers",
+                    "tags": [
+                        "speed",
+                        "red_herring",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedCastSpeedFishing",
+                            "ilvl": 1,
+                            "stats": "(10-20)% increased Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Other",
+                    "type": "Modifiers",
+                    "tags": [
+                        "vaal",
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CorruptFish",
+                            "ilvl": 1,
+                            "stats": "You can catch Corrupted Fish"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingRarity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "FishingRarity",
+                            "ilvl": 1,
+                            "stats": "(5-10)% increased Rarity of Fish Caught"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FishingQuantity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "drop"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "FishingQuantity",
+                            "ilvl": 1,
+                            "stats": "(5-10)% increased Quantity of Fish Caught"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2148 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "LightningCastSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "elemental",
+                        "caster",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Electromantic",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Cast Speed with Lightning Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FasterAilmentDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Decrepifying",
+                            "ilvl": 1,
+                            "stats": "Damaging Ailments deal damage (4-6)% faster"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EvasionRatingPercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "defences",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Evasive",
+                            "ilvl": 1,
+                            "stats": "(14-18)% increased Evasion Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedPhysicalDamageReductionRatingPercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Armoured",
+                            "ilvl": 1,
+                            "stats": "(14-18)% increased Armour"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BeltFlaskDuration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Prolonging",
+                            "ilvl": 1,
+                            "stats": "(6-10)% increased Flask Effect Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EnergyShieldPercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Shimmering",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased maximum Energy Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdDamagePercentage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chilling",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningCritMultiplier",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "critical",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Surging",
+                            "ilvl": 1,
+                            "stats": "+(15-18)% to Critical Strike Multiplier with Lightning Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireDamagePercentage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "fire",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Flaming",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Fire Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MeleeTypeSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Harmonic",
+                            "ilvl": 1,
+                            "stats": "(4-6)% increased Attack Speed while Dual Wielding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MeleeTypeSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Warding",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Cast Speed while holding a Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MeleeTypeSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Resonant",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Cast Speed while Dual Wielding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MeleeTypeSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Wright's",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Cast Speed while wielding a Staff"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MeleeTypeSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Charging",
+                            "ilvl": 1,
+                            "stats": "(4-6)% increased Attack Speed while holding a Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumLifeIncreasePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Vivid",
+                            "ilvl": 1,
+                            "stats": "(5-7)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EnergyShieldRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Fevered",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Energy Shield Recharge Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Brutal",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Damage with Maces or Sceptres"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Fierce",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Damage with Bows"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Cruel",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Damage with Wands"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Savage",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Damage with Claws"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Lethal",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Damage with Daggers"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Judging",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Damage with Staves"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Master's",
+                            "ilvl": 1,
+                            "stats": "Minions have (8-12)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireCritChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "critical",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Incinerating",
+                            "ilvl": 1,
+                            "stats": "(14-18)% increased Critical Strike Chance with Fire Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Chaotic",
+                            "ilvl": 1,
+                            "stats": "(9-13)% increased Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageForm",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Leadership",
+                            "ilvl": 1,
+                            "stats": "Minions deal (14-16)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdCritChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "critical",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Avalanching",
+                            "ilvl": 1,
+                            "stats": "(14-18)% increased Critical Strike Chance with Cold Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FormSpellBlock",
+                    "type": "Prefixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Thwarting",
+                            "ilvl": 1,
+                            "stats": "+(2-3)% Chance to Block Spell Damage while holding a Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FormSpellBlock",
+                    "type": "Prefixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Dissipating",
+                            "ilvl": 1,
+                            "stats": "+(2-3)% Chance to Block Spell Damage while Dual Wielding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireCastSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "fire",
+                        "elemental",
+                        "caster",
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Pyromantic",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Cast Speed with Fire Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FormBlock",
+                    "type": "Prefixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Shielding",
+                            "ilvl": 1,
+                            "stats": "+(2-3)% Chance to Block Attack Damage while holding a Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FormBlock",
+                    "type": "Prefixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Parrying",
+                            "ilvl": 1,
+                            "stats": "+(2-3)% Chance to Block Attack Damage while Dual Wielding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellTypeDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage",
+                        "caster_damage",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Battlemage's",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Spell Damage while holding a Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellTypeDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage",
+                        "caster_damage",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Wizard's",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Spell Damage while wielding a Staff"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellTypeDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage",
+                        "caster_damage",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Sorcerer's",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Spell Damage while Dual Wielding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumManaIncreasePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Enlightened",
+                            "ilvl": 1,
+                            "stats": "(8-10)% increased maximum Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedManaReservationsCost",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Cerebral",
+                            "ilvl": 1,
+                            "stats": "(2-3)% increased Mana Reservation Efficiency of Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamagePercent",
+                    "type": "Prefixes",
+                    "tags": [
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Sharpened",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Global Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireCritMultiplier",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "critical",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Infernal",
+                            "ilvl": 1,
+                            "stats": "+(15-18)% to Critical Strike Multiplier with Fire Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Slicing",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Attack Speed with Daggers"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Ripping",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Attack Speed with Claws"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Jinxing",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Attack Speed with Wands"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Blunt",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Attack Speed with Staves"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Volleying",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Attack Speed with Bows"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Beating",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Attack Speed with Maces or Sceptres"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Energetic",
+                            "ilvl": 1,
+                            "stats": "(12-15)% increased Mana Regeneration Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdCastSpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "speed",
+                        "elemental",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Cryomantic",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Cast Speed with Cold Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedTotemLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Carved",
+                            "ilvl": 1,
+                            "stats": "(8-12)% increased Totem Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdCritMultiplier",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Arctic",
+                            "ilvl": 1,
+                            "stats": "+(15-18)% to Critical Strike Multiplier with Cold Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningDamagePercentage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Humming",
+                            "ilvl": 1,
+                            "stats": "(14-16)% increased Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EnergyShieldDelay",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Serene",
+                            "ilvl": 1,
+                            "stats": "(4-6)% faster start of Energy Shield Recharge"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TotemDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Shaman's",
+                            "ilvl": 1,
+                            "stats": "(12-16)% increased Totem Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningCritChance",
+                    "type": "Prefixes",
+                    "tags": [
+                        "critical",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Thundering",
+                            "ilvl": 1,
+                            "stats": "(14-18)% increased Critical Strike Chance with Lightning Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CostEfficiency",
+                    "type": "Suffixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Efficiency",
+                            "ilvl": 1,
+                            "stats": "(10-15)% increased Mana Cost Efficiency"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StunDurationIncreasePercent",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Stunning",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Stun Duration on Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaLeech",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "mana",
+                        "resource",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Thirsting",
+                            "ilvl": 1,
+                            "stats": "(0.2-0.4)% of Physical Attack Damage Leeched as Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Beast",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Potency",
+                            "ilvl": 1,
+                            "stats": "+(9-12)% to Global Critical Strike Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdAndLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shelter",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Cold and Lightning Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedPoisonDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Neutralisation",
+                            "ilvl": 1,
+                            "stats": "(35-30)% reduced Poison Duration on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ImpaleOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Impaling",
+                            "ilvl": 1,
+                            "stats": "(5-7)% chance to Impale Enemies on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalCritChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Apocalypse",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Critical Strike Chance with Elemental Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AilmentChanceAndDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Poisoning",
+                            "ilvl": 1,
+                            "stats": "(3-5)% chance to Poison on Hit(6-8)% increased Poison Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AilmentChanceAndDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Freezing",
+                            "ilvl": 1,
+                            "stats": "(3-5)% chance to Freeze(12-16)% increased Freeze Duration on Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AilmentChanceAndDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Burning",
+                            "ilvl": 1,
+                            "stats": "(3-5)% chance to Ignite(6-8)% increased Ignite Duration on Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AilmentChanceAndDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Bleeding",
+                            "ilvl": 1,
+                            "stats": "Attacks have (3-5)% chance to cause Bleeding(12-16)% increased Bleeding Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AilmentChanceAndDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shocking",
+                            "ilvl": 1,
+                            "stats": "(3-5)% chance to Shock(12-16)% increased Shock Duration on Enemies"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DegenerationDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Entropy",
+                            "ilvl": 1,
+                            "stats": "(10-12)% increased Damage over Time"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageTakenGainedAsLife",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Infusion",
+                            "ilvl": 1,
+                            "stats": "(4-6)% of Damage taken Recouped as Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Dragon",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumFireResist",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Phoenix",
+                            "ilvl": 1,
+                            "stats": "+(1-2)% to maximum Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FormCritChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Annihilation",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Spell Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ShockEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Stormdweller",
+                            "ilvl": 1,
+                            "stats": "(35-30)% reduced Effect of Shock on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAccuracyPercent",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Precision",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Global Accuracy Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StrengthIntelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Spirit",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Dexterity",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Insulation",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Fire and Lightning Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TotemElementalResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Runes",
+                            "ilvl": 1,
+                            "stats": "Totems gain +(6-10)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionElementalResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Resilience",
+                            "ilvl": 1,
+                            "stats": "Minions have +(11-15)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChillEffectivenessOnSelf",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Snowbreather",
+                            "ilvl": 1,
+                            "stats": "(35-30)% reduced Effect of Chill on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StunRecovery",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Recovery",
+                            "ilvl": 1,
+                            "stats": "(25-35)% increased Stun and Block Recovery"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "fire",
+                        "elemental",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hearth",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Fire and Cold Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Strength",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Strength"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Enchanting",
+                            "ilvl": 1,
+                            "stats": "(2-4)% increased Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BleedingDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Haemophilia",
+                            "ilvl": 1,
+                            "stats": "(16-20)% increased Damage with Bleeding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Order",
+                            "ilvl": 1,
+                            "stats": "+(7-13)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedBleedDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stemming",
+                            "ilvl": 1,
+                            "stats": "(35-30)% reduced Bleed Duration on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Menace",
+                            "ilvl": 1,
+                            "stats": "(8-12)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedCurseEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "curse"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Hexwarding",
+                            "ilvl": 1,
+                            "stats": "(30-25)% reduced Effect of Curses on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedSelfIgniteDuration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Flameruler",
+                            "ilvl": 1,
+                            "stats": "(30-35)% reduced Ignite Duration on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ProjectileSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Soaring",
+                            "ilvl": 1,
+                            "stats": "(6-8)% increased Projectile Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AttackCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "attack",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Zeal",
+                            "ilvl": 1,
+                            "stats": "(2-4)% increased Attack and Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FormCritMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "damage",
+                        "caster_damage",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Unmaking",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Critical Strike Multiplier for Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "GlobalDamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "dot_multi",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Acrimony",
+                            "ilvl": 1,
+                            "stats": "+(4-6)% to Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageForm",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage",
+                        "caster_damage",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Mysticism",
+                            "ilvl": 1,
+                            "stats": "(10-12)% increased Spell Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageForm",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Wounding",
+                            "ilvl": 1,
+                            "stats": "(8-10)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageForm",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Archery",
+                            "ilvl": 1,
+                            "stats": "(10-12)% increased Projectile Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Grounding",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Leviathan",
+                            "ilvl": 1,
+                            "stats": "+(1-2)% to maximum Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalCritMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Elements",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Critical Strike Multiplier with Elemental Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MaximumColdResist",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Kraken",
+                            "ilvl": 1,
+                            "stats": "+(1-2)% to maximum Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BurnDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "damage",
+                        "elemental_damage",
+                        "ailment",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Combusting",
+                            "ilvl": 1,
+                            "stats": "(16-20)% increased Burning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Knockback",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Fending",
+                            "ilvl": 1,
+                            "stats": "(4-6)% chance to Knock Enemies Back on hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeGainPerTarget",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Rejuvenation",
+                            "ilvl": 1,
+                            "stats": "Gain (2-3) Life per Enemy Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Berserking",
+                            "ilvl": 1,
+                            "stats": "(3-5)% increased Attack Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "dot_multi",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Zealousness",
+                            "ilvl": 1,
+                            "stats": "+(6-8)% to Fire Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "dot_multi",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Exsanguinating",
+                            "ilvl": 1,
+                            "stats": "+(6-8)% to Physical Damage over Time Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AccuracyAndCrits",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Deadliness",
+                            "ilvl": 1,
+                            "stats": "(6-10)% increased Global Accuracy Rating(6-10)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EnergyShieldGainPerTarget",
+                    "type": "Suffixes",
+                    "tags": [
+                        "energy_shield",
+                        "attack",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Focus",
+                            "ilvl": 1,
+                            "stats": "Gain (2-3) Energy Shield per Enemy Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Intelligence",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaGainPerTarget",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Absorption",
+                            "ilvl": 1,
+                            "stats": "Gain (1-2) Mana per Enemy Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Resistance",
+                            "ilvl": 1,
+                            "stats": "+(8-10)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PoisonDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos_damage",
+                        "poison",
+                        "damage",
+                        "chaos",
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Venom",
+                            "ilvl": 1,
+                            "stats": "(16-20)% increased Damage with Poison"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StrengthDexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Athletics",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllAttributes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Adaption",
+                            "ilvl": 1,
+                            "stats": "+(6-8) to all Attributes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AreaDamage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Blasting",
+                            "ilvl": 1,
+                            "stats": "(10-12)% increased Area Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeLeech",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "resource",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Hungering",
+                            "ilvl": 1,
+                            "stats": "(0.2-0.4)% of Physical Attack Damage Leeched as Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DexterityIntelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Cunning",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Dexterity and Intelligence"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Corruption implicit modifiers",
+            "groups": [
+                {
+                    "group_name": "LightningResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LightningResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedDamage",
+                            "ilvl": 1,
+                            "stats": "(4-5)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Modifiers",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CriticalStrikeChance",
+                            "ilvl": 1,
+                            "stats": "(8-10)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "fire",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "FireResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedSelfIgniteDuration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ReducedIgniteDurationOnSelf",
+                            "ilvl": 1,
+                            "stats": "(20-25)% reduced Ignite Duration on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ArmourPenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToIgnoreEnemyArmour",
+                            "ilvl": 1,
+                            "stats": "Hits have (10-15)% chance to ignore Enemy Physical Damage Reduction"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedManaReservationsCost",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "ReservationEfficiencyForJewel",
+                            "ilvl": 1,
+                            "stats": "2% increased Reservation Efficiency of Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "cold",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ColdResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedBleedDuration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "bleed",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ReducedBleedDuration",
+                            "ilvl": 1,
+                            "stats": "(25-20)% reduced Bleed Duration on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAilmentEffectOnEnemies",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedAilmentEffectOnEnemies",
+                            "ilvl": 1,
+                            "stats": "(5-7)% increased Effect of Non-Damaging Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CorruptedBloodImmunity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "bleed",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CorruptedBloodImmunity",
+                            "ilvl": 33,
+                            "stats": "Corrupted Blood cannot be inflicted on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ShockEffect",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ReducedShockEffectOnSelf",
+                            "ilvl": 1,
+                            "stats": "(25-20)% reduced Effect of Shock on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "YouCannotBeHindered",
+                    "type": "Modifiers",
+                    "tags": [
+                        "blue_herring"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "YouCannotBeHindered",
+                            "ilvl": 40,
+                            "stats": "You cannot be Hindered"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AreaOfEffect",
+                            "ilvl": 1,
+                            "stats": "(4-5)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedPoisonDuration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ReducedPoisonDuration",
+                            "ilvl": 1,
+                            "stats": "(25-20)% reduced Poison Duration on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalPenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ElementalPenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidMaimChance",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidMaimChance",
+                            "ilvl": 40,
+                            "stats": "You cannot be Maimed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChillEffectivenessOnSelf",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChillEffectivenessOnSelf",
+                            "ilvl": 1,
+                            "stats": "(25-20)% reduced Effect of Chill on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "damage",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MinionDamage",
+                            "ilvl": 1,
+                            "stats": "Minions deal (4-5)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedCurseEffect",
+                    "type": "Modifiers",
+                    "tags": [
+                        "curse"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CurseEffectOnYouJewel",
+                            "ilvl": 1,
+                            "stats": "(25-20)% reduced Effect of Curses on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PlayerCurseImmunity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "curse",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ImmuneToSilence",
+                            "ilvl": 60,
+                            "stats": "You cannot be Cursed with Silence"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,910 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "FlaskRecoverySpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Abecedarian's",
+                            "ilvl": 20,
+                            "stats": "(38-33)% reduced Duration25% increased effect"
+                        },
+                        {
+                            "modifier": "Dabbler's",
+                            "ilvl": 50,
+                            "stats": "(32-28)% reduced Duration25% increased effect"
+                        },
+                        {
+                            "modifier": "Alchemist's",
+                            "ilvl": 80,
+                            "stats": "(27-23)% reduced Duration25% increased effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRecoverySpeed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Investigator's",
+                            "ilvl": 20,
+                            "stats": "(16-20)% increased Duration"
+                        },
+                        {
+                            "modifier": "Analyst's",
+                            "ilvl": 36,
+                            "stats": "(21-25)% increased Duration"
+                        },
+                        {
+                            "modifier": "Examiner's",
+                            "ilvl": 52,
+                            "stats": "(26-30)% increased Duration"
+                        },
+                        {
+                            "modifier": "Clinician's",
+                            "ilvl": 68,
+                            "stats": "(31-35)% increased Duration"
+                        },
+                        {
+                            "modifier": "Experimenter's",
+                            "ilvl": 84,
+                            "stats": "(36-40)% increased Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskChargesUsed",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Apprentice's",
+                            "ilvl": 14,
+                            "stats": "(16-14)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Scholar's",
+                            "ilvl": 31,
+                            "stats": "(19-17)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Practitioner's",
+                            "ilvl": 48,
+                            "stats": "(22-20)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Brewer's",
+                            "ilvl": 65,
+                            "stats": "(25-23)% reduced Charges per use"
+                        },
+                        {
+                            "modifier": "Chemist's",
+                            "ilvl": 82,
+                            "stats": "(28-26)% reduced Charges per use"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskNumCharges",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Wide",
+                            "ilvl": 2,
+                            "stats": "+(16-19) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Plentiful",
+                            "ilvl": 22,
+                            "stats": "+(20-23) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Bountiful",
+                            "ilvl": 42,
+                            "stats": "+(24-27) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Abundant",
+                            "ilvl": 62,
+                            "stats": "+(28-31) to Maximum Charges"
+                        },
+                        {
+                            "modifier": "Ample",
+                            "ilvl": 82,
+                            "stats": "+(32-35) to Maximum Charges"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Doled",
+                            "ilvl": 20,
+                            "stats": "(37-42)% increased Charge Recovery25% reduced effect"
+                        },
+                        {
+                            "modifier": "Provisioned",
+                            "ilvl": 36,
+                            "stats": "(43-48)% increased Charge Recovery25% reduced effect"
+                        },
+                        {
+                            "modifier": "Measured",
+                            "ilvl": 52,
+                            "stats": "(49-54)% increased Charge Recovery25% reduced effect"
+                        },
+                        {
+                            "modifier": "Allocated",
+                            "ilvl": 68,
+                            "stats": "(55-60)% increased Charge Recovery25% reduced effect"
+                        },
+                        {
+                            "modifier": "Rationed",
+                            "ilvl": 84,
+                            "stats": "(61-66)% increased Charge Recovery25% reduced effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Constant",
+                            "ilvl": 3,
+                            "stats": "(16-20)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Continuous",
+                            "ilvl": 23,
+                            "stats": "(21-25)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Endless",
+                            "ilvl": 43,
+                            "stats": "(26-30)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Bottomless",
+                            "ilvl": 63,
+                            "stats": "(31-45)% increased Charge Recovery"
+                        },
+                        {
+                            "modifier": "Perpetual",
+                            "ilvl": 83,
+                            "stats": "(46-50)% increased Charge Recovery"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "critical",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Medic's",
+                            "ilvl": 8,
+                            "stats": "(11-15)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Physician's",
+                            "ilvl": 26,
+                            "stats": "(16-20)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Doctor's",
+                            "ilvl": 44,
+                            "stats": "(21-25)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Specialist's",
+                            "ilvl": 62,
+                            "stats": "(26-30)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        },
+                        {
+                            "modifier": "Surgeon's",
+                            "ilvl": 80,
+                            "stats": "(31-35)% chance to gain a Flask Charge when you deal a Critical Strike"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskRechargeRate",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Transgressor's",
+                            "ilvl": 29,
+                            "stats": "Gain 1 Charge when you are Hit by an Enemy"
+                        },
+                        {
+                            "modifier": "Masochist's",
+                            "ilvl": 63,
+                            "stats": "Gain 2 Charges when you are Hit by an Enemy"
+                        },
+                        {
+                            "modifier": "Flagellant's",
+                            "ilvl": 80,
+                            "stats": "Gain 3 Charges when you are Hit by an Enemy"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskPoisonImmunityDuringEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Skunk",
+                            "ilvl": 16,
+                            "stats": "Immunity to Poison during Effect(49-45)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Hedgehog",
+                            "ilvl": 46,
+                            "stats": "Immunity to Poison during Effect(44-40)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Opossum",
+                            "ilvl": 76,
+                            "stats": "Immunity to Poison during Effect(39-35)% less Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Rabbit",
+                            "ilvl": 4,
+                            "stats": "(41-36)% reduced Effect of Chill on you during Effect(41-36)% reduced Freeze Duration on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Cat",
+                            "ilvl": 23,
+                            "stats": "(47-42)% reduced Effect of Chill on you during Effect(47-42)% reduced Freeze Duration on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Fox",
+                            "ilvl": 42,
+                            "stats": "(52-48)% reduced Effect of Chill on you during Effect(52-48)% reduced Freeze Duration on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Sable",
+                            "ilvl": 61,
+                            "stats": "(59-52)% reduced Effect of Chill on you during Effect(59-52)% reduced Freeze Duration on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Bear",
+                            "ilvl": 80,
+                            "stats": "(65-60)% reduced Effect of Chill on you during Effect(65-60)% reduced Freeze Duration on you during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences",
+                        "flask",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Diverting",
+                            "ilvl": 10,
+                            "stats": "0.4% of Spell Damage Leeched as Energy Shield during Effect"
+                        },
+                        {
+                            "modifier": "of Depletion",
+                            "ilvl": 20,
+                            "stats": "0.5% of Spell Damage Leeched as Energy Shield during Effect"
+                        },
+                        {
+                            "modifier": "of Tapping",
+                            "ilvl": 40,
+                            "stats": "0.6% of Spell Damage Leeched as Energy Shield during Effect"
+                        },
+                        {
+                            "modifier": "of Siphoning",
+                            "ilvl": 60,
+                            "stats": "0.7% of Spell Damage Leeched as Energy Shield during Effect"
+                        },
+                        {
+                            "modifier": "of Draining",
+                            "ilvl": 80,
+                            "stats": "0.8% of Spell Damage Leeched as Energy Shield during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "flask",
+                        "ailment",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Foisting",
+                            "ilvl": 12,
+                            "stats": "(19-22)% chance to Freeze, Shock and Ignite during Effect"
+                        },
+                        {
+                            "modifier": "of Imposing",
+                            "ilvl": 32,
+                            "stats": "(23-26)% chance to Freeze, Shock and Ignite during Effect"
+                        },
+                        {
+                            "modifier": "of Wreaking",
+                            "ilvl": 52,
+                            "stats": "(27-30)% chance to Freeze, Shock and Ignite during Effect"
+                        },
+                        {
+                            "modifier": "of Infliction",
+                            "ilvl": 72,
+                            "stats": "(31-34)% chance to Freeze, Shock and Ignite during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Petrel",
+                            "ilvl": 8,
+                            "stats": "(41-36)% reduced Effect of Curses on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Mockingbird",
+                            "ilvl": 27,
+                            "stats": "(47-42)% reduced Effect of Curses on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Curlew",
+                            "ilvl": 46,
+                            "stats": "(52-48)% reduced Effect of Curses on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Kakapo",
+                            "ilvl": 65,
+                            "stats": "(59-52)% reduced Effect of Curses on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Owl",
+                            "ilvl": 84,
+                            "stats": "(65-60)% reduced Effect of Curses on you during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stiffness",
+                            "ilvl": 1,
+                            "stats": "(51-56)% increased Block and Stun Recovery during Effect"
+                        },
+                        {
+                            "modifier": "of Bracing",
+                            "ilvl": 19,
+                            "stats": "(57-62)% increased Block and Stun Recovery during Effect"
+                        },
+                        {
+                            "modifier": "of Ballast",
+                            "ilvl": 37,
+                            "stats": "(63-68)% increased Block and Stun Recovery during Effect"
+                        },
+                        {
+                            "modifier": "of Counterpoise",
+                            "ilvl": 55,
+                            "stats": "(69-74)% increased Block and Stun Recovery during Effect"
+                        },
+                        {
+                            "modifier": "of Stabilisation",
+                            "ilvl": 73,
+                            "stats": "(75-80)% increased Block and Stun Recovery during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Orca",
+                            "ilvl": 4,
+                            "stats": "(31-35)% chance to Avoid being Chilled during Effect(31-35)% chance to Avoid being Frozen during Effect"
+                        },
+                        {
+                            "modifier": "of the Sea Lion",
+                            "ilvl": 23,
+                            "stats": "(36-40)% chance to Avoid being Chilled during Effect(36-40)% chance to Avoid being Frozen during Effect"
+                        },
+                        {
+                            "modifier": "of the Narwhal",
+                            "ilvl": 42,
+                            "stats": "(41-45)% chance to Avoid being Chilled during Effect(41-45)% chance to Avoid being Frozen during Effect"
+                        },
+                        {
+                            "modifier": "of the Beluga",
+                            "ilvl": 61,
+                            "stats": "(46-50)% chance to Avoid being Chilled during Effect(46-50)% chance to Avoid being Frozen during Effect"
+                        },
+                        {
+                            "modifier": "of the Seal",
+                            "ilvl": 80,
+                            "stats": "(51-55)% chance to Avoid being Chilled during Effect(51-55)% chance to Avoid being Frozen during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Crystal",
+                            "ilvl": 1,
+                            "stats": "(12-14)% additional Elemental Resistances during Effect"
+                        },
+                        {
+                            "modifier": "of the Kaleidoscope",
+                            "ilvl": 41,
+                            "stats": "(15-17)% additional Elemental Resistances during Effect"
+                        },
+                        {
+                            "modifier": "of the Rainbow",
+                            "ilvl": 81,
+                            "stats": "(18-20)% additional Elemental Resistances during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Guppy",
+                            "ilvl": 6,
+                            "stats": "(31-35)% chance to Avoid being Ignited during Effect"
+                        },
+                        {
+                            "modifier": "of the Goldfish",
+                            "ilvl": 25,
+                            "stats": "(36-40)% chance to Avoid being Ignited during Effect"
+                        },
+                        {
+                            "modifier": "of the Carp",
+                            "ilvl": 44,
+                            "stats": "(41-45)% chance to Avoid being Ignited during Effect"
+                        },
+                        {
+                            "modifier": "of the Catfish",
+                            "ilvl": 63,
+                            "stats": "(46-50)% chance to Avoid being Ignited during Effect"
+                        },
+                        {
+                            "modifier": "of the Sunfish",
+                            "ilvl": 82,
+                            "stats": "(51-55)% chance to Avoid being Ignited during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Plover",
+                            "ilvl": 6,
+                            "stats": "(41-36)% reduced Effect of Shock on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Sandpiper",
+                            "ilvl": 25,
+                            "stats": "(47-42)% reduced Effect of Shock on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Cormorant",
+                            "ilvl": 44,
+                            "stats": "(52-48)% reduced Effect of Shock on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Sanderling",
+                            "ilvl": 63,
+                            "stats": "(59-52)% reduced Effect of Shock on you during Effect"
+                        },
+                        {
+                            "modifier": "of the Heron",
+                            "ilvl": 82,
+                            "stats": "(65-60)% reduced Effect of Shock on you during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "defences",
+                        "flask",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Gazelle",
+                            "ilvl": 6,
+                            "stats": "(41-45)% increased Evasion Rating during Effect"
+                        },
+                        {
+                            "modifier": "of the Antelope",
+                            "ilvl": 32,
+                            "stats": "(46-50)% increased Evasion Rating during Effect"
+                        },
+                        {
+                            "modifier": "of the Ibex",
+                            "ilvl": 58,
+                            "stats": "(51-55)% increased Evasion Rating during Effect"
+                        },
+                        {
+                            "modifier": "of the Impala",
+                            "ilvl": 84,
+                            "stats": "(56-60)% increased Evasion Rating during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hare",
+                            "ilvl": 5,
+                            "stats": "(6-8)% increased Movement Speed during Effect"
+                        },
+                        {
+                            "modifier": "of the Lynx",
+                            "ilvl": 65,
+                            "stats": "(9-11)% increased Movement Speed during Effect"
+                        },
+                        {
+                            "modifier": "of the Cheetah",
+                            "ilvl": 85,
+                            "stats": "(12-14)% increased Movement Speed during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Composure",
+                            "ilvl": 12,
+                            "stats": "(31-35)% Chance to Avoid being Stunned during Effect"
+                        },
+                        {
+                            "modifier": "of Surefootedness",
+                            "ilvl": 29,
+                            "stats": "(36-40)% Chance to Avoid being Stunned during Effect"
+                        },
+                        {
+                            "modifier": "of Persistence",
+                            "ilvl": 46,
+                            "stats": "(41-45)% Chance to Avoid being Stunned during Effect"
+                        },
+                        {
+                            "modifier": "of Relentlessness",
+                            "ilvl": 63,
+                            "stats": "(46-50)% Chance to Avoid being Stunned during Effect"
+                        },
+                        {
+                            "modifier": "of Tenaciousness",
+                            "ilvl": 80,
+                            "stats": "(51-55)% Chance to Avoid being Stunned during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Tree Moss",
+                            "ilvl": 6,
+                            "stats": "(31-35)% chance to Avoid being Shocked during Effect"
+                        },
+                        {
+                            "modifier": "of Turf Moss",
+                            "ilvl": 25,
+                            "stats": "(36-40)% chance to Avoid being Shocked during Effect"
+                        },
+                        {
+                            "modifier": "of Tooth Moss",
+                            "ilvl": 44,
+                            "stats": "(41-45)% chance to Avoid being Shocked during Effect"
+                        },
+                        {
+                            "modifier": "of Plume Moss",
+                            "ilvl": 63,
+                            "stats": "(46-50)% chance to Avoid being Shocked during Effect"
+                        },
+                        {
+                            "modifier": "of Bog Moss",
+                            "ilvl": 82,
+                            "stats": "(51-55)% chance to Avoid being Shocked during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "defences",
+                        "armour",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Abalone",
+                            "ilvl": 6,
+                            "stats": "(41-45)% increased Armour during Effect"
+                        },
+                        {
+                            "modifier": "of the Tortoise",
+                            "ilvl": 32,
+                            "stats": "(46-50)% increased Armour during Effect"
+                        },
+                        {
+                            "modifier": "of the Pangolin",
+                            "ilvl": 58,
+                            "stats": "(51-55)% increased Armour during Effect"
+                        },
+                        {
+                            "modifier": "of the Armadillo",
+                            "ilvl": 84,
+                            "stats": "(56-60)% increased Armour during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "life",
+                        "flask",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Bloodshed",
+                            "ilvl": 10,
+                            "stats": "0.4% of Attack Damage Leeched as Life during Effect"
+                        },
+                        {
+                            "modifier": "of Gore",
+                            "ilvl": 20,
+                            "stats": "0.5% of Attack Damage Leeched as Life during Effect"
+                        },
+                        {
+                            "modifier": "of Carnage",
+                            "ilvl": 40,
+                            "stats": "0.6% of Attack Damage Leeched as Life during Effect"
+                        },
+                        {
+                            "modifier": "of Butchery",
+                            "ilvl": 60,
+                            "stats": "0.7% of Attack Damage Leeched as Life during Effect"
+                        },
+                        {
+                            "modifier": "of Bloodletting",
+                            "ilvl": 80,
+                            "stats": "0.8% of Attack Damage Leeched as Life during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBuffWhileHealing",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stinging",
+                            "ilvl": 18,
+                            "stats": "(26-31)% increased Critical Strike Chance during Effect"
+                        },
+                        {
+                            "modifier": "of Piercing",
+                            "ilvl": 34,
+                            "stats": "(32-37)% increased Critical Strike Chance during Effect"
+                        },
+                        {
+                            "modifier": "of Rupturing",
+                            "ilvl": 50,
+                            "stats": "(38-43)% increased Critical Strike Chance during Effect"
+                        },
+                        {
+                            "modifier": "of Penetrating",
+                            "ilvl": 66,
+                            "stats": "(44-49)% increased Critical Strike Chance during Effect"
+                        },
+                        {
+                            "modifier": "of Incision",
+                            "ilvl": 82,
+                            "stats": "(50-55)% increased Critical Strike Chance during Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskShockImmunityDuringEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Conger",
+                            "ilvl": 6,
+                            "stats": "Immunity to Shock during Effect(49-45)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Moray",
+                            "ilvl": 40,
+                            "stats": "Immunity to Shock during Effect(44-40)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Eel",
+                            "ilvl": 74,
+                            "stats": "Immunity to Shock during Effect(39-35)% less Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskFreezeAndChillImmunityDuringEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Deer",
+                            "ilvl": 4,
+                            "stats": "Immunity to Freeze and Chill during Effect(49-45)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Walrus",
+                            "ilvl": 38,
+                            "stats": "Immunity to Freeze and Chill during Effect(44-40)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Penguin",
+                            "ilvl": 72,
+                            "stats": "Immunity to Freeze and Chill during Effect(39-35)% less Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskBleedingAndCorruptedBloodImmunityDuringEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Lizard",
+                            "ilvl": 8,
+                            "stats": "Immunity to Bleeding and Corrupted Blood during Effect(49-45)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Skink",
+                            "ilvl": 42,
+                            "stats": "Immunity to Bleeding and Corrupted Blood during Effect(44-40)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Iguana",
+                            "ilvl": 76,
+                            "stats": "Immunity to Bleeding and Corrupted Blood during Effect(39-35)% less Duration"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FlaskIgniteImmunityDuringEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "flask"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Urchin",
+                            "ilvl": 6,
+                            "stats": "Immunity to Ignite during EffectRemoves Burning on use(49-45)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Mussel",
+                            "ilvl": 40,
+                            "stats": "Immunity to Ignite during EffectRemoves Burning on use(44-40)% less Duration"
+                        },
+                        {
+                            "modifier": "of the Starfish",
+                            "ilvl": 74,
+                            "stats": "Immunity to Ignite during EffectRemoves Burning on use(39-35)% less Duration"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

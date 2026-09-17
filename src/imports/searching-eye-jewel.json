@@ -1,0 +1,2024 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "AbyssJewelLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hale",
+                            "ilvl": 1,
+                            "stats": "+(21-25) to maximum Life"
+                        },
+                        {
+                            "modifier": "Healthy",
+                            "ilvl": 35,
+                            "stats": "+(26-30) to maximum Life"
+                        },
+                        {
+                            "modifier": "Sanguine",
+                            "ilvl": 74,
+                            "stats": "+(31-35) to maximum Life"
+                        },
+                        {
+                            "modifier": "Stalwart",
+                            "ilvl": 82,
+                            "stats": "+(36-40) to maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeWhileHoldingAShield",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Degenerative",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Damage over Time while holding a Shield"
+                        },
+                        {
+                            "modifier": "Deleterious",
+                            "ilvl": 60,
+                            "stats": "(15-18)% increased Damage over Time while holding a Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PercentDamageGoesToMana",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Spurring",
+                            "ilvl": 75,
+                            "stats": "(2-3)% of Damage taken Recouped as Mana"
+                        },
+                        {
+                            "modifier": "Motivating",
+                            "ilvl": 86,
+                            "stats": "(4-5)% of Damage taken Recouped as Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeWhileDualWielding",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Degenerative",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Damage over Time while Dual Wielding"
+                        },
+                        {
+                            "modifier": "Deleterious",
+                            "ilvl": 60,
+                            "stats": "(15-18)% increased Damage over Time while Dual Wielding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssJewelMana",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Beryl",
+                            "ilvl": 1,
+                            "stats": "+(20-23) to maximum Mana"
+                        },
+                        {
+                            "modifier": "Cobalt",
+                            "ilvl": 40,
+                            "stats": "+(24-27) to maximum Mana"
+                        },
+                        {
+                            "modifier": "Azure",
+                            "ilvl": 75,
+                            "stats": "+(28-31) to maximum Mana"
+                        },
+                        {
+                            "modifier": "Sapphire",
+                            "ilvl": 83,
+                            "stats": "+(32-34) to maximum Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponChaosDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Tainted",
+                            "ilvl": 1,
+                            "stats": "(4-5) to (9-10) Added Chaos Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Clouded",
+                            "ilvl": 42,
+                            "stats": "(6-7) to (11-13) Added Chaos Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Darkened",
+                            "ilvl": 64,
+                            "stats": "(8-9) to (14-16) Added Chaos Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Malignant",
+                            "ilvl": 77,
+                            "stats": "(10-11) to (17-20) Added Chaos Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Vile",
+                            "ilvl": 85,
+                            "stats": "(12-13) to (21-24) Added Chaos Damage with Bow Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageOverTimeWhileWieldingTwoHandedWeapon",
+                    "type": "Prefixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Degenerative",
+                            "ilvl": 1,
+                            "stats": "(10-14)% increased Damage over Time while wielding a Two Handed Weapon"
+                        },
+                        {
+                            "modifier": "Deleterious",
+                            "ilvl": 60,
+                            "stats": "(15-18)% increased Damage over Time while wielding a Two Handed Weapon"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedPhysicalDamageReductionRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Lacquered",
+                            "ilvl": 1,
+                            "stats": "+(36-60) to Armour"
+                        },
+                        {
+                            "modifier": "Fortified",
+                            "ilvl": 40,
+                            "stats": "+(61-100) to Armour"
+                        },
+                        {
+                            "modifier": "Carapaced",
+                            "ilvl": 75,
+                            "stats": "+(101-180) to Armour"
+                        },
+                        {
+                            "modifier": "Encased",
+                            "ilvl": 83,
+                            "stats": "+(181-250) to Armour"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flat_life_regen",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Youthful",
+                            "ilvl": 1,
+                            "stats": "Regenerate (9-12) Life per second"
+                        },
+                        {
+                            "modifier": "Spirited",
+                            "ilvl": 40,
+                            "stats": "Regenerate (13-16) Life per second"
+                        },
+                        {
+                            "modifier": "Vivacious",
+                            "ilvl": 80,
+                            "stats": "Regenerate (17-20) Life per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CooldownRecovery",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Facilitating",
+                            "ilvl": 75,
+                            "stats": "2% increased Cooldown Recovery Rate"
+                        },
+                        {
+                            "modifier": "Expediting",
+                            "ilvl": 86,
+                            "stats": "3% increased Cooldown Recovery Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponPhysicalDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Glinting",
+                            "ilvl": 1,
+                            "stats": "2 to 3 Added Physical Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Gleaming",
+                            "ilvl": 42,
+                            "stats": "3 to 4 Added Physical Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Tempered",
+                            "ilvl": 64,
+                            "stats": "4 to (5-6) Added Physical Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Flaring",
+                            "ilvl": 77,
+                            "stats": "(5-6) to (7-8) Added Physical Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Acuminate",
+                            "ilvl": 85,
+                            "stats": "(7-8) to (9-10) Added Physical Damage with Bow Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponPhysicalDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Glinting",
+                            "ilvl": 1,
+                            "stats": "2 to 3 Added Physical Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Gleaming",
+                            "ilvl": 42,
+                            "stats": "3 to 4 Added Physical Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Tempered",
+                            "ilvl": 64,
+                            "stats": "4 to (5-6) Added Physical Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Flaring",
+                            "ilvl": 77,
+                            "stats": "(5-6) to (7-8) Added Physical Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Acuminate",
+                            "ilvl": 85,
+                            "stats": "(7-8) to (9-10) Added Physical Damage with Wand Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Energising",
+                            "ilvl": 1,
+                            "stats": "Regenerate (1.1-2) Mana per second"
+                        },
+                        {
+                            "modifier": "Inspirational",
+                            "ilvl": 40,
+                            "stats": "Regenerate (2.1-3) Mana per second"
+                        },
+                        {
+                            "modifier": "Resonating",
+                            "ilvl": 75,
+                            "stats": "Regenerate (3.3-4) Mana per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedEvasionRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "defences",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Agile",
+                            "ilvl": 1,
+                            "stats": "+(36-60) to Evasion Rating"
+                        },
+                        {
+                            "modifier": "Fleet",
+                            "ilvl": 40,
+                            "stats": "+(61-100) to Evasion Rating"
+                        },
+                        {
+                            "modifier": "Vaporous",
+                            "ilvl": 75,
+                            "stats": "+(101-180) to Evasion Rating"
+                        },
+                        {
+                            "modifier": "Beclouded",
+                            "ilvl": 83,
+                            "stats": "+(181-250) to Evasion Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ImpaleEffect",
+                    "type": "Prefixes",
+                    "tags": [
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Skewering",
+                            "ilvl": 75,
+                            "stats": "(3-5)% increased Impale Effect"
+                        },
+                        {
+                            "modifier": "Lancing",
+                            "ilvl": 86,
+                            "stats": "(6-8)% increased Impale Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponLightningDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Humming",
+                            "ilvl": 1,
+                            "stats": "1 to (19-20) Added Lightning Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Sparking",
+                            "ilvl": 37,
+                            "stats": "(1-2) to (23-24) Added Lightning Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Arcing",
+                            "ilvl": 48,
+                            "stats": "(1-3) to (28-30) Added Lightning Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Shocking",
+                            "ilvl": 60,
+                            "stats": "(1-4) to (33-35) Added Lightning Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Discharging",
+                            "ilvl": 70,
+                            "stats": "(2-4) to (40-43) Added Lightning Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Electrocuting",
+                            "ilvl": 82,
+                            "stats": "(2-5) to (48-50) Added Lightning Damage with Wand Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponLightningDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Humming",
+                            "ilvl": 1,
+                            "stats": "1 to (19-20) Added Lightning Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Sparking",
+                            "ilvl": 37,
+                            "stats": "(1-2) to (23-24) Added Lightning Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Arcing",
+                            "ilvl": 48,
+                            "stats": "(1-3) to (28-30) Added Lightning Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Shocking",
+                            "ilvl": 60,
+                            "stats": "(1-4) to (33-35) Added Lightning Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Discharging",
+                            "ilvl": 70,
+                            "stats": "(2-4) to (40-43) Added Lightning Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Electrocuting",
+                            "ilvl": 82,
+                            "stats": "(2-5) to (48-50) Added Lightning Damage with Bow Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponFireDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Heated",
+                            "ilvl": 1,
+                            "stats": "(5-6) to (11-12) Added Fire Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Flaming",
+                            "ilvl": 40,
+                            "stats": "(7-8) to (13-15) Added Fire Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Scorching",
+                            "ilvl": 51,
+                            "stats": "(9-11) to (16-19) Added Fire Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Incinerating",
+                            "ilvl": 62,
+                            "stats": "(12-13) to (20-22) Added Fire Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Blasting",
+                            "ilvl": 72,
+                            "stats": "(14-15) to (23-26) Added Fire Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Cremating",
+                            "ilvl": 84,
+                            "stats": "(16-18) to (27-32) Added Fire Damage with Wand Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponFireDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Heated",
+                            "ilvl": 1,
+                            "stats": "(5-6) to (11-12) Added Fire Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Flaming",
+                            "ilvl": 40,
+                            "stats": "(7-8) to (13-15) Added Fire Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Scorching",
+                            "ilvl": 51,
+                            "stats": "(9-11) to (16-19) Added Fire Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Incinerating",
+                            "ilvl": 62,
+                            "stats": "(12-13) to (20-22) Added Fire Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Blasting",
+                            "ilvl": 72,
+                            "stats": "(14-15) to (23-26) Added Fire Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Cremating",
+                            "ilvl": 84,
+                            "stats": "(16-18) to (27-32) Added Fire Damage with Bow Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponColdDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Frosted",
+                            "ilvl": 1,
+                            "stats": "(4-5) to (9-10) Added Cold Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Freezing",
+                            "ilvl": 38,
+                            "stats": "(6-7) to (11-13) Added Cold Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Frozen",
+                            "ilvl": 47,
+                            "stats": "(8-9) to (14-16) Added Cold Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Glaciated",
+                            "ilvl": 59,
+                            "stats": "(10-11) to (17-20) Added Cold Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Polar",
+                            "ilvl": 68,
+                            "stats": "(12-13) to (21-24) Added Cold Damage with Wand Attacks"
+                        },
+                        {
+                            "modifier": "Entombing",
+                            "ilvl": 83,
+                            "stats": "(14-15) to (25-28) Added Cold Damage with Wand Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpecificWeaponColdDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Frosted",
+                            "ilvl": 1,
+                            "stats": "(4-5) to (9-10) Added Cold Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Freezing",
+                            "ilvl": 38,
+                            "stats": "(6-7) to (11-13) Added Cold Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Frozen",
+                            "ilvl": 47,
+                            "stats": "(8-9) to (14-16) Added Cold Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Glaciated",
+                            "ilvl": 59,
+                            "stats": "(10-11) to (17-20) Added Cold Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Polar",
+                            "ilvl": 68,
+                            "stats": "(12-13) to (21-24) Added Cold Damage with Bow Attacks"
+                        },
+                        {
+                            "modifier": "Entombing",
+                            "ilvl": 83,
+                            "stats": "(14-15) to (25-28) Added Cold Damage with Bow Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EnergyShieldRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Captivating",
+                            "ilvl": 1,
+                            "stats": "Regenerate (9-12) Energy Shield per second"
+                        },
+                        {
+                            "modifier": "Beautiful",
+                            "ilvl": 30,
+                            "stats": "Regenerate (13-16) Energy Shield per second"
+                        },
+                        {
+                            "modifier": "Breathtaking",
+                            "ilvl": 60,
+                            "stats": "Regenerate (17-20) Energy Shield per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedEnergyShield",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Shining",
+                            "ilvl": 1,
+                            "stats": "+(21-25) to maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Seething",
+                            "ilvl": 40,
+                            "stats": "+(26-30) to maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Incandescent",
+                            "ilvl": 75,
+                            "stats": "+(31-35) to maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Resplendent",
+                            "ilvl": 83,
+                            "stats": "+(36-40) to maximum Energy Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidBleeding",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stemming",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid Bleeding"
+                        },
+                        {
+                            "modifier": "of the Tourniquet",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid Bleeding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidStun",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Balance",
+                            "ilvl": 50,
+                            "stats": "(21-24)% chance to Avoid being Stunned"
+                        },
+                        {
+                            "modifier": "of Poise",
+                            "ilvl": 70,
+                            "stats": "(25-30)% chance to Avoid being Stunned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamageIfEnemySlainRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Slayer",
+                            "ilvl": 1,
+                            "stats": "(15-20)% increased Damage if you've Killed Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplier",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Potency",
+                            "ilvl": 50,
+                            "stats": "+(9-12)% to Global Critical Strike Multiplier"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeMultiplierIfEnemySlainRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical",
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Assassin",
+                            "ilvl": 25,
+                            "stats": "+(8-14)% to Critical Strike Multiplier if you've Killed Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidIgnite",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Nonflammability",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Ignited"
+                        },
+                        {
+                            "modifier": "of Fireproofing",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Ignited"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedPhysicalSuffix",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "physical_damage",
+                        "damage",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Weight",
+                            "ilvl": 34,
+                            "stats": "Adds 1 to 3 Physical Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Impact",
+                            "ilvl": 45,
+                            "stats": "Adds (2-3) to (4-5) Physical Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Collision",
+                            "ilvl": 61,
+                            "stats": "Adds (4-5) to (6-7) Physical Damage to Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MovementSpeedIfEnemySlainRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Raider",
+                            "ilvl": 1,
+                            "stats": "(2-4)% increased Movement Speed if you've Killed Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIfNoCriticalStrikeDealtRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Preparation",
+                            "ilvl": 1,
+                            "stats": "(20-30)% increased Critical Strike Chance if you haven't dealt a Critical Strike Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidFreezeAndChill",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Warming",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Frozen"
+                        },
+                        {
+                            "modifier": "of Heating",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Dragon",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AttackSpeedIfCriticalStrikeDealtRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Opportunity",
+                            "ilvl": 25,
+                            "stats": "(6-8)% increased Attack Speed if you've dealt a Critical Strike Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EvasionRatingWhileMoving",
+                    "type": "Suffixes",
+                    "tags": [
+                        "defences",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Maneuvering",
+                            "ilvl": 1,
+                            "stats": "(25-35)% increased Evasion Rating while moving"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedArmourIfNoEnemySlainRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Guardian",
+                            "ilvl": 1,
+                            "stats": "(20-30)% increased Armour if you haven't Killed Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StrengthIntelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Spirit",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Dexterity",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Insulation",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Fire and Lightning Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BlindOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Blinding",
+                            "ilvl": 32,
+                            "stats": "(3-4)% chance to Blind Enemies on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of Blinding",
+                            "ilvl": 65,
+                            "stats": "(5-6)% chance to Blind Enemies on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedChaosSuffix",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Malevolence",
+                            "ilvl": 36,
+                            "stats": "Adds (6-7) to (11-13) Chaos Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Malice",
+                            "ilvl": 48,
+                            "stats": "Adds (8-9) to (14-17) Chaos Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Sin",
+                            "ilvl": 64,
+                            "stats": "Adds (10-11) to (18-21) Chaos Damage to Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DexterityIntelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Cunning",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeRegenerationRateWhileMoving",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Vivaciousness",
+                            "ilvl": 1,
+                            "stats": "Regenerate (0.5-1)% of Life per second while moving"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Order",
+                            "ilvl": 1,
+                            "stats": "+(7-13)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedFireSuffix",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Coals",
+                            "ilvl": 35,
+                            "stats": "Adds (4-5) to (10-12) Fire Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Cinders",
+                            "ilvl": 44,
+                            "stats": "Adds (6-7) to (13-16) Fire Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Flames",
+                            "ilvl": 52,
+                            "stats": "Adds (8-9) to (17-20) Fire Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Immolation",
+                            "ilvl": 64,
+                            "stats": "Adds (10-12) to (21-24) Fire Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Ashes",
+                            "ilvl": 76,
+                            "stats": "Adds (13-15) to (25-28) Fire Damage to Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CastSpeedIfCriticalStrikeDealtRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Abuse",
+                            "ilvl": 25,
+                            "stats": "(5-7)% increased Cast Speed if you've dealt a Critical Strike Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssJewelShockEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shocking",
+                            "ilvl": 30,
+                            "stats": "(10-20)% increased Effect of Lightning Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StrengthDexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Athletics",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Strength",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Strength"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellBlockPercentage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Instinct",
+                            "ilvl": 1,
+                            "stats": "+(3-4)% Chance to Block Spell Damage if you were Damaged by a Hit Recently"
+                        },
+                        {
+                            "modifier": "of Readiness",
+                            "ilvl": 1,
+                            "stats": "+2% Chance to Block Spell Damage if you were Damaged by a Hit Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidPoison",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Tolerance",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Poisoned"
+                        },
+                        {
+                            "modifier": "of Immunity",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Poisoned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedShockChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Insulating",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Shocked"
+                        },
+                        {
+                            "modifier": "of the Lightning Rod",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PhysicalDamageAddedAsExtraFireIfCriticalStrikeDealtRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "physical_damage",
+                        "damage",
+                        "physical",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Inferno",
+                            "ilvl": 40,
+                            "stats": "Gain (2-4)% of Physical Damage as Extra Fire Damage if you've dealt a Critical Strike Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MovementSpeedIfNotDamagedRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Momentum",
+                            "ilvl": 1,
+                            "stats": "(3-4)% increased Movement Speed if you haven't taken Damage Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaRegenerationRateWhileMoving",
+                    "type": "Suffixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Praxis",
+                            "ilvl": 1,
+                            "stats": "(20-25)% increased Mana Regeneration Rate while moving"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Grounding",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Intelligence",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DamagePenetratesElementalResistancesIfNoEnemySlainRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Inquisitor",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 2% Elemental Resistances if you haven't Killed Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedLightningSuffix",
+                    "type": "Suffixes",
+                    "tags": [
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Static",
+                            "ilvl": 35,
+                            "stats": "Adds 1 to (19-20) Lightning Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Electricity",
+                            "ilvl": 44,
+                            "stats": "Adds (1-2) to (25-27) Lightning Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Voltage",
+                            "ilvl": 52,
+                            "stats": "Adds (1-3) to (29-32) Lightning Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Discharge",
+                            "ilvl": 64,
+                            "stats": "Adds (1-4) to (36-39) Lightning Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Arcing",
+                            "ilvl": 76,
+                            "stats": "Adds (1-4) to (43-48) Lightning Damage to Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAttackSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Berserking",
+                            "ilvl": 50,
+                            "stats": "(3-5)% increased Attack Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllAttributes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Adaption",
+                            "ilvl": 1,
+                            "stats": "+(6-8) to all Attributes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Mangling",
+                            "ilvl": 84,
+                            "stats": "Enemies Maimed by you take (4-5)% increased Damage Over Time"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Clouding",
+                            "ilvl": 84,
+                            "stats": "Enemies Blinded by you have (30-20)% reduced Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Languishing",
+                            "ilvl": 84,
+                            "stats": "Enemies Withered by you have -2% to all Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Daunting",
+                            "ilvl": 84,
+                            "stats": "Enemies Intimidated by you have (10-15)% increased duration of stuns against them"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Enervation",
+                            "ilvl": 84,
+                            "stats": "Enemies Hindered by you have (35-25)% reduced Life Regeneration rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "ailment",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Escape",
+                            "ilvl": 84,
+                            "stats": "(10-20)% chance to Avoid Elemental Ailments while you have Elusive"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "curse",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Sanctum",
+                            "ilvl": 84,
+                            "stats": "(25-15)% reduced Effect of Curses on you while on Consecrated Ground"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "fire",
+                        "elemental",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hearth",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Fire and Cold Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChancetoGainPhasingOnKill",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Phasing",
+                            "ilvl": 50,
+                            "stats": "(3-5)% chance to gain Phasing for 4 seconds on Kill"
+                        },
+                        {
+                            "modifier": "of Phasing",
+                            "ilvl": 80,
+                            "stats": "(6-8)% chance to gain Phasing for 4 seconds on Kill"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Beast",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Resistance",
+                            "ilvl": 1,
+                            "stats": "+(8-10)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdAndLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shelter",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Cold and Lightning Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Guarding",
+                            "ilvl": 1,
+                            "stats": "+(3-4)% Chance to Block Attack Damage if you were Damaged by a Hit Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AddedColdSuffix",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "attack",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Sleet",
+                            "ilvl": 36,
+                            "stats": "Adds (4-5) to (8-10) Cold Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Ice",
+                            "ilvl": 45,
+                            "stats": "Adds (6-7) to (11-13) Cold Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Rime",
+                            "ilvl": 53,
+                            "stats": "Adds (8-9) to (14-17) Cold Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Floe",
+                            "ilvl": 65,
+                            "stats": "Adds (10-11) to (18-21) Cold Damage to Attacks"
+                        },
+                        {
+                            "modifier": "of Glaciation",
+                            "ilvl": 77,
+                            "stats": "Adds (12-13) to (22-26) Cold Damage to Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAccuracy",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Steadiness",
+                            "ilvl": 1,
+                            "stats": "+(31-60) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of the Marksman",
+                            "ilvl": 52,
+                            "stats": "+(61-120) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of the Ranger",
+                            "ilvl": 78,
+                            "stats": "+(121-240) to Accuracy Rating"
+                        },
+                        {
+                            "modifier": "of the Deadeye",
+                            "ilvl": 85,
+                            "stats": "+(241-300) to Accuracy Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssJewelChillEffect",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Chilling",
+                            "ilvl": 30,
+                            "stats": "(10-20)% increased Effect of Cold Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Menace",
+                            "ilvl": 50,
+                            "stats": "(8-12)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Corruption implicit modifiers",
+            "groups": [
+                {
+                    "group_name": "ChanceToAvoidBleeding",
+                    "type": "Modifiers",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToAvoidBleeding",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid Bleeding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedDamage",
+                            "ilvl": 1,
+                            "stats": "(4-5)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Modifiers",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CriticalStrikeChance",
+                            "ilvl": 1,
+                            "stats": "(8-10)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "fire",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "FireResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ArmourPenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToIgnoreEnemyArmour",
+                            "ilvl": 1,
+                            "stats": "Hits have (10-15)% chance to ignore Enemy Physical Damage Reduction"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidPoison",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToAvoidPoison",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Poisoned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "cold",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ColdResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "YouCannotBeHindered",
+                    "type": "Modifiers",
+                    "tags": [
+                        "blue_herring"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "YouCannotBeHindered",
+                            "ilvl": 40,
+                            "stats": "You cannot be Hindered"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalPenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ElementalPenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidShock",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidShock",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CorruptedBloodImmunity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "bleed",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CorruptedBloodImmunity",
+                            "ilvl": 33,
+                            "stats": "Corrupted Blood cannot be inflicted on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedManaReservationsCost",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "ReservationEfficiencyForJewel",
+                            "ilvl": 1,
+                            "stats": "2% increased Reservation Efficiency of Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidIgnite",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidIgnite",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Ignited"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AreaOfEffect",
+                            "ilvl": 1,
+                            "stats": "(4-5)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidStun",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidStun",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Stunned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LightningResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidMaimChance",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidMaimChance",
+                            "ilvl": 40,
+                            "stats": "You cannot be Maimed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidFreezeAndChill",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToAvoidFreezeAndChill",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "damage",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MinionDamage",
+                            "ilvl": 1,
+                            "stats": "Minions deal (4-5)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAilmentEffectOnEnemies",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedAilmentEffectOnEnemies",
+                            "ilvl": 1,
+                            "stats": "(5-7)% increased Effect of Non-Damaging Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PlayerCurseImmunity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "curse",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ImmuneToSilence",
+                            "ilvl": 60,
+                            "stats": "You cannot be Cursed with Silence"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

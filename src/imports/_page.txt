@@ -1,0 +1,299 @@
+<script lang="ts">
+	import { selectedAffixView as storeAffixView } from '$lib';
+
+	const affixView = $derived($storeAffixView);
+
+	let expandedCards = $state<Record<string, boolean>>({});
+	let selectedModifiers = $state<string[]>([]);
+	let copied = $state(false);
+	let errorMessage = $state<string | null>(null);
+
+	function toggleCard(groupName: string) {
+		expandedCards[groupName] = !expandedCards[groupName];
+	}
+
+	function toggleTier(modifierName: string, event: MouseEvent) {
+		event.stopPropagation();
+		errorMessage = null;
+
+		if (selectedModifiers.includes(modifierName)) {
+			selectedModifiers = selectedModifiers.filter((m) => m !== modifierName);
+		} else {
+			const nextModifiers = [...selectedModifiers, modifierName];
+			const nextString = `"${nextModifiers.join('|')}"`;
+			
+			if (nextString.length > 250) {
+				errorMessage = 'Cannot add: Reached the 250 character limit for PoE regex!';
+				setTimeout(() => {
+					errorMessage = null;
+				}, 3500);
+				return;
+			}
+			
+			selectedModifiers = nextModifiers;
+		}
+	}
+
+	function handleReset() {
+		expandedCards = {};
+		selectedModifiers = [];
+		copied = false;
+		errorMessage = null;
+	}
+
+	let regexString = $derived(
+		selectedModifiers.length ? `"${selectedModifiers.join('|')}"` : ''
+	);
+
+	async function copyToClipboard() {
+		if (!regexString) return;
+		try {
+			await navigator.clipboard.writeText(regexString);
+			copied = true;
+			setTimeout(() => {
+				copied = false;
+			}, 2000);
+		} catch (err) {
+			console.error('Failed to copy text: ', err);
+		}
+	}
+</script>
+
+<svelte:head>
+	<title>Affixes | POE Regex</title>
+</svelte:head>
+
+<main class="grid gap-6 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl shadow-cyan-950/20 backdrop-blur sm:p-8">
+	<!-- Top Menu Bar / Header Area containing the Regex Box -->
+	<div class="rounded-2xl border border-cyan-500/40 bg-slate-950/90 p-4 shadow-xl backdrop-blur">
+		<div class="flex flex-wrap items-center justify-between gap-4">
+			<div class="flex-1 min-w-[240px]">
+				<div class="flex items-center justify-between mb-1">
+					<p class="text-xs font-semibold uppercase tracking-wider text-cyan-400">Top Menu: Generated PoE Regex (Click to copy)</p>
+					<span class={`text-xs font-mono ${regexString.length > 220 ? 'text-amber-400 font-bold' : 'text-slate-400'}`}>
+						{regexString.length}/250 chars
+					</span>
+				</div>
+				<!-- svelte-ignore a11y_click_events_have_key_events -->
+				<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+				<div 
+					role="textbox"
+					tabindex="0"
+					onclick={copyToClipboard}
+					class="w-full bg-slate-900/80 rounded-xl border border-white/10 px-3 py-2 font-mono text-sm text-slate-100 outline-none cursor-pointer overflow-x-auto whitespace-nowrap selection:bg-cyan-500 selection:text-white transition hover:border-cyan-500/50"
+					title="Click to copy regex"
+				>
+					{regexString || 'Click mod tiers below to build regex...'}
+				</div>
+				{#if errorMessage}
+					<p class="mt-2 text-xs font-semibold text-rose-400 animate-bounce">{errorMessage}</p>
+				{/if}
+			</div>
+
+			<div class="flex items-center gap-3 self-end sm:self-center">
+				{#if copied}
+					<span class="text-xs font-semibold text-emerald-400 uppercase tracking-widest animate-pulse">Copied!</span>
+				{/if}
+				{#if affixView.item}
+					<button 
+						onclick={handleReset}
+						class="rounded-xl border border-white/15 bg-white/10 px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/20 active:scale-95"
+					>
+						Reset Page
+					</button>
+				{/if}
+			</div>
+		</div>
+	</div>
+
+	<div class="space-y-4">
+		<div>
+			<p class="text-sm font-medium uppercase tracking-[0.35em] text-cyan-300">Affixes</p>
+			<h1 class="text-4xl font-semibold tracking-tight sm:text-6xl">
+				{#if affixView.item}
+					{affixView.item.name}
+				{:else}
+					Select an item type
+				{/if}
+			</h1>
+		</div>
+
+		<p class="max-w-3xl text-base leading-7 text-slate-300 sm:text-lg">
+			{#if affixView.item}
+				Showing modifier groups for {affixView.item.slug}. Prefixes are on the left and suffixes are on the right. Click a mod group to view tiers[cite: 1].
+			{:else}
+				Pick a 4-digit item type from the affix sidebar to load its modifier groups.
+			{/if}
+		</p>
+	</div>
+
+	{#if affixView.item}
+		<div class="grid gap-6 xl:grid-cols-2">
+			<!-- Prefixes Section -->
+			<section class="rounded-3xl border border-cyan-400/20 bg-cyan-400/5 p-5 shadow-lg shadow-cyan-950/10">
+				<div class="flex items-center justify-between gap-4">
+					<div>
+						<p class="text-sm font-medium uppercase tracking-[0.3em] text-cyan-200">Prefixes</p>
+						<h2 class="mt-2 text-2xl font-semibold text-slate-50">Prefix mod types</h2>
+					</div>
+					<span class="rounded-full border border-cyan-300/30 bg-cyan-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-cyan-100">
+						{affixView.prefixes.length}
+					</span>
+				</div>
+
+				<div class="mt-5 grid gap-3">
+					{#if affixView.prefixes.length}
+						{#each affixView.prefixes as modifier}
+							{@const isExpanded = expandedCards[modifier.groupName]}
+							<article 
+								role="button"
+								tabindex="0"
+								onclick={() => toggleCard(modifier.groupName)}
+								onkeypress={(e) => e.key === 'Enter' && toggleCard(modifier.groupName)}
+								class="rounded-2xl border border-white/10 bg-slate-950/60 p-4 transition hover:border-cyan-500/40 cursor-pointer text-left"
+							>
+								<div class="flex flex-wrap items-start justify-between gap-3">
+									<div>
+										<p class="text-lg font-semibold text-slate-50">{modifier.groupName}</p>
+										<p class="mt-1 text-sm text-slate-400">{modifier.sectionName}</p>
+									</div>
+									<span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-slate-200">
+										{modifier.tierCount} tiers
+									</span>
+								</div>
+
+								{#if modifier.tags.length}
+									<div class="mt-3 flex flex-wrap gap-2">
+										{#each modifier.tags as tag}
+											<span class="rounded-full border border-cyan-300/15 bg-cyan-300/10 px-2.5 py-1 text-xs font-medium uppercase tracking-[0.18em] text-cyan-100">
+												{tag}
+											</span>
+										{/each}
+									</div>
+								{/if}
+
+								<!-- Expanded Tier Details -->
+								{#if isExpanded && modifier.tiers.length}
+									<div class="mt-4 border-t border-white/10 pt-3 space-y-2">
+										<p class="text-xs font-semibold uppercase tracking-wider text-cyan-300">Select Tiers for Regex:</p>
+										<div class="grid gap-2">
+											{#each modifier.tiers as tier}
+												{@const isSelected = selectedModifiers.includes(tier.modifier)}
+												<button
+													type="button"
+													onclick={(e) => toggleTier(tier.modifier, e)}
+													class={`w-full rounded-xl border p-2.5 text-left text-xs transition flex items-center justify-between gap-2 ${
+														isSelected 
+															? 'border-cyan-400 bg-cyan-500/20 text-cyan-100' 
+															: 'border-white/10 bg-white/5 text-slate-300 hover:bg-white/10'
+													}`}
+												>
+													<div>
+														<span class="font-semibold text-white">{tier.modifier}</span> (iLvl: {tier.ilvl})
+														<div class="font-mono text-slate-400 mt-0.5">{tier.stats}</div>
+													</div>
+													{#if isSelected}
+														<span class="text-cyan-400 font-bold">✓</span>
+													{/if}
+												</button>
+											{/each}
+										</div>
+									</div>
+								{/if}
+							</article>
+						{/each}
+					{:else}
+						<p class="rounded-2xl border border-dashed border-white/10 bg-slate-950/40 p-4 text-sm text-slate-400">
+							No prefix mod types are available for this item.
+						</p>
+					{/if}
+				</div>
+			</section>
+
+			<!-- Suffixes Section -->
+			<section class="rounded-3xl border border-amber-300/20 bg-amber-300/5 p-5 shadow-lg shadow-amber-950/10">
+				<div class="flex items-center justify-between gap-4">
+					<div>
+						<p class="text-sm font-medium uppercase tracking-[0.3em] text-amber-200">Suffixes</p>
+						<h2 class="mt-2 text-2xl font-semibold text-slate-50">Suffix mod types</h2>
+					</div>
+					<span class="rounded-full border border-amber-300/30 bg-amber-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-amber-100">
+						{affixView.suffixes.length}
+					</span>
+				</div>
+
+				<div class="mt-5 grid gap-3">
+					{#if affixView.suffixes.length}
+						{#each affixView.suffixes as modifier}
+							{@const isExpanded = expandedCards[modifier.groupName]}
+							<article 
+								role="button"
+								tabindex="0"
+								onclick={() => toggleCard(modifier.groupName)}
+								onkeypress={(e) => e.key === 'Enter' && toggleCard(modifier.groupName)}
+								class="rounded-2xl border border-white/10 bg-slate-950/60 p-4 transition hover:border-amber-500/40 cursor-pointer text-left"
+							>
+								<div class="flex flex-wrap items-start justify-between gap-3">
+									<div>
+										<p class="text-lg font-semibold text-slate-50">{modifier.groupName}</p>
+										<p class="mt-1 text-sm text-slate-400">{modifier.sectionName}</p>
+									</div>
+									<span class="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-slate-200">
+										{modifier.tierCount} tiers
+									</span>
+								</div>
+
+								{#if modifier.tags.length}
+									<div class="mt-3 flex flex-wrap gap-2">
+										{#each modifier.tags as tag}
+											<span class="rounded-full border border-amber-300/15 bg-amber-300/10 px-2.5 py-1 text-xs font-medium uppercase tracking-[0.18em] text-amber-100">
+												{tag}
+											</span>
+										{/each}
+									</div>
+								{/if}
+
+								<!-- Expanded Tier Details -->
+								{#if isExpanded && modifier.tiers.length}
+									<div class="mt-4 border-t border-white/10 pt-3 space-y-2">
+										<p class="text-xs font-semibold uppercase tracking-wider text-amber-300">Select Tiers for Regex:</p>
+										<div class="grid gap-2">
+											{#each modifier.tiers as tier}
+												{@const isSelected = selectedModifiers.includes(tier.modifier)}
+												<button
+													type="button"
+													onclick={(e) => toggleTier(tier.modifier, e)}
+													class={`w-full rounded-xl border p-2.5 text-left text-xs transition flex items-center justify-between gap-2 ${
+														isSelected 
+															? 'border-amber-400 bg-amber-500/20 text-amber-100' 
+															: 'border-white/10 bg-white/5 text-slate-300 hover:bg-white/10'
+													}`}
+												>
+													<div>
+														<span class="font-semibold text-white">{tier.modifier}</span> (iLvl: {tier.ilvl})
+														<div class="font-mono text-slate-400 mt-0.5">{tier.stats}</div>
+													</div>
+													{#if isSelected}
+														<span class="text-amber-400 font-bold">✓</span>
+													{/if}
+												</button>
+											{/each}
+										</div>
+									</div>
+								{/if}
+							</article>
+						{/each}
+					{:else}
+						<p class="rounded-2xl border border-dashed border-white/10 bg-slate-950/40 p-4 text-sm text-slate-400">
+							No suffix mod types are available for this item.
+						</p>
+					{/if}
+				</div>
+			</section>
+		</div>
+	{:else}
+		<section class="rounded-3xl border border-dashed border-white/10 bg-slate-950/35 p-6 text-sm leading-7 text-slate-300">
+			Select a category in the sidebar, then pick one of the 4-digit item ids to browse its affix data.
+		</section>
+	{/if}
+</main>

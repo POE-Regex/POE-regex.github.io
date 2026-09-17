@@ -1,0 +1,1640 @@
+{
+    "modifier_sections": [
+        {
+            "section_name": "Standard modifiers",
+            "groups": [
+                {
+                    "group_name": "LifeRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "flat_life_regen",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Youthful",
+                            "ilvl": 1,
+                            "stats": "Regenerate (9-12) Life per second"
+                        },
+                        {
+                            "modifier": "Spirited",
+                            "ilvl": 40,
+                            "stats": "Regenerate (13-16) Life per second"
+                        },
+                        {
+                            "modifier": "Vivacious",
+                            "ilvl": 80,
+                            "stats": "Regenerate (17-20) Life per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAddedChaosDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "chaos",
+                        "chaos_damage",
+                        "damage",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Tainted",
+                            "ilvl": 1,
+                            "stats": "Minions deal (2-3) to (5-8) additional Chaos Damage"
+                        },
+                        {
+                            "modifier": "Clouded",
+                            "ilvl": 42,
+                            "stats": "Minions deal (5-8) to (11-14) additional Chaos Damage"
+                        },
+                        {
+                            "modifier": "Darkened",
+                            "ilvl": 54,
+                            "stats": "Minions deal (9-12) to (15-18) additional Chaos Damage"
+                        },
+                        {
+                            "modifier": "Malignant",
+                            "ilvl": 65,
+                            "stats": "Minions deal (14-17) to (20-23) additional Chaos Damage"
+                        },
+                        {
+                            "modifier": "Vile",
+                            "ilvl": 75,
+                            "stats": "Minions deal (18-21) to (24-27) additional Chaos Damage"
+                        },
+                        {
+                            "modifier": "Malicious",
+                            "ilvl": 84,
+                            "stats": "Minions deal (23-26) to (33-39) additional Chaos Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionLifeRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Fuelling",
+                            "ilvl": 1,
+                            "stats": "Minions Regenerate (22-30) Life per second"
+                        },
+                        {
+                            "modifier": "Lively",
+                            "ilvl": 30,
+                            "stats": "Minions Regenerate (32-40) Life per second"
+                        },
+                        {
+                            "modifier": "Exuberant",
+                            "ilvl": 60,
+                            "stats": "Minions Regenerate (42-60) Life per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PercentDamageGoesToMana",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Spurring",
+                            "ilvl": 75,
+                            "stats": "(2-3)% of Damage taken Recouped as Mana"
+                        },
+                        {
+                            "modifier": "Motivating",
+                            "ilvl": 86,
+                            "stats": "(4-5)% of Damage taken Recouped as Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CooldownRecovery",
+                    "type": "Prefixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "Facilitating",
+                            "ilvl": 75,
+                            "stats": "2% increased Cooldown Recovery Rate"
+                        },
+                        {
+                            "modifier": "Expediting",
+                            "ilvl": 86,
+                            "stats": "3% increased Cooldown Recovery Rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAddedLightningDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "minion",
+                        "damage",
+                        "elemental_damage",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Humming",
+                            "ilvl": 1,
+                            "stats": "Minions deal 1 to (9-15) additional Lightning Damage"
+                        },
+                        {
+                            "modifier": "Sparking",
+                            "ilvl": 39,
+                            "stats": "Minions deal (1-2) to (26-32) additional Lightning Damage"
+                        },
+                        {
+                            "modifier": "Arcing",
+                            "ilvl": 48,
+                            "stats": "Minions deal (1-3) to (33-39) additional Lightning Damage"
+                        },
+                        {
+                            "modifier": "Shocking",
+                            "ilvl": 58,
+                            "stats": "Minions deal (1-4) to (44-50) additional Lightning Damage"
+                        },
+                        {
+                            "modifier": "Discharging",
+                            "ilvl": 70,
+                            "stats": "Minions deal (1-5) to (51-54) additional Lightning Damage"
+                        },
+                        {
+                            "modifier": "Electrocuting",
+                            "ilvl": 82,
+                            "stats": "Minions deal (1-6) to (65-77) additional Lightning Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssJewelLife",
+                    "type": "Prefixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Hale",
+                            "ilvl": 1,
+                            "stats": "+(21-25) to maximum Life"
+                        },
+                        {
+                            "modifier": "Healthy",
+                            "ilvl": 35,
+                            "stats": "+(26-30) to maximum Life"
+                        },
+                        {
+                            "modifier": "Sanguine",
+                            "ilvl": 74,
+                            "stats": "+(31-35) to maximum Life"
+                        },
+                        {
+                            "modifier": "Stalwart",
+                            "ilvl": 82,
+                            "stats": "+(36-40) to maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAddedColdDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "minion",
+                        "damage",
+                        "elemental_damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Frosted",
+                            "ilvl": 1,
+                            "stats": "Minions deal (3-6) to (8-11) additional Cold Damage"
+                        },
+                        {
+                            "modifier": "Freezing",
+                            "ilvl": 39,
+                            "stats": "Minions deal (11-14) to (17-20) additional Cold Damage"
+                        },
+                        {
+                            "modifier": "Frozen",
+                            "ilvl": 48,
+                            "stats": "Minions deal (15-18) to (21-24) additional Cold Damage"
+                        },
+                        {
+                            "modifier": "Glaciated",
+                            "ilvl": 58,
+                            "stats": "Minions deal (20-23) to (26-32) additional Cold Damage"
+                        },
+                        {
+                            "modifier": "Polar",
+                            "ilvl": 70,
+                            "stats": "Minions deal (24-27) to (33-36) additional Cold Damage"
+                        },
+                        {
+                            "modifier": "Entombing",
+                            "ilvl": 82,
+                            "stats": "Minions deal (29-35) to (42-51) additional Cold Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Energising",
+                            "ilvl": 1,
+                            "stats": "Regenerate (1.1-2) Mana per second"
+                        },
+                        {
+                            "modifier": "Inspirational",
+                            "ilvl": 40,
+                            "stats": "Regenerate (2.1-3) Mana per second"
+                        },
+                        {
+                            "modifier": "Resonating",
+                            "ilvl": 75,
+                            "stats": "Regenerate (3.3-4) Mana per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedEvasionRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "defences",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Agile",
+                            "ilvl": 1,
+                            "stats": "+(36-60) to Evasion Rating"
+                        },
+                        {
+                            "modifier": "Fleet",
+                            "ilvl": 40,
+                            "stats": "+(61-100) to Evasion Rating"
+                        },
+                        {
+                            "modifier": "Vaporous",
+                            "ilvl": 75,
+                            "stats": "+(101-180) to Evasion Rating"
+                        },
+                        {
+                            "modifier": "Beclouded",
+                            "ilvl": 83,
+                            "stats": "+(181-250) to Evasion Rating"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAddedPhysicalDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "physical_damage",
+                        "damage",
+                        "minion",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Glinting",
+                            "ilvl": 1,
+                            "stats": "Minions deal (2-3) to (5-8) additional Physical Damage"
+                        },
+                        {
+                            "modifier": "Gleaming",
+                            "ilvl": 42,
+                            "stats": "Minions deal (5-8) to (11-14) additional Physical Damage"
+                        },
+                        {
+                            "modifier": "Annealed",
+                            "ilvl": 54,
+                            "stats": "Minions deal (9-12) to (15-18) additional Physical Damage"
+                        },
+                        {
+                            "modifier": "Razor-sharp",
+                            "ilvl": 63,
+                            "stats": "Minions deal (14-17) to (20-23) additional Physical Damage"
+                        },
+                        {
+                            "modifier": "Tempered",
+                            "ilvl": 72,
+                            "stats": "Minions deal (18-21) to (24-27) additional Physical Damage"
+                        },
+                        {
+                            "modifier": "Flaring",
+                            "ilvl": 83,
+                            "stats": "Minions deal (23-26) to (33-39) additional Physical Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAddedFireDamage",
+                    "type": "Prefixes",
+                    "tags": [
+                        "elemental",
+                        "minion",
+                        "damage",
+                        "elemental_damage",
+                        "fire"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Heated",
+                            "ilvl": 1,
+                            "stats": "Minions deal (3-6) to (8-11) additional Fire Damage"
+                        },
+                        {
+                            "modifier": "Flaming",
+                            "ilvl": 39,
+                            "stats": "Minions deal (11-14) to (17-20) additional Fire Damage"
+                        },
+                        {
+                            "modifier": "Scorching",
+                            "ilvl": 48,
+                            "stats": "Minions deal (15-18) to (21-24) additional Fire Damage"
+                        },
+                        {
+                            "modifier": "Incinerating",
+                            "ilvl": 58,
+                            "stats": "Minions deal (20-23) to (26-32) additional Fire Damage"
+                        },
+                        {
+                            "modifier": "Blasting",
+                            "ilvl": 70,
+                            "stats": "Minions deal (24-27) to (33-36) additional Fire Damage"
+                        },
+                        {
+                            "modifier": "Cremating",
+                            "ilvl": 82,
+                            "stats": "Minions deal (29-35) to (42-51) additional Fire Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssJewelMana",
+                    "type": "Prefixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Beryl",
+                            "ilvl": 1,
+                            "stats": "+(20-23) to maximum Mana"
+                        },
+                        {
+                            "modifier": "Cobalt",
+                            "ilvl": 40,
+                            "stats": "+(24-27) to maximum Mana"
+                        },
+                        {
+                            "modifier": "Azure",
+                            "ilvl": 75,
+                            "stats": "+(28-31) to maximum Mana"
+                        },
+                        {
+                            "modifier": "Sapphire",
+                            "ilvl": 83,
+                            "stats": "+(32-34) to maximum Mana"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedEnergyShield",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Shining",
+                            "ilvl": 1,
+                            "stats": "+(21-25) to maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Seething",
+                            "ilvl": 40,
+                            "stats": "+(26-30) to maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Incandescent",
+                            "ilvl": 75,
+                            "stats": "+(31-35) to maximum Energy Shield"
+                        },
+                        {
+                            "modifier": "Resplendent",
+                            "ilvl": 83,
+                            "stats": "+(36-40) to maximum Energy Shield"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EnergyShieldRegeneration",
+                    "type": "Prefixes",
+                    "tags": [
+                        "energy_shield",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Captivating",
+                            "ilvl": 1,
+                            "stats": "Regenerate (9-12) Energy Shield per second"
+                        },
+                        {
+                            "modifier": "Beautiful",
+                            "ilvl": 30,
+                            "stats": "Regenerate (13-16) Energy Shield per second"
+                        },
+                        {
+                            "modifier": "Breathtaking",
+                            "ilvl": 60,
+                            "stats": "Regenerate (17-20) Energy Shield per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedPhysicalDamageReductionRating",
+                    "type": "Prefixes",
+                    "tags": [
+                        "armour",
+                        "defences"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "Lacquered",
+                            "ilvl": 1,
+                            "stats": "+(36-60) to Armour"
+                        },
+                        {
+                            "modifier": "Fortified",
+                            "ilvl": 40,
+                            "stats": "+(61-100) to Armour"
+                        },
+                        {
+                            "modifier": "Carapaced",
+                            "ilvl": 75,
+                            "stats": "+(101-180) to Armour"
+                        },
+                        {
+                            "modifier": "Encased",
+                            "ilvl": 83,
+                            "stats": "+(181-250) to Armour"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidBleeding",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stemming",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid Bleeding"
+                        },
+                        {
+                            "modifier": "of the Tourniquet",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid Bleeding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionChaosResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Righteousness",
+                            "ilvl": 1,
+                            "stats": "Minions have +(7-11)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionAttackSpeedAndCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "minion",
+                        "speed",
+                        "attack",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Training",
+                            "ilvl": 1,
+                            "stats": "Minions have (4-6)% increased Attack SpeedMinions have (4-6)% increased Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Beast",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Intelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Intelligence",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdAndLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Shelter",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Cold and Lightning Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidIgnite",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Nonflammability",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Ignited"
+                        },
+                        {
+                            "modifier": "of Fireproofing",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Ignited"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MovementSpeedIfNotDamagedRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Momentum",
+                            "ilvl": 1,
+                            "stats": "(3-4)% increased Movement Speed if you haven't taken Damage Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidFreezeAndChill",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Warming",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Frozen"
+                        },
+                        {
+                            "modifier": "of Heating",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Dragon",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "EvasionRatingWhileMoving",
+                    "type": "Suffixes",
+                    "tags": [
+                        "defences",
+                        "evasion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Maneuvering",
+                            "ilvl": 1,
+                            "stats": "(25-35)% increased Evasion Rating while moving"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Strength",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Strength",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Strength"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StrengthIntelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Spirit",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Strength and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "Dexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Dexterity",
+                            "ilvl": 1,
+                            "stats": "+(12-16) to Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndLightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "fire",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Insulation",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Fire and Lightning Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BlindOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Stifling",
+                            "ilvl": 32,
+                            "stats": "Minions have (3-4)% chance to Blind on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of Stifling",
+                            "ilvl": 65,
+                            "stats": "Minions have (5-6)% chance to Blind on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ManaRegenerationRateWhileMoving",
+                    "type": "Suffixes",
+                    "tags": [
+                        "mana",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Praxis",
+                            "ilvl": 1,
+                            "stats": "(20-25)% increased Mana Regeneration Rate while moving"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "DexterityIntelligence",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Cunning",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Dexterity and Intelligence"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssMinionAilmentOnHitChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Combustion",
+                            "ilvl": 60,
+                            "stats": "Minions have (10-15)% chance to Ignite"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssMinionAilmentOnHitChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "bleed",
+                        "ailment",
+                        "minion",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Bloodletting",
+                            "ilvl": 60,
+                            "stats": "Minions have (10-15)% chance to cause Bleeding with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AbyssMinionAilmentOnHitChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Venom",
+                            "ilvl": 60,
+                            "stats": "Minions have (10-15)% chance to Poison Enemies on Hit"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LifeRegenerationRateWhileMoving",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Vivaciousness",
+                            "ilvl": 1,
+                            "stats": "Regenerate (0.5-1)% of Life per second while moving"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChaosResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "chaos",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Order",
+                            "ilvl": 1,
+                            "stats": "+(7-13)% to Chaos Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionLife",
+                    "type": "Suffixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Fortitude",
+                            "ilvl": 1,
+                            "stats": "Minions have (8-12)% increased maximum Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidPoison",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Tolerance",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Poisoned"
+                        },
+                        {
+                            "modifier": "of Immunity",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Poisoned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "TauntOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attack",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Distraction",
+                            "ilvl": 32,
+                            "stats": "Minions have (3-5)% chance to Taunt on Hit with Attacks"
+                        },
+                        {
+                            "modifier": "of Distraction",
+                            "ilvl": 65,
+                            "stats": "Minions have (6-8)% chance to Taunt on Hit with Attacks"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "StrengthDexterity",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Athletics",
+                            "ilvl": 1,
+                            "stats": "+(8-10) to Strength and Dexterity"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "SpellBlockPercentage",
+                    "type": "Suffixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Instinct",
+                            "ilvl": 1,
+                            "stats": "+(3-4)% Chance to Block Spell Damage if you were Damaged by a Hit Recently"
+                        },
+                        {
+                            "modifier": "of Readiness",
+                            "ilvl": 1,
+                            "stats": "+2% Chance to Block Spell Damage if you were Damaged by a Hit Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedShockChance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Insulating",
+                            "ilvl": 50,
+                            "stats": "(31-40)% chance to Avoid being Shocked"
+                        },
+                        {
+                            "modifier": "of the Lightning Rod",
+                            "ilvl": 70,
+                            "stats": "(41-50)% chance to Avoid being Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionMovementSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Orchestration",
+                            "ilvl": 1,
+                            "stats": "Minions have (10-15)% increased Movement Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionLifeRegeneration",
+                    "type": "Suffixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Longevity",
+                            "ilvl": 1,
+                            "stats": "Minions Regenerate (0.4-0.8)% of Life per second"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Grounding",
+                            "ilvl": 1,
+                            "stats": "+(12-15)% to Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllAttributes",
+                    "type": "Suffixes",
+                    "tags": [
+                        "attribute"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Adaption",
+                            "ilvl": 1,
+                            "stats": "+(6-8) to all Attributes"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Mangling",
+                            "ilvl": 84,
+                            "stats": "Enemies Maimed by you take (4-5)% increased Damage Over Time"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Clouding",
+                            "ilvl": 84,
+                            "stats": "Enemies Blinded by you have (30-20)% reduced Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Languishing",
+                            "ilvl": 84,
+                            "stats": "Enemies Withered by you have -2% to all Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Daunting",
+                            "ilvl": 84,
+                            "stats": "Enemies Intimidated by you have (10-15)% increased duration of stuns against them"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Enervation",
+                            "ilvl": 84,
+                            "stats": "Enemies Hindered by you have (35-25)% reduced Life Regeneration rate"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "elemental",
+                        "ailment",
+                        "fire",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Escape",
+                            "ilvl": 84,
+                            "stats": "(10-20)% chance to Avoid Elemental Ailments while you have Elusive"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "BuffEnchantment",
+                    "type": "Suffixes",
+                    "tags": [
+                        "curse",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Sanctum",
+                            "ilvl": 84,
+                            "stats": "(25-15)% reduced Effect of Curses on you while on Consecrated Ground"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedCastSpeed",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Enchanting",
+                            "ilvl": 50,
+                            "stats": "(2-4)% increased Cast Speed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionLifeLeech",
+                    "type": "Suffixes",
+                    "tags": [
+                        "minion",
+                        "life",
+                        "resource"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Vampirism",
+                            "ilvl": 1,
+                            "stats": "Minions Leech (0.3-0.5)% of Damage as Life"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidStun",
+                    "type": "Suffixes",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "of Balance",
+                            "ilvl": 50,
+                            "stats": "(21-24)% chance to Avoid being Stunned"
+                        },
+                        {
+                            "modifier": "of Poise",
+                            "ilvl": 70,
+                            "stats": "(25-30)% chance to Avoid being Stunned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AllResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Resistance",
+                            "ilvl": 1,
+                            "stats": "+(8-10)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionElementalResistances",
+                    "type": "Suffixes",
+                    "tags": [
+                        "resistance",
+                        "elemental",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Acclimatisation",
+                            "ilvl": 1,
+                            "stats": "Minions have +(6-10)% to all Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AdditionalBlock",
+                    "type": "Suffixes",
+                    "tags": [
+                        "block"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Guarding",
+                            "ilvl": 1,
+                            "stats": "+(3-4)% Chance to Block Attack Damage if you were Damaged by a Hit Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionDamageIfMinionSkillUsedRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "damage",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Authority",
+                            "ilvl": 1,
+                            "stats": "Minions deal (15-20)% increased Damage if you've used a Minion Skill Recently"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireAndColdResistance",
+                    "type": "Suffixes",
+                    "tags": [
+                        "cold",
+                        "fire",
+                        "elemental",
+                        "resistance"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of the Hearth",
+                            "ilvl": 1,
+                            "stats": "+(10-12)% to Fire and Cold Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "HinderOnHit",
+                    "type": "Suffixes",
+                    "tags": [
+                        "minion",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Delaying",
+                            "ilvl": 32,
+                            "stats": "Minions have (3-5)% chance to Hinder Enemies on Hit with Spells"
+                        },
+                        {
+                            "modifier": "of Delaying",
+                            "ilvl": 65,
+                            "stats": "Minions have (6-8)% chance to Hinder Enemies on Hit with Spells"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CastSpeedIfMinionKilledRecently",
+                    "type": "Suffixes",
+                    "tags": [
+                        "speed",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "of Retaliation",
+                            "ilvl": 30,
+                            "stats": "(7-10)% increased Cast Speed if a Minion has been Killed Recently"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section_name": "Corruption implicit modifiers",
+            "groups": [
+                {
+                    "group_name": "ChanceToAvoidBleeding",
+                    "type": "Modifiers",
+                    "tags": [
+                        "bleed",
+                        "attack",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToAvoidBleeding",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid Bleeding"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "damage"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedDamage",
+                            "ilvl": 1,
+                            "stats": "(4-5)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CriticalStrikeChanceIncrease",
+                    "type": "Modifiers",
+                    "tags": [
+                        "critical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CriticalStrikeChance",
+                            "ilvl": 1,
+                            "stats": "(8-10)% increased Global Critical Strike Chance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "FireResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "fire",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "FireResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Fire Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ArmourPenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToIgnoreEnemyArmour",
+                            "ilvl": 1,
+                            "stats": "Hits have (10-15)% chance to ignore Enemy Physical Damage Reduction"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidPoison",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "chaos",
+                        "poison"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToAvoidPoison",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Poisoned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ColdResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "cold",
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ColdResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Cold Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "YouCannotBeHindered",
+                    "type": "Modifiers",
+                    "tags": [
+                        "blue_herring"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "YouCannotBeHindered",
+                            "ilvl": 40,
+                            "stats": "You cannot be Hindered"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ElementalPenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ElementalPenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Elemental Resistances"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidShock",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidShock",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Shocked"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "CorruptedBloodImmunity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "bleed",
+                        "ailment",
+                        "physical"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "CorruptedBloodImmunity",
+                            "ilvl": 33,
+                            "stats": "Corrupted Blood cannot be inflicted on you"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ReducedManaReservationsCost",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "ReservationEfficiencyForJewel",
+                            "ilvl": 1,
+                            "stats": "2% increased Reservation Efficiency of Skills"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidIgnite",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "fire",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidIgnite",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Ignited"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AreaOfEffect",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AreaOfEffect",
+                            "ilvl": 1,
+                            "stats": "(4-5)% increased Area of Effect"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidStun",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidStun",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Stunned"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "LightningResistancePenetration",
+                    "type": "Modifiers",
+                    "tags": [
+                        "elemental_damage",
+                        "damage",
+                        "elemental",
+                        "lightning"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "LightningResistancePenetration",
+                            "ilvl": 1,
+                            "stats": "Damage Penetrates 1% Lightning Resistance"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "AvoidMaimChance",
+                    "type": "Modifiers",
+                    "tags": [],
+                    "tiers": [
+                        {
+                            "modifier": "AvoidMaimChance",
+                            "ilvl": 40,
+                            "stats": "You cannot be Maimed"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "ChanceToAvoidFreezeAndChill",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment",
+                        "cold",
+                        "elemental"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ChanceToAvoidFreezeAndChill",
+                            "ilvl": 1,
+                            "stats": "(20-25)% chance to Avoid being Frozen"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "MinionDamage",
+                    "type": "Modifiers",
+                    "tags": [
+                        "damage",
+                        "minion"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "MinionDamage",
+                            "ilvl": 1,
+                            "stats": "Minions deal (4-5)% increased Damage"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "IncreasedAilmentEffectOnEnemies",
+                    "type": "Modifiers",
+                    "tags": [
+                        "ailment"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "IncreasedAilmentEffectOnEnemies",
+                            "ilvl": 1,
+                            "stats": "(5-7)% increased Effect of Non-Damaging Ailments"
+                        }
+                    ]
+                },
+                {
+                    "group_name": "PlayerCurseImmunity",
+                    "type": "Modifiers",
+                    "tags": [
+                        "curse",
+                        "caster"
+                    ],
+                    "tiers": [
+                        {
+                            "modifier": "ImmuneToSilence",
+                            "ilvl": 60,
+                            "stats": "You cannot be Cursed with Silence"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
